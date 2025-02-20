@@ -59,6 +59,4 @@ config/fastload.properties
 config/xaerominimap_entities.json
 config/auto-updater/updater_list.json
 emi.json
-config/fastload.properties
-config/xaerominimap_entities.json
-config/lambdynlights.toml
+config/iris.properties
