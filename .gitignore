@@ -13,6 +13,13 @@ config/roughlyenoughitems/pinyin_double.properties
 config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 config/roughlyenoughitems/favorites.json5
+config/xaerominimap_entities.json
+config/spark/activity.json
+config/lambdynlights.toml
+config/fastload.properties
+config/xaerominimap_entities.json
+config/auto-updater/updater_list.json
+config/iris.properties
 
 # root files
 heracles_options.json
@@ -25,6 +32,7 @@ polymer-resourcepack.zip
 rhino.local.properties
 usercache.json
 usernamecache.json
+emi.json
 
 # root folders
 .fabric/
@@ -52,11 +60,3 @@ shaderpacks/
 texturepacks/
 Xaero*/
 xaero*/
-config/xaerominimap_entities.json
-config/spark/activity.json
-config/lambdynlights.toml
-config/fastload.properties
-config/xaerominimap_entities.json
-config/auto-updater/updater_list.json
-emi.json
-config/iris.properties
