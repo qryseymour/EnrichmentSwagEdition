@@ -68,8 +68,10 @@ ItemEvents.tooltip(e => {
             'Provides you with information about the upcoming', 
             'weather or when the current precipitation will end.'] },
     ].forEach(pair => {
-        pair.tooltip.forEach(line => {
-            e.add(pair.item, Text.darkGray(line).italic())
-        })
+            e.addAdvanced(pair.item, (stack, _, text) => {
+                pair.tooltip.forEach((line, index) => {
+                    text.add(index + 1, Text.darkGray(line));
+                })
+        });
     })
 })

@@ -17,9 +17,9 @@ config/xaerominimap_entities.json
 config/spark/activity.json
 config/lambdynlights.toml
 config/fastload.properties
-config/xaerominimap_entities.json
 config/auto-updater/updater_list.json
 config/iris.properties
+config/vmp.properties
 
 # root files
 heracles_options.json
