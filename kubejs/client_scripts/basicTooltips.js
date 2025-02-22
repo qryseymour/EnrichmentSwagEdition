@@ -121,6 +121,11 @@ ItemEvents.tooltip(e => {
             'generator to power it. Just hit \"Apply Changes\"', 
             'in the generator\'s menu, and it will tell you how', 
             'many blocks you need']},
+        { items: ['amyshield:amethyst_shield'], tooltip: [
+            'For mobility and combat purposes, it has a plethora', 
+            'of different abilities that complement your skills', 
+            'in PvP or PvE. The shield\'s abilities are charged', 
+            'up by moving around, or by blocking hits.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
