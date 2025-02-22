@@ -83,7 +83,7 @@ ItemEvents.tooltip(e => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
                 pair.tooltip.forEach((line, index) => {
-                    text.add(index + 1, Text.darkGray(line));
+                    text.add(index + 1, Text.darkGray(line).italic());
                 })
             })
         });
