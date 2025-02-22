@@ -17,7 +17,9 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "!oxidized:rose_gold.*",
-    "oxidized:copper_lantern"
+    "!cu:rose_gold.*",
+    "oxidized:copper_lantern",
+    "cu:copper_wrench"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
