@@ -48,6 +48,10 @@ ItemEvents.tooltip(e => {
         { items: ['oxidized:copper_barometer'], tooltip: [
             'Provides you with information about the upcoming', 
             'weather or when the current precipitation will end.'] },
+        { items: ['thecopperrail:copper_rail'], tooltip: [
+            'A directional rail. It would push any minecart over',
+            'it, without the need of a block on one side to start',
+            'the movement.'] },
         { items: ['additionaladditions:rope'], tooltip: [
             'Use them to climb upwards and downwards with ease.']},
         { items: ['additionaladditions:copper_patina'], tooltip: [
