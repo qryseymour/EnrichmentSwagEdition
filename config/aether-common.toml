@@ -1,4 +1,3 @@
-
 [Gameplay]
 	#Moves the message for when a player attacks the Slider with an incorrect item to be above the hotbar instead of in chat
 	"Reposition attack message above hotbar" = false
@@ -12,14 +11,11 @@
 	"Gives player Aether Portal Frame item" = false
 	#Determines whether the Sun Spirit's dialogue when meeting him should play through every time you meet him
 	"Repeat Sun Spirit's battle dialogue" = true
-
 ["Data Pack"]
 	#Sets the Aether Temporary Freezing data pack to be added to new worlds automatically
 	"Add Temporary Freezing automatically" = false
 	#Sets the Aether Ruined Portals data pack to be added to new worlds automatically
 	"Add Ruined Portals automatically" = false
-
 [Modpack]
 	#Determines whether bosses should display a randomized name above their boss bar
 	"Randomize boss names" = true
-

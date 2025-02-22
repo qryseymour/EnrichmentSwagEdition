@@ -52,6 +52,13 @@ ItemEvents.tooltip(e => {
             'A directional rail. It would push any minecart over',
             'it, without the need of a block on one side to start',
             'the movement.'] },
+        { items: ['mechanical_trident:mechanical_trident'], tooltip: [
+            'It has less durability and riptide power than the',
+            'regular trident, however it contains charges of', 
+            'water which can be refilled by right clicking on a', 
+            'water source, that are used whenever you try and', 
+            'riptide which allows you to use the enchantment', 
+            'even when out of water.'] },
         { items: ['additionaladditions:rope'], tooltip: [
             'Use them to climb upwards and downwards with ease.']},
         { items: ['additionaladditions:copper_patina'], tooltip: [
