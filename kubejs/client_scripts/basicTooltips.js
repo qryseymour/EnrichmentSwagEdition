@@ -68,6 +68,17 @@ ItemEvents.tooltip(e => {
             'Upgrade your Netherite items with Gold Rings.', 
             'Higher enchantability, and piglins won\'t attack', 
             'you!']},
+        { items: ['amethyst_update:amethyst_arrow'], tooltip: [
+            'Deals a little bit less physical damage, but',
+            'applies Bleeding when hit. The level of effect',
+            'depends on the velocity of the arrow when it hits', 
+            'a mob.']},
+        { items: ['amethyst_update:ancient_staff'], tooltip: [
+            'The staff needs to be enchanted in order to use it.',
+            'Since it is an old and powerful weapon, you must',
+            'have at least 15 bookshelves to enchant it. The',
+            'Ancient Staff\'s behaviour depends on its main',
+            'enchantment.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
