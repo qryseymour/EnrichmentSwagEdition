@@ -79,11 +79,53 @@ ItemEvents.tooltip(e => {
             'have at least 15 bookshelves to enchant it. The',
             'Ancient Staff\'s behaviour depends on its main',
             'enchantment.']},
+        { items: [
+            'astro:mauveine_helmet',
+            'astro:mauveine_chestplate',
+            'astro:mauveine_leggings',
+            'astro:mauveine_boots'], 
+          tooltip: [
+            'Reduces your gravity, depending on the amount you', 
+            'are wearing. You can toggle between low gravity', 
+            'and normal gravity by holding shift with 3 or more',
+            'pieces.']},
+        { items: ['astro:mauveine_sabre'], tooltip: [
+            'A quicker variant of the sword, with less damage.']},
+        { items: ['astro:gravity_bomb_down'], tooltip: [
+            'Leaves a radius of low gravity around for 6.5', 
+            'seconds, causing all affected entities to be at', 
+            '10% gravity. This can be ignored if you have 3',
+            'mauveine armour pieces equipped.']},
+        { items: ['astro:gravity_bomb_up'], tooltip: [
+            'Leaves a radius of high gravity around for 6.5', 
+            'seconds, causing all affected entities to be at', 
+            '200% gravity. This can be ignored if you have 3',
+            'mauveine armour pieces equipped.']},
+        { items: ['amethystgravity:plating'], tooltip: [
+            'The most basic form of gravity control.']},
+        { items: ['amethystgravity:dense_plating'], tooltip: [
+            'The most basic form of gravity control. Has a', 
+            'taller area of effect, so that you can jump around', 
+            'and not fall off.']},
+        { items: ['amethystgravity:gravity_glasses'], tooltip: [
+            'See the generated gravity fields of Gravity', 
+            'Generators.']},
+        { items: [
+            'amethystgravity:field_generator',
+            'amethystgravity:cylinder_field_generator',
+            'amethystgravity:planet_field_generator'], 
+          tooltip: [
+            'For larger areas of gravity control, you can use',
+            'this. The larger you make the area of effect, the', 
+            'more amethyst blocks you need to place next to the', 
+            'generator to power it. Just hit \"Apply Changes\"', 
+            'in the generator\'s menu, and it will tell you how', 
+            'many blocks you need']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
                 pair.tooltip.forEach((line, index) => {
-                    text.add(index + 1, Text.darkGray(line).italic());
+                    text.add(index + 1, Text.gray(line));
                 })
             })
         });

@@ -19,7 +19,8 @@
     "!oxidized:rose_gold.*",
     "!cu:rose_gold.*",
     "oxidized:copper_lantern",
-    "cu:copper_wrench"
+    "cu:copper_wrench",
+    '!amethystgravity:gravity_anchor_(north|east|south|west|up)'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
