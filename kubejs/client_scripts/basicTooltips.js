@@ -159,6 +159,16 @@ ItemEvents.tooltip(e => {
             'minecraft:netherite_horse_armor'], 
           tooltip: [
             'Now enchantable!']},
+        { items: [
+            'eugenes_lance:wooden_lance',
+            'eugenes_lance:stone_lance',
+            'eugenes_lance:iron_lance',
+            'eugenes_lance:golden_lance',
+            'eugenes_lance:diamond_lance',
+            'eugenes_lance:netherite_lance',], 
+          tooltip: [
+            'Deals increased knockback whilst riding a horse.', 
+            'Perfect for chaining hits whilst at high speeds.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
