@@ -14,9 +14,13 @@ ItemEvents.tooltip(e => {
             'cu:waxed_weathered_levitator_block',
             'cu:waxed_oxidized_levitator_block'], 
           tooltip: [
-            'Gives you the levitation effect. The effect', 
-            'changes depending on what level of oxidization', 
-            'the block has.']},
+            'Gives you the levitation effect. The effect changes', 
+            'depending on what level of oxidization the block has.']},
+        { items: [
+            'minecraft:goat_horn', 
+            'cu:copper_horn'], 
+        tooltip: [
+            'Now playable through a dispenser!']},
         { items: ['oxidized:copper_rail'], tooltip: [
             'Functions almost identically to the Powered Rail.', 
             'The difference is that a chain of connected', 
@@ -137,6 +141,24 @@ ItemEvents.tooltip(e => {
             'of different abilities that complement your skills', 
             'in PvP or PvE. The shield\'s abilities are charged', 
             'up by moving around, or by blocking hits.']},
+        { items: ['amyshield:amethyst_monocle'], tooltip: [
+            'While wearing the monocle, the location of any',
+            'nearby ore will be revealed to the player by means', 
+            'of a particle on the side of a block. When you',
+            'dig in the direction of the particle, you\'ll find',
+            'the ore. The detection itself happens passively.']},
+        { items: ['horsearmorstandmod:horsearmorstanditem'], tooltip: [
+            'Display your favorite horse armor!']},
+        { items: [
+            'minecraft:leather_horse_armor',
+            'minecraft:iron_horse_armor',
+            'minecraft:golden_horse_armor',
+            'minecraft:diamond_horse_armor',
+            'minecraft:amethyst_horse_armor',
+            'minecraft:copper_horse_armor',
+            'minecraft:netherite_horse_armor'], 
+          tooltip: [
+            'Now enchantable!']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
