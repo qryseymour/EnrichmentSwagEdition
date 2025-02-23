@@ -19,5 +19,5 @@ engineMode = 3
 maxBlockHeight = 128
 updateRadius = 2
 lavaObscures = true
-hiddenBlocks = ["ancient_debris", "nether_quartz_ore", "nether_gold_ore", "gold_block", "gilded_blackstone", "lootr:lootr_barrel", "lootr:lootr_chest", "lootr:lootr_inventory", "lootr:lootr_shulker", "lootr:lootr_trapped_chest", "barrel", "chest", "shulker_box"]
+hiddenBlocks = ["ancient_debris", "nether_quartz_ore", "nether_gold_ore", "gold_block", "gilded_blackstone", "lootr:lootr_barrel", "lootr:lootr_chest", "lootr:lootr_inventory", "lootr:lootr_shulker", "lootr:lootr_trapped_chest", "barrel", "chest", "trapped_chest"]
 replacementBlocks = ["netherrack", "gravel", "soul_sand", "blackstone", "basalt"]
