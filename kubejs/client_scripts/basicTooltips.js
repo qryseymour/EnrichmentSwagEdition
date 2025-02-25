@@ -181,6 +181,38 @@ ItemEvents.tooltip(e => {
           tooltip: [
             'Deals increased knockback whilst riding a horse.', 
             'Perfect for chaining hits whilst at high speeds.']},
+        { items: [
+            'minecraft:white_bed',
+            'minecraft:light_gray_bed',
+            'minecraft:gray_bed',
+            'minecraft:black_bed',
+            'minecraft:brown_bed',
+            'minecraft:red_bed',
+            'minecraft:orange_bed',
+            'minecraft:yellow_bed',
+            'minecraft:lime_bed',
+            'minecraft:green_bed',
+            'minecraft:cyan_bed',
+            'minecraft:light_blue_bed',
+            'minecraft:blue_bed',
+            'minecraft:purple_bed',
+            'minecraft:magenta_bed',
+            'minecraft:pink_bed',
+            'aether:skyroot_bed',
+            'meadow:flecked_bed',
+            'meadow:highland_bed',
+            'meadow:patched_bed',
+            'meadow:rocky_bed',
+            'meadow:umbra_bed',
+            'meadow:inky_bed',
+            'meadow:warped_bed',
+            'meadow:straw_bed',], 
+          tooltip: [
+            'To make it able to skip the night (or thunderstorm),',
+            'you need to use a clock on a bed (just right-click',
+            'on it while holding!) You will also need to use a',
+            'compass on a bed to set your spawn point. When',
+            'breaking this, the upgrades go away.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
