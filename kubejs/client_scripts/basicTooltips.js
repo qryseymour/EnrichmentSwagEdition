@@ -63,6 +63,18 @@ ItemEvents.tooltip(e => {
             'water source, that are used whenever you try and', 
             'riptide which allows you to use the enchantment', 
             'even when out of water.'] },
+        { items: [
+            'wheelbarrow:copper_wheelbarrow',
+            'wheelbarrow:exposed_copper_wheelbarrow',
+            'wheelbarrow:weathered_copper_wheelbarrow',
+            'wheelbarrow:oxidized_copper_wheelbarrow',], 
+          tooltip: [
+            'It\'s used for transporting mobs across any terrain.',
+            'While riding it, just ride into another mob (small',
+            'enough to fit) and it will be yoinked inside. ',
+            '',
+            'Once you\'ve kidnapped a mob you can then yeet it', 
+            'with a keypress (Z by default).']},
         { items: ['additionaladditions:rope'], tooltip: [
             'Use them to climb upwards and downwards with ease.']},
         { items: ['additionaladditions:copper_patina'], tooltip: [
