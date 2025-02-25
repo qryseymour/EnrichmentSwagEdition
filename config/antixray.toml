@@ -6,18 +6,18 @@ enabled = false
 # World specific values
 [overworld]
 enabled = true
-engineMode = 3
+engineMode = 1
 maxBlockHeight = 256
 updateRadius = 2
 lavaObscures = false
-hiddenBlocks = ["stone", "deepslate", "andesite", "calcite", "diorite", "dirt", "granite", "gravel", "sand", "tuff", "mossy_cobblestone", "obsidian", "clay", "infested_stone", "amethyst_block", "budding_amethyst"]
-replacementBlocks = ["#c:ores", "raw_copper_block", "raw_iron_block", "raw_gold_block", "lootr:lootr_barrel", "lootr:lootr_chest", "lootr:lootr_inventory", "lootr:lootr_shulker", "lootr:lootr_trapped_chest", "barrel", "chest", "trapped_chest"]
+hiddenBlocks = ["#c:ores", "raw_copper_block", "raw_iron_block", "raw_gold_block", "lootr:lootr_barrel", "lootr:lootr_chest", "lootr:lootr_inventory", "lootr:lootr_shulker", "lootr:lootr_trapped_chest", "barrel", "chest", "trapped_chest"]
+replacementBlocks = ["stone", "deepslate", "andesite", "calcite", "diorite", "dirt", "granite", "gravel", "sand", "tuff", "mossy_cobblestone", "obsidian", "clay", "infested_stone", "amethyst_block", "budding_amethyst"]
 
 [the_nether]
 enabled = true
-engineMode = 3
+engineMode = 1
 maxBlockHeight = 128
 updateRadius = 2
 lavaObscures = false
-hiddenBlocks = ["netherrack", "gravel", "soul_sand", "blackstone", "basalt"]
-replacementBlocks = ["ancient_debris", "nether_quartz_ore", "nether_gold_ore", "gold_block", "gilded_blackstone", "lootr:lootr_barrel", "lootr:lootr_chest", "lootr:lootr_inventory", "lootr:lootr_shulker", "lootr:lootr_trapped_chest", "barrel", "chest", "trapped_chest"]
+hiddenBlocks = ["ancient_debris", "nether_quartz_ore", "nether_gold_ore", "gold_block", "gilded_blackstone", "lootr:lootr_barrel", "lootr:lootr_chest", "lootr:lootr_inventory", "lootr:lootr_shulker", "lootr:lootr_trapped_chest", "barrel", "chest", "trapped_chest"]
+replacementBlocks = ["netherrack", "gravel", "soul_sand", "blackstone", "basalt"]
