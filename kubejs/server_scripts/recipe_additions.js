@@ -97,4 +97,23 @@ ServerEvents.recipes(e => {
             E: 'minecraft:echo_shard'
         }
     ).id('minecraft:ender_eye')
+
+    e.shaped(
+        Item.of('minecraft:blackstone', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:cobblestone',
+            B: 'minecraft:charcoal'
+        }
+    ).id('enrichment2:blackstone')
+
+    e.shapeless('minecraft:beetroot_soup', ['minecraft:bowl', '3x minecraft:beetroot']).id('minecraft:beetroot_soup')
+    
+    e.shapeless('minecraft:orange_dye', ['minecraft:carrot']).id('enrichment2:carrot_dye')
+    
+    e.shapeless('minecraft:yellow_dye', ['minecraft:poisonous_potato']).id('enrichment2:poisoned_potato_dye')
 })
