@@ -45,7 +45,7 @@ emi.json
 mods/.index
 coremods/
 crash-reports/
-data/
+./data/
 local/
 logs/
 moddata/
