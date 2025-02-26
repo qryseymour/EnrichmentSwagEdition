@@ -8,7 +8,7 @@ ServerEvents.recipes(e => {
         ],
         {
             A: 'minecraft:amethyst_shard',
-            B: '#c:gems/quartz',
+            B: 'minecraft:quartz',
             C: '#minecraft:wooden_slabs'
         }
     ).id('minecraft:daylight_detector')
@@ -24,7 +24,7 @@ ServerEvents.recipes(e => {
             A: 'minecraft:cobblestone',
             B: 'minecraft:redstone',
             C: 'minecraft:copper_ingot',
-            D: '#c:gems/quartz'
+            D: 'minecraft:quartz'
         }
     ).id('minecraft:observer')
 
@@ -110,6 +110,39 @@ ServerEvents.recipes(e => {
             B: 'minecraft:charcoal'
         }
     ).id('enrichment2:blackstone')
+
+    e.shaped(
+        Item.of('thecopperrail:copper_rail', 12),
+        [
+            'ADA',
+            'ABA',
+            'ACA'
+        ],
+        {
+            A: 'minecraft:copper_ingot',
+            B: 'minecraft:stick',
+            C: 'minecraft:redstone',
+            D: 'minecraft:arrow'
+        }
+    ).id('thecopperrail:copper_rail')
+
+    let horseArmorRecipes = [
+        { material: "minecraft:iron_ingot", type: "iron" },
+        { material: "minecraft:gold_ingot", type: "golden" },
+        { material: "minecraft:diamond", type: "diamond" },
+    ].forEach(pairing => {
+        e.shaped(
+            Item.of(`minecraft:${pairing.type}_horse_armor`, 1),
+            [
+                'A A',
+                'AAA',
+                'A A'
+            ],
+            {
+                A: pairing.material
+            }
+        ).id(`enrichment2:${pairing.type}_horse_armor_recipe`)
+    })
 
     e.shapeless('minecraft:beetroot_soup', ['minecraft:bowl', '3x minecraft:beetroot']).id('minecraft:beetroot_soup')
     
