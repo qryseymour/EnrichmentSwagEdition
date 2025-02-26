@@ -9,6 +9,6 @@
   "emerald_chance": 0.02,
   "enable_copper_pan_sound": true,
   "copper_golem_button_chance": 30,
-  "enable_copper_golem": true,
+  "enable_copper_golem": false,
   "enable_rose_gold_tools": true
 }

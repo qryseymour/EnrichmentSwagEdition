@@ -166,9 +166,9 @@ ItemEvents.tooltip(e => {
             'minecraft:iron_horse_armor',
             'minecraft:golden_horse_armor',
             'minecraft:diamond_horse_armor',
-            'minecraft:amethyst_horse_armor',
-            'minecraft:copper_horse_armor',
-            'minecraft:netherite_horse_armor'], 
+            'amethystequipment:amethyst_horse_armor',
+            'exlinecopperequipment:copper_horse_armor',
+            'netheritehorsearmor:netherite_horse_armor'], 
           tooltip: [
             'Now enchantable!']},
         { items: [
@@ -213,6 +213,27 @@ ItemEvents.tooltip(e => {
             'on it while holding!) You will also need to use a',
             'compass on a bed to set your spawn point. When',
             'breaking this, the upgrades go away.']},
+        { items: [
+            'minecraft:minecart',], 
+          tooltip: [
+            '',
+            'Crouch and right-click while looking at the',
+            'Minecart to pick up. Stand and crouch one time to',
+            'release it.', 
+            '', 
+            'Additionally, Minecarts can be boosted with',
+            'fireworks like an Elytra when used while riding one.']},
+        { items: [
+            'minecraft:minecart',
+            'minecraft:chest_minecart',], 
+          tooltip: [
+            'When placed by a player, they now move basically', 
+            'as fast as an Elytra, making them a viable option',
+            'for transportation. They will also automatically',
+            'load surrounding chunks if they\'re on rails,',
+            'making it possible for them to cross long',
+            'distances without the need for a player to be near', 
+            'by.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
