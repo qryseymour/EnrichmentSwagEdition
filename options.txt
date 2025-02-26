@@ -129,7 +129,6 @@ key_key.botania_corporea_request:key.keyboard.unknown
 key_key.camping.open:key.keyboard.b
 key_key.coppertunity.getthehellout:key.keyboard.n
 key_key.entityculling.toggle:key.keyboard.unknown
-key_minecart-turning.toggle:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.replaymod.playeroverview:key.keyboard.b
 key_key.replaymod.lighting:key.keyboard.z
