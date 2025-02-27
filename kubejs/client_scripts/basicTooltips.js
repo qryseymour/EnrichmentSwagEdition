@@ -234,6 +234,55 @@ ItemEvents.tooltip(e => {
             'making it possible for them to cross long',
             'distances without the need for a player to be near', 
             'by.']},
+        { items: [
+            'aquatictorches:aquatic_torch',], 
+          tooltip: [
+            'Can be placed underwater.']},
+        { items: [
+            'minecraft:anvil',
+            'minecraft:chipped_anvil',
+            'minecraft:damaged_anvil',], 
+          tooltip: [
+            'No matter how often you repair an item or add new',
+            'enchantments to it, costs won\'t needlessly increase',
+            'They can also now be repaired by one stage using',
+            'iron blocks, which can be automated using a dispenser.',
+            '',
+            'Setting a name in an anvil is completely free and',
+            'doesn\'t risk damaging your precious anvil',]},
+        { items: [
+            'minecraft:fishing_rod',
+            'tide:stone_fishing_rod',
+            'tide:iron_fishing_rod',
+            'tide:golden_fishing_rod',
+            'tide:crystal_fishing_rod',
+            'tide:diamond_fishing_rod',
+            'tide:netherite_fishing_rod',], 
+          tooltip: [
+            'To catch fish faster, different types of bait can be',
+            'crafted, which can be applied to this to gain unique',
+            'bonuses.',
+            '',
+            'If you\'re lucky, you might reel in some large crates.',
+            'They can be fished up pretty much anywhere, and can be',
+            'hooked more commonly with magnetic bait. They contain',
+            'fish, random resources, and sometimes treasure. Just',
+            'make sure you don\'t lose them if they happen to sink',
+            'back into the ocean.']},
+        { items: [
+            'tide:angler_workshop',], 
+          tooltip: [
+            'Allows you to add special hooks, lines, and bobbers',
+            'to fishing rods. Each upgrade has a different effect',
+            'that can be added.']},
+        { items: [
+            'tide:fishing_journal',], 
+          tooltip: [
+            'Any new fish that you catch will be added to this',
+            'book where you can view their category and some',
+            'information about them. The book contains many pages',
+            'that help sort the fish you find into unique',
+            'categories and track your progress through the mod.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
