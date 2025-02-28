@@ -43,12 +43,6 @@ ItemEvents.tooltip(e => {
             'away. The trap will open back up after closing for', 
             '3 seconds. It can be toggled manually by', 
             'right-clicking or with redstone (levers,', 'buttons, etc).'] },
-        { items: ['oxidized:copper_pulsar'], tooltip: [
-            'While in the player\'s inventory, the pulsar will', 
-            'allow you to pick up experience orbs and items', 
-            'from up to x10 farther than the normal pickup', 
-            'range. It can be toggled on and off using', 
-            'right-click.'] },
         { items: ['oxidized:copper_barometer'], tooltip: [
             'Provides you with information about the upcoming', 
             'weather or when the current precipitation will end.'] },
@@ -213,9 +207,7 @@ ItemEvents.tooltip(e => {
             'on it while holding!) You will also need to use a',
             'compass on a bed to set your spawn point. When',
             'breaking this, the upgrades go away.']},
-        { items: [
-            'minecraft:minecart',], 
-          tooltip: [
+        { items: ['minecraft:minecart',], tooltip: [
             '',
             'Crouch and right-click while looking at the',
             'Minecart to pick up. Stand and crouch one time to',
@@ -234,9 +226,7 @@ ItemEvents.tooltip(e => {
             'making it possible for them to cross long',
             'distances without the need for a player to be near', 
             'by.']},
-        { items: [
-            'aquatictorches:aquatic_torch',], 
-          tooltip: [
+        { items: ['aquatictorches:aquatic_torch',], tooltip: [
             'Can be placed underwater.']},
         { items: [
             'minecraft:anvil',
@@ -269,20 +259,33 @@ ItemEvents.tooltip(e => {
             'fish, random resources, and sometimes treasure. Just',
             'make sure you don\'t lose them if they happen to sink',
             'back into the ocean.']},
-        { items: [
-            'tide:angler_workshop',], 
-          tooltip: [
+        { items: ['tide:angler_workshop',], tooltip: [
             'Allows you to add special hooks, lines, and bobbers',
             'to fishing rods. Each upgrade has a different effect',
             'that can be added.']},
-        { items: [
-            'tide:fishing_journal',], 
-          tooltip: [
+        { items: ['tide:fishing_journal',], tooltip: [
             'Any new fish that you catch will be added to this',
             'book where you can view their category and some',
             'information about them. The book contains many pages',
             'that help sort the fish you find into unique',
             'categories and track your progress through the mod.']},
+        { items: [
+            'minecraft:ice',
+            'minecraft:packed_ice',
+            'minecraft:blue_ice',], 
+          tooltip: [
+            'Snow Golems can live in hot Biomes under the',
+            'conditions that they stand on this!']},
+        { items: ['wolf_lore:totem_of_the_experience'], tooltip: [
+            'Gives you constant Resistance II as long as you\'re',
+            'holding it in your main or off hand.']},
+        { items: ['wolf_lore:wolf_intoxicator'], tooltip: [
+            'Attacking anything with this will poison them and',
+            'launch them into the air some ways.']},
+        { items: ['wolf_lore:ornate_sword'], tooltip: [
+            'Attacking something with a wolf nearby will cause it',
+            'to go after the entity you attacked, even if the wolf',
+            'is tamed. Wolves will even attack themselves.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {

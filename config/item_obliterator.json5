@@ -18,10 +18,12 @@
   "blacklisted_items": [
     "!oxidized:rose_gold.*",
     "!cu:rose_gold.*",
+    'oxidized:copper_pulsar',
     "oxidized:copper_lantern",
     "cu:copper_wrench",
     '!amethystgravity:gravity_anchor_(north|east|south|west|up)',
-    'tide:jelly_torch'
+    'tide:jelly_torch',
+    'wolf_lore:corroded_bone_blade'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
