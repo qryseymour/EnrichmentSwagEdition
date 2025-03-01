@@ -71,7 +71,7 @@
 	#Determine if dogs will render their armor.
 	render_armor = true
 	#Enables the particle effect on Full Kami dogs.
-	enable_kami_particles = true
+	enable_kami_particles = false
 	#Enable this to allow every World which is running on this Minecraft
 	#instance's Integrated Server to provide new players with a Starter Bundle
 	#regardless of the world's serverconfig.
