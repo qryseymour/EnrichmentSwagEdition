@@ -40,7 +40,7 @@
 	#By default, Injured Dogs won't block portal, allowing them to
 	#be brought back from another dimension. Enable this
 	#to make Injured Dogs still block portals.
-	injured_dog_block_portal = false
+	injured_dog_block_portal = true
 	#Option to prevent dogs from accidentally going into a portal and get
 	#unnecessary transferred to another dimension, causing the owner to have
 	#to take them back. The preferred way to make a dog go to another dimension is
@@ -59,14 +59,14 @@
 	#Arrows as it is. Regardless, the arrows fired from Dog will do no harm to allies.
 	doggy_tools_projectile_pass_allies = true
 	#When enabled, puppies get some levels from their parents. When disabled, puppies start at 0 points.
-	enable_pup_get_parent_levels = false
+	enable_pup_get_parent_levels = true
 	#By default, you can directly train an untamed wolf to a Dog
 	#with a Training Treat. Set this to True to disable.
-	disable_train_untamed_wolf = false
+	disable_train_untamed_wolf = true
 	#By default, Dogs can starve to Incapacitated if are not fed properly.
 	#Disable this to prevent this behaviour. Do note that you can still feed
 	#your Dog to recover health.
-	disable_hunger = false
+	disable_hunger = true
 	#Define how many dogs a player can listen to commands which summon more than one dog to you
 	#at the same time. Set this to any negative value to remove the limit completely.
 	#Range: > -2147483648

@@ -22,7 +22,7 @@
 	"doggytalents:quick_healer" = true
 	"doggytalents:creeper_sweeper" = true
 	"doggytalents:ookamikaze" = true
-	"doggytalents:flying_furball" = true
+	"doggytalents:flying_furball" = false
 	"doggytalents:pack_puppy" = true
 	"doggytalents:wolf_mount" = true
 	"doggytalents:poison_fang" = true
