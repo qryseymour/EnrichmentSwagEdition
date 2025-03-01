@@ -56,7 +56,7 @@
         "collision_inertia": 1.5,
         "collision_force": 15.0,
         "min_angle": 0.0,
-        "max_angle": 54.999996,
+        "max_angle": 54.999992,
         "damping": 1.625
       }
     },
@@ -79,7 +79,7 @@
   },
   "general": {
     "no_optifine_warn_screen": false,
-    "no_amendments_screen": false,
+    "no_amendments_screen": true,
     "no_incompatible_mods_screen": false,
     "config_button": false,
     "config_button_y_offset": 0,
