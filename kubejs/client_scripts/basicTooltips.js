@@ -313,8 +313,8 @@ ItemEvents.tooltip(e => {
             'edible_amethyst_:crystal_glow_berries',
             'expandeddelight:glow_berry_jelly',
             'expandeddelight:glow_berry_jelly_sandwich',
-            'expandeddelight:glow_berry_jelly_juice',
-            'expandeddelight:glow_berry_jelly_sweet_roll',
+            'expandeddelight:glow_berry_juice',
+            'expandeddelight:glow_berry_sweet_roll',
             'farmersdelight:glow_berry_custard',
             'moredelight:toast_with_glow_berries',], 
           tooltip: [
