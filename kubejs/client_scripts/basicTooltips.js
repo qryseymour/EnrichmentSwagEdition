@@ -306,6 +306,39 @@ ItemEvents.tooltip(e => {
             'potency into an existing mixture will cause that',
             'mixture to have max potency! Potency is indicated by',
             'the potion cauldron splashing and making bubble noises.']},
+        { items: ['minecraft:torchflower'], tooltip: [
+            'Now emits light!']},
+        { items: [
+            'minecraft:glow_berries',
+            'edible_amethyst_:crystal_glow_berries',
+            'expandeddelight:glow_berry_jelly',
+            'expandeddelight:glow_berry_jelly_sandwich',
+            'expandeddelight:glow_berry_jelly_juice',
+            'expandeddelight:glow_berry_jelly_sweet_roll',
+            'farmersdelight:glow_berry_custard',
+            'moredelight:toast_with_glow_berries',], 
+          tooltip: [
+            'Makes foxes and players glow when they eat this.']},
+        { items: ['minecraft:glow_ink_sac'], tooltip: [
+            'Use on a banner to make the entire banner and its',
+            'layers glow. A regular ink sac will similarly remove the',
+            'glowing.']},
+        { items: ['minecraft:sniffer_egg'], tooltip: [
+            'Sniffers can now be saddled and ridden on, have chests',
+            'equipped (will place dug up seeds in their chest), and',
+            'be given an Ominous Banner to carry you to the nearest',
+            'Outpost.']},
+        { items: ['moresnifferflowers:dawnberry'], tooltip: [
+            'A glowing vine that drops edible Dawnberries when',
+            'picked, can be fed to the Sniffer.']},
+        { items: ['moresnifferflowers:ambush_seeds'], tooltip: [
+            'Seeds for an Amber bearing bush. Amber drops several',
+            'treasures and also has a small chance to drop sniffer',
+            'seeds, making farming them easier.']},
+        { items: ['moresnifferflowers:caulorflower_seeds'], tooltip: [
+            'Harvestable for a dye of its color.']},
+        { items: ['moresnifferflowers:bonmeelia_seeds'], tooltip: [
+            'Produces jars of Bonmeel.']}
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
