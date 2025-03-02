@@ -286,6 +286,26 @@ ItemEvents.tooltip(e => {
             'Attacking something with a wolf nearby will cause it',
             'to go after the entity you attacked, even if the wolf',
             'is tamed. Wolves will even attack themselves.']},
+        { items: ['minecraft:cauldron'], tooltip: [
+            'Mixing is a core component of the Cauldron, it',
+            'involves taking several potions and combining their',
+            'effects in cauldron. To begin mixing, add any potion',
+            'to a cauldron! The cauldron behaves the same as',
+            'vanilla with the 3 levels. While mixing, the cauldron',
+            'cannot be used for other vanilla purposes (and cannot',
+            'be moved with pistons). To revert to vanilla behavior,',
+            'empty the cauldron or dilute with water until there is',
+            'no remaining effect. Additionally using a milk bucket',
+            'will remove all effects.',
+            '',
+            'Use dilution to balance potions, adding two potions',
+            'will result in two potions that have both effects but',
+            'with half duration and amplification. Adding a water',
+            'bottle to a mixture will increase the cauldron level,',
+            'but dilutes the mixture. Mixing a potion with max',
+            'potency into an existing mixture will cause that',
+            'mixture to have max potency! Potency is indicated by',
+            'the potion cauldron splashing and making bubble noises.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
