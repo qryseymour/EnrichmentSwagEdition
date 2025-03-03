@@ -23,6 +23,9 @@ ServerEvents.recipes(e => {
     ].forEach((item) => {
         e.replaceInput({ output: item }, 'minecraft:glass', 'minecraft:amethyst_shard')
     })
+    
+    e.replaceInput({ output: "diamond_apples:diamond_apple" }, 'minecraft:apple', 'minecraft:golden_apple')
+    e.replaceInput({ output: "diamond_apples:enchanted_diamond_apple" }, 'minecraft:diamond', 'minecraft:diamond_block')
 
     replacements.forEach((replacing) => {
         e.replaceInput({}, replacing[0], replacing[1])
