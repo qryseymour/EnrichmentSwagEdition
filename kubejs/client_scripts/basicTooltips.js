@@ -342,11 +342,32 @@ ItemEvents.tooltip(e => {
             'Produces jars of Bonmeel.']},
         { items: ['spectre:spectre_scythe'], tooltip: [
             'This versatile weapon can be enchanted with 7 new',
-            'enchantments, each can be found below.']},
+            'exclusive enchantments.']},
         { items: ['spectre:ichor_scythe'], tooltip: [
             'This weapon can be enchanted with 5 additional',
             'enchants, as well as certain previously stated',
             'enchantments.']},
+        { items: ['village_business:sales_stand'], tooltip: [
+            'Place it somewhere that has villagers nearby. Put the',
+            'items you want to sell inside of the Sales Stand, and',
+            'villagers may come to exchange emeralds for that item.',
+            'You can also half or double the price of the item, which',
+            'will change the chance of selling, and the time between',
+            'customer visits. Giving the Sales Stand a redstone',
+            'signal will close the shop, which prevents villagers',
+            'from buying the item and allows for automation blocks',
+            'to extract the input.']},
+        { items: ['village_business:request_stand'], tooltip: [
+            'Place it somewhere that has villagers nearby. Set the',
+            'requested item by placing an item in the Request slot.',
+            'Load the request stand with emeralds. Villagers will',
+            'occassionally come by and give you that item in exchange',
+            'for emeralds. Villagers are unlikely to sell you items in',
+            'this way, and the items will be more expensive than when',
+            'you sell them. Giving the Request Stand a redstone',
+            'signal will close the shop, which prevents villagers',
+            'from buying the item and allows for automation blocks to',
+            'extract the input.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
