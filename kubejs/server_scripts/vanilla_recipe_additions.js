@@ -99,6 +99,26 @@ ServerEvents.recipes(e => {
     ).id('minecraft:ender_eye')
 
     e.shaped(
+        Item.of('minecraft:ender_eye', 3),
+        [
+            'ABC',
+            'DEF',
+            'GHI'
+        ],
+        {
+            A: 'minecraft:blaze_powder',
+            B: 'minecraft:pitcher_pod',
+            C: 'minecraft:nautilus_shell',
+            D: 'minecraft:scute',
+            E: 'minecraft:ender_pearl',
+            F: 'minecraft:prismarine_shard',
+            G: 'minecraft:glow_ink_sac',
+            H: 'minecraft:echo_shard',
+            I: 'minecraft:amethyst_shard',
+        }
+    ).id('enrichment2:ender_eye_2')
+
+    e.shaped(
         Item.of('minecraft:blackstone', 8),
         [
             'AAA',
