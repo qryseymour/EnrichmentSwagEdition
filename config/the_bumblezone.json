@@ -47,7 +47,7 @@
   "radianceEssenceAbilityUse": 4800,
   "radianceEssenceCooldown": 12000,
   "continuityEssenceCooldown": 48000,
-  "enableInitialWelcomeMessage": true,
+  "enableInitialWelcomeMessage": false,
   "fogBrightnessPercentage": 110.0,
   "fogThickness": 4.0,
   "enableDimensionFog": true,
