@@ -285,7 +285,8 @@ ItemEvents.tooltip(e => {
         { items: ['wolf_lore:ornate_sword'], tooltip: [
             'Attacking something with a wolf nearby will cause it',
             'to go after the entity you attacked, even if the wolf',
-            'is tamed. Wolves will even attack themselves.']},
+            'is tamed. Wolves will even attack themselves.',
+            '']},
         { items: ['minecraft:cauldron'], tooltip: [
             'Mixing is a core component of the Cauldron, it',
             'involves taking several potions and combining their',
@@ -338,7 +339,14 @@ ItemEvents.tooltip(e => {
         { items: ['moresnifferflowers:caulorflower_seeds'], tooltip: [
             'Harvestable for a dye of its color.']},
         { items: ['moresnifferflowers:bonmeelia_seeds'], tooltip: [
-            'Produces jars of Bonmeel.']}
+            'Produces jars of Bonmeel.']},
+        { items: ['spectre:spectre_scythe'], tooltip: [
+            'This versatile weapon can be enchanted with 7 new',
+            'enchantments, each can be found below.']},
+        { items: ['spectre:ichor_scythe'], tooltip: [
+            'This weapon can be enchanted with 5 additional',
+            'enchants, as well as certain previously stated',
+            'enchantments.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {

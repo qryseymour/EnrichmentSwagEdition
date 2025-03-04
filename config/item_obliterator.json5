@@ -24,6 +24,8 @@
     '!amethystgravity:gravity_anchor_(north|east|south|west|up)',
     'tide:jelly_torch',
     'wolf_lore:corroded_bone_blade',
+    'wolf_lore:tactical_wolf_paw',
+    'wolf_lore:propped_bone',
     '!doggytalents:(?!((training|super|master|kami)_treat|bandaid|whistle|canine_tracker|treat_bag|breeding_bone|throw_bone|throw_stick|frisbee|dog_bath|food_bowl|dog_bed|throw_bone_wet|throw_stick_wet|frisbee_wet|energizer_stick|feathered_mantle|sussy_sickle|dog_plushie_toy_item|disc_chopin_op64_no1|(grand|upright)_piano_(white|black|brown)_item|bowtie|(wool|radio|creative|spotted|multicoloured)_collar(_thicc|)|sunglasses|smarty_glasses|snorkel|cape_coloured|tantan_cape|leather_jacket|guard_suit|death_hood|pianist_suit)).*'
   ],
   // -----------------------------------------------------------
