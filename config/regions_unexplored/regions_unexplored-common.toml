@@ -33,7 +33,7 @@
 	toggle_eucalyptus_forest = true
 	toggle_smouldering_woodland = true
 	toggle_bamboo_forest = true
-	toggle_redwoods = false
+	toggle_redwoods = true
 	toggle_highland_fields = true
 	toggle_scorching_caves = true
 	toggle_arid_mountains = true
@@ -71,7 +71,7 @@
 	toggle_infernal_holt = true
 	toggle_bioshroom_caves = true
 	toggle_prismachasm = true
-	toggle_chalk_cliffs = false
+	toggle_chalk_cliffs = true
 	toggle_magnolia_woodland = true
 	toggle_pine_taiga = true
 	#nether_biomes
@@ -85,7 +85,7 @@
 	toggle_autumnal_maple_forest = true
 	toggle_saguaro_desert = true
 	toggle_maple_forest = true
-	toggle_sparse_redwoods = false
+	toggle_sparse_redwoods = true
 	toggle_deciduous_forest = true
 	toggle_meadow = true
 	toggle_redstone_caves = true
