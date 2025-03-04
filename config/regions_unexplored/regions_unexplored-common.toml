@@ -75,21 +75,21 @@
 	toggle_magnolia_woodland = true
 	toggle_pine_taiga = true
 	#nether_biomes
-	toggle_blackstone_basin = true
-	toggle_steppe = true
-	toggle_glistering_meadow = true
-	toggle_blackwood_taiga = true
-	toggle_tropics = true
-	toggle_golden_boreal_taiga = true
-	toggle_dry_bushland = true
-	toggle_autumnal_maple_forest = true
-	toggle_saguaro_desert = true
-	toggle_maple_forest = true
-	toggle_sparse_redwoods = true
-	toggle_deciduous_forest = true
-	toggle_meadow = true
-	toggle_redstone_caves = true
-	toggle_icy_heights = true
+	toggle_blackstone_basin = false
+	toggle_steppe = false
+	toggle_glistering_meadow = false
+	toggle_blackwood_taiga = false
+	toggle_tropics = false
+	toggle_golden_boreal_taiga = false
+	toggle_dry_bushland = false
+	toggle_autumnal_maple_forest = false
+	toggle_saguaro_desert = false
+	toggle_maple_forest = false
+	toggle_sparse_redwoods = false
+	toggle_deciduous_forest = false
+	toggle_meadow = false
+	toggle_redstone_caves = false
+	toggle_icy_heights = false
 [worldgen_options]
 	#surface_rules
 	toggle_custom_dirt = true
