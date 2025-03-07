@@ -16,16 +16,17 @@
       "enchantmentsplus:excavator",
       "enchantmentsplus:frostbite",
       "enchantmentsplus:levitation",
-      "enchantmentsplus:lifesteal",
+      "extra_enchantments:lifesteal",
       "extra_enchantments:illagers_bane",
       "extra_enchantments:hellwalker",
       "extra_enchantments:electrifying_shot",
       "majruszsenchantments:death_wish",
       "majruszsenchantments:immortality",
       "majruszsenchantments:enlightenment",
-      "alessandrvenenchantments:nightstalker",
-      "alessandrvenenchantments:vampiric",
-      "alessandrvenenchantments:freezeaspect",
+      "majruszsenchantments:telekinesis",
+      "alessandrvenchantments:nightstalker",
+      "alessandrvenchantments:vampiric",
+      "alessandrvenchantments:freezeaspect",
       "musuen:reaching",
       "musuen:experiencing",
       "musuen:multi_arrow",
@@ -34,6 +35,7 @@
       "spellbound:saturated",
       "spellbound:launching",
       "spellbound:hearty",
-      "spellbound:dullness"
+      "spellbound:dullness",
+      "elytra_enchants:launch"
     ]
   }
