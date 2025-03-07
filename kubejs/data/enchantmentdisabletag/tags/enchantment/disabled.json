@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:mending",
+      "qu-enchantments:lightning_bound",
+      "extra_enchantments:freezing_aspect",
+      "qu-enchantments:freezing_aspect",
+      "qu-enchantments:inane_aspect",
+      "qu-enchantments:molten_walker",
+      "qu-enchantments:accuracy",
+      "qu-enchantments:aggression_blessing",
+      "qu-enchantments:regeneration_blessing",
+      "qu-enchantments:speed_blessing",
+      "qu-enchantments:lucky_miner",
+      "enchantmentsplus:excavator",
+      "enchantmentsplus:frostbite",
+      "enchantmentsplus:levitation",
+      "enchantmentsplus:lifesteal",
+      "extra_enchantments:illagers_bane",
+      "extra_enchantments:hellwalker",
+      "extra_enchantments:electrifying_shot",
+      "majruszsenchantments:death_wish",
+      "majruszsenchantments:immortality"
+    ]
+  }

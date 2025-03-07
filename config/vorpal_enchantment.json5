@@ -1,0 +1,8 @@
+{
+	// Chooses the chances for head drop per enchantment level. VANILLA_FRIENDLY has values 5%, 10%, 15%. SLIGHTLY_OP has values 5%, 15%, 25%. VERY_OP has 25%, 50%, 75%
+	"chances": "SLIGHTLY_OP",
+	// Allows for axes to be enchanted with this enchantment
+	"axeWielding": true,
+	// Allows Vorpal to be used with looting, fortune, and silk-touch
+	"worksWithLooting": false
+}
