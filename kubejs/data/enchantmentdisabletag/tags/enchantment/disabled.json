@@ -12,6 +12,7 @@
       "qu-enchantments:regeneration_blessing",
       "qu-enchantments:speed_blessing",
       "qu-enchantments:lucky_miner",
+      "enchantmentsplus:dualleap",
       "enchantmentsplus:excavator",
       "enchantmentsplus:frostbite",
       "enchantmentsplus:levitation",
@@ -20,6 +21,19 @@
       "extra_enchantments:hellwalker",
       "extra_enchantments:electrifying_shot",
       "majruszsenchantments:death_wish",
-      "majruszsenchantments:immortality"
+      "majruszsenchantments:immortality",
+      "majruszsenchantments:enlightenment",
+      "alessandrvenenchantments:nightstalker",
+      "alessandrvenenchantments:vampiric",
+      "alessandrvenenchantments:freezeaspect",
+      "musuen:reaching",
+      "musuen:experiencing",
+      "musuen:multi_arrow",
+      "reenchantments:vampirism",
+      "spellbound:skotosynthetic",
+      "spellbound:saturated",
+      "spellbound:launching",
+      "spellbound:hearty",
+      "spellbound:dullness"
     ]
   }

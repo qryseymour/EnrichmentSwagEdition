@@ -1,0 +1,6 @@
+["Soft Stepping Configurations"]
+	#Defines whether or not librarians can generate trades for an enchanted book with the Soft Stepping enchantment.
+	isTradeable = false
+	#Defines the chance that an Ancient City chest will generate containing an enchantment book with the Soft Stepping enchantment.
+	#Range: 0.01 ~ 1.0
+	chanceOfGeneration = 0.15
