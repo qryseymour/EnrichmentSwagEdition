@@ -374,7 +374,7 @@
         "is_scaled_by_crd": true,
         "entity_type": "minecraft:ghast",
         "effect": {
-          "id": "mythicpotions:corrosive",
+          "id": "mysticpotions:corrosive",
           "amplifier": 0,
           "duration": 7.0
         }
