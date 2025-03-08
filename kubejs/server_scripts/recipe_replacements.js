@@ -1,5 +1,5 @@
 // priority: 8
-let replacements = [
+let fullReplacements = [
     ["doggytalents:rice_bowl", "farmersdelight:cooked_rice"],
     ["doggytalents:koji", "vegandelight:soybean"]
 ]
@@ -27,17 +27,17 @@ ServerEvents.recipes(e => {
     e.replaceInput({ output: "diamond_apples:diamond_apple" }, 'minecraft:apple', 'minecraft:golden_apple')
     e.replaceInput({ output: "diamond_apples:enchanted_diamond_apple" }, 'minecraft:diamond', 'minecraft:diamond_block')
 
-    replacements.forEach((replacing) => {
+    fullReplacements.forEach((replacing) => {
         e.replaceInput({}, replacing[0], replacing[1])
         e.replaceOutput({}, replacing[0], replacing[1])
     })
 })
 
-// // ⚠️ LOOT TABLES ⚠️
-// LootJS.modifiers(e => {
-//     replacements.forEach((replacing) => {
-//         // replace in all loot tables
-//         e.addLootTableModifier(/.*/)
-//             .replaceLoot(replacing[0], replacing[1], true)
-//     })
-// })
+// ⚠️ LOOT TABLES ⚠️
+LootJS.modifiers(e => {
+    fullReplacements.forEach((replacing) => {
+        // replace in all loot tables
+        e.addLootTableModifier(/.*/)
+            .replaceLoot(replacing[0], replacing[1], true)
+    })
+})

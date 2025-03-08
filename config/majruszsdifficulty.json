@@ -181,8 +181,8 @@
       "is_enabled": true,
       "extra_multiplier": {
         "__default": 0.0,
-        "expert": 1,
-        "master": 2
+        "expert": 1.0,
+        "master": 2.0
       }
     },
     "jockey_spawn": {
@@ -315,11 +315,209 @@
       },
       {
         "required_game_stage": "expert",
+        "chance": 0.25,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:zombie",
+        "effect": {
+          "id": "mysticpotions:infection",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:magma_cube",
+        "effect": {
+          "id": "mysticpotions:burning",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:piglin",
+        "effect": {
+          "id": "minecraft:blindness",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:piglin",
+        "effect": {
+          "id": "minecraft:hunger",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:ghast",
+        "effect": {
+          "id": "minecraft:wither",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:ghast",
+        "effect": {
+          "id": "mythicpotions:corrosive",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:blaze",
+        "effect": {
+          "id": "minecraft:weakness",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:blaze",
+        "effect": {
+          "id": "mysticpotions:burning",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "friendsandfoes:wildfire",
+        "effect": {
+          "id": "minecraft:weakness",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:bee",
+        "effect": {
+          "id": "minecraft:unluck",
+          "amplifier": 0,
+          "duration": 3600.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "the_bumblezone:bee_queen",
+        "effect": {
+          "id": "minecraft:unluck",
+          "amplifier": 0,
+          "duration": 3600.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "the_bumblezone:bee_stinger",
+        "effect": {
+          "id": "minecraft:unluck",
+          "amplifier": 0,
+          "duration": 3600.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "the_bumblezone:beehemoth",
+        "effect": {
+          "id": "minecraft:unluck",
+          "amplifier": 0,
+          "duration": 3600.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "the_bumblezone:variant_bee",
+        "effect": {
+          "id": "minecraft:unluck",
+          "amplifier": 0,
+          "duration": 3600.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
         "chance": 0.5,
         "is_scaled_by_crd": true,
         "entity_type": "minecraft:slime",
         "effect": {
           "id": "minecraft:slowness",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "friendsandfoes:crab",
+        "effect": {
+          "id": "minecraft:weakness",
+          "amplifier": 4,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "friendsandfoes:crab",
+        "effect": {
+          "id": "minecraft:mining_fatigue",
+          "amplifier": 4,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "majruszsdifficulty:cerberus",
+        "effect": {
+          "id": "minecraft:wither",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "expert",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:warden",
+        "effect": {
+          "id": "minecraft:darkness",
           "amplifier": 0,
           "duration": 7.0
         }
@@ -331,6 +529,17 @@
         "entity_type": "minecraft:shulker",
         "effect": {
           "id": "minecraft:blindness",
+          "amplifier": 0,
+          "duration": 7.0
+        }
+      },
+      {
+        "required_game_stage": "master",
+        "chance": 0.5,
+        "is_scaled_by_crd": true,
+        "entity_type": "minecraft:wither",
+        "effect": {
+          "id": "gravity_changer:gravity_up_0",
           "amplifier": 0,
           "duration": 7.0
         }
@@ -400,9 +609,9 @@
     "spawn_rate_increaser": {
       "is_enabled": true,
       "multiplier": {
-        "__default": 1.0,
-        "expert": 1.1,
-        "master": 1.2
+        "__default": 0.75,
+        "expert": 0.9,
+        "master": 1.0
       }
     }
   },
