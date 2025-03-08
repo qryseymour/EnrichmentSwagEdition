@@ -181,8 +181,8 @@
       "is_enabled": true,
       "extra_multiplier": {
         "__default": 0.0,
-        "expert": 0.2,
-        "master": 0.4
+        "expert": 1,
+        "master": 2
       }
     },
     "jockey_spawn": {
@@ -350,14 +350,14 @@
     "mobs_spawn_stronger": {
       "is_enabled": true,
       "health_bonus": {
-        "__default": 0.0,
-        "expert": 0.0,
-        "master": 0.0
+        "__default": 0.1,
+        "expert": 0.25,
+        "master": 0.33
       },
       "damage_bonus": {
-        "__default": 0.0,
-        "expert": 0.0,
-        "master": 0.0
+        "__default": 0.1,
+        "expert": 0.25,
+        "master": 0.33
       },
       "excluded_mobs": []
     },

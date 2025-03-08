@@ -142,6 +142,8 @@ key_key.origins.septenary_active:key.keyboard.unknown
 key_key.origins.octonary_active:key.keyboard.unknown
 key_key.origins.nonary_active:key.keyboard.unknown
 key_key.origins.denary_active:key.keyboard.unknown
+key_fakerlib.toggleWings:key.keyboard.keypad.8
+key_fakerlib.toggleTrails:key.keyboard.keypad.9
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.z
 key_key.musuen.phasing_enchantment:key.keyboard.r
@@ -173,7 +175,8 @@ key_key.the_bumblezone.beehemoth_down:key.keyboard.left.shift
 key_key.tricksy.inc_order:key.keyboard.right
 key_key.tricksy.dec_order:key.keyboard.left
 key_key.waxednotwaxed.toggle:key.keyboard.left.alt
-key_key.wheelbarrow.yeet:key.keyboard.left.shift
+key_key.wheelbarrow.yeet:key.keyboard.z
+key_key.zenith.toggle_radial_mining:key.keyboard.o
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
