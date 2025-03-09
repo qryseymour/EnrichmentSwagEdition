@@ -420,51 +420,51 @@
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
         "required_game_stage": "expert",
         "chance": 0.5,
         "is_scaled_by_crd": true,
-        "entity_type": "the_bumblezone:bee_queen",
+        "entity_type": "minecraft:pig",
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
         "required_game_stage": "expert",
         "chance": 0.5,
         "is_scaled_by_crd": true,
-        "entity_type": "the_bumblezone:bee_stinger",
+        "entity_type": "minecraft:pig",
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
         "required_game_stage": "expert",
         "chance": 0.5,
         "is_scaled_by_crd": true,
-        "entity_type": "the_bumblezone:beehemoth",
+        "entity_type": "minecraft:pig",
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
         "required_game_stage": "expert",
         "chance": 0.5,
         "is_scaled_by_crd": true,
-        "entity_type": "the_bumblezone:variant_bee",
+        "entity_type": "minecraft:pig",
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
@@ -539,7 +539,6 @@
         "is_scaled_by_crd": true,
         "entity_type": "minecraft:wither",
         "effect": {
-          "id": "gravity_changer:gravity_up_0",
           "amplifier": 0,
           "duration": 7.0
         }
@@ -609,8 +608,8 @@
     "spawn_rate_increaser": {
       "is_enabled": true,
       "multiplier": {
-        "__default": 0.75,
-        "expert": 0.9,
+        "__default": 1.0,
+        "expert": 1.0,
         "master": 1.0
       }
     }
