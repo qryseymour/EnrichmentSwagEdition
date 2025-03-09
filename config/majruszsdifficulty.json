@@ -420,7 +420,7 @@
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
@@ -431,7 +431,7 @@
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
@@ -442,7 +442,7 @@
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
@@ -453,7 +453,7 @@
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
@@ -464,7 +464,7 @@
         "effect": {
           "id": "minecraft:unluck",
           "amplifier": 0,
-          "duration": 3600.0
+          "duration": 1000.0
         }
       },
       {
@@ -539,7 +539,7 @@
         "is_scaled_by_crd": true,
         "entity_type": "minecraft:wither",
         "effect": {
-          "id": "gravity_changer:gravity_up_0",
+          "id": "gravity_changer:up",
           "amplifier": 0,
           "duration": 7.0
         }
@@ -607,10 +607,10 @@
       "head_drop_chance": 0.1
     },
     "spawn_rate_increaser": {
-      "is_enabled": true,
+      "is_enabled": false,
       "multiplier": {
-        "__default": 0.75,
-        "expert": 0.9,
+        "__default": 1.0,
+        "expert": 1.0,
         "master": 1.0
       }
     }
