@@ -1,0 +1,14 @@
+{
+	"effectLevels": {
+		"ironGauntlet": 1,
+		"luckyPickaxeHead": 2,
+		"rabbitsCharm": 4,
+		"runningShoes": 2,
+		// How many hearts (x2) the Tethered Soul should reset to.
+		"tetheredSoul": 1
+	},
+	"disabledItems": {
+		// I'm not doing allat. Use an item remove mod or something idk.
+		"imNotDoingAllat": true
+	}
+}
