@@ -122,6 +122,12 @@ key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_nbttooltips.keybind:key.keyboard.left.alt
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
+key_key.aether.open_accessories.desc:key.keyboard.i
+key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
+key_key.aether.invisibility_toggle.desc:key.keyboard.v
+key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
+key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
+key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
 key_key.azurelib.reload:key.keyboard.r
 key_key.azurelib.scope:key.mouse.right
 key_key.azurelib.fire:key.keyboard.unknown
@@ -172,6 +178,9 @@ key_key.replaymod.bothkeyframes:key.keyboard.unknown
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space
 key_key.the_bumblezone.beehemoth_down:key.keyboard.left.shift
+key_key.things.place_item:key.keyboard.j
+key_key.things.openenderchest:key.keyboard.g
+key_key.things.toggle_socks_jump_boost:key.keyboard.caps.lock
 key_key.tricksy.inc_order:key.keyboard.right
 key_key.tricksy.dec_order:key.keyboard.left
 key_key.waxednotwaxed.toggle:key.keyboard.left.alt

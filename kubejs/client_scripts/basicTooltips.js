@@ -340,13 +340,6 @@ ItemEvents.tooltip(e => {
             'Harvestable for a dye of its color.']},
         { items: ['moresnifferflowers:bonmeelia_seeds'], tooltip: [
             'Produces jars of Bonmeel.']},
-        { items: ['spectre:spectre_scythe'], tooltip: [
-            'This versatile weapon can be enchanted with 7 new',
-            'exclusive enchantments.']},
-        { items: ['spectre:ichor_scythe'], tooltip: [
-            'This weapon can be enchanted with 5 additional',
-            'enchants, as well as certain previously stated',
-            'enchantments.']},
         { items: ['village_business:sales_stand'], tooltip: [
             'Place it somewhere that has villagers nearby. Put the',
             'items you want to sell inside of the Sales Stand, and',
