@@ -33,10 +33,8 @@ ServerEvents.recipes(e => {
     })
 })
 
-// ⚠️ LOOT TABLES ⚠️
 LootJS.modifiers(e => {
     fullReplacements.forEach((replacing) => {
-        // replace in all loot tables
         e.addLootTableModifier(/.*/)
             .replaceLoot(replacing[0], replacing[1], true)
     })

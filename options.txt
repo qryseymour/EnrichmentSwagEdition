@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","betterbeds:connectedbeds","continuity:default"]
+resourcePacks:["vanilla","fabric","builtin/aether_tooltips","betterbeds:connectedbeds","continuity:default","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:["betterbeds:connectedbeds"]
 lastServer:
 lang:en_us
@@ -191,7 +191,7 @@ key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -28,7 +28,10 @@
     'wolf_lore:propped_bone',
     '!doggytalents:(?!((training|super|master|kami)_treat|bandaid|whistle|canine_tracker|treat_bag|breeding_bone|throw_bone|throw_stick|frisbee|dog_bath|food_bowl|dog_bed|throw_bone_wet|throw_stick_wet|frisbee_wet|energizer_stick|feathered_mantle|sussy_sickle|dog_plushie_toy_item|disc_chopin_op64_no1|(grand|upright)_piano_(white|black|brown)_item|bowtie|(wool|radio|creative|spotted|multicoloured)_collar(_thicc|)|sunglasses|smarty_glasses|snorkel|cape_coloured|tantan_cape|leather_jacket|guard_suit|death_hood|pianist_suit)).*',
     '!qu-enchantments:rune_[0-9]',
-    '!hexed:.*_plushie'
+    '!hexed:.*_plushie',
+    'artifality:invisibility_cape',
+    'botania:blood_pendant',
+    'zenith:potion_charm'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

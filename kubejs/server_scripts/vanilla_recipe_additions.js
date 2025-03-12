@@ -86,20 +86,33 @@ ServerEvents.recipes(e => {
         Item.of('minecraft:ender_eye', 1),
         [
             ' A ',
-            'BCD',
-            ' E '
+            ' B ',
+            ' C '
         ],
         {
-            A: 'minecraft:pitcher_pod',
-            B: 'minecraft:prismarine_shard',
-            C: 'minecraft:ender_pearl',
-            D: 'minecraft:blaze_powder',
-            E: 'minecraft:echo_shard'
+            A: 'minecraft:prismarine_shard',
+            B: 'minecraft:ender_pearl',
+            C: 'minecraft:blaze_powder'
         }
     ).id('minecraft:ender_eye')
 
     e.shaped(
         Item.of('minecraft:ender_eye', 3),
+        [
+            'A B',
+            ' C ',
+            ' D '
+        ],
+        {
+            A: 'minecraft:prismarine_shard',
+            B: 'minecraft:echo_shard',
+            C: 'minecraft:ender_pearl',
+            D: 'minecraft:blaze_powder'
+        }
+    ).id('minecraft:ender_eye_2')
+
+    e.shaped(
+        Item.of('minecraft:ender_eye', 5),
         [
             'ABC',
             'DEF',
@@ -116,7 +129,7 @@ ServerEvents.recipes(e => {
             H: 'minecraft:echo_shard',
             I: 'minecraft:amethyst_shard',
         }
-    ).id('enrichment2:ender_eye_2')
+    ).id('enrichment2:ender_eye_3')
 
     e.shaped(
         Item.of('minecraft:blackstone', 8),
