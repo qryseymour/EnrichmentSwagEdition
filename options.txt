@@ -125,7 +125,7 @@ key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-key_key.ae2.guide:key.keyboard.right.alt
+key_key.ae2.guide:key.keyboard.right.control
 key_key.aether.open_accessories.desc:key.keyboard.unknown
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
 key_key.aether.invisibility_toggle.desc:key.keyboard.left.alt
@@ -143,7 +143,7 @@ key_key.charm.open_workstation_selector:key.keyboard.unknown
 key_key.coppertunity.getthehellout:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.unknown
-key_create.keyinfo.ponder:key.keyboard.w
+key_create.keyinfo.ponder:key.keyboard.right.control
 key_key.createbigcannons.pitch_mode:key.keyboard.right.alt
 key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
 key_key.entityculling.toggle:key.keyboard.unknown
