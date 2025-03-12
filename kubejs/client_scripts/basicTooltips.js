@@ -100,28 +100,6 @@ ItemEvents.tooltip(e => {
             'have at least 15 bookshelves to enchant it. The',
             'Ancient Staff\'s behaviour depends on its main',
             'enchantment.']},
-        { items: [
-            'astro:mauveine_helmet',
-            'astro:mauveine_chestplate',
-            'astro:mauveine_leggings',
-            'astro:mauveine_boots'], 
-          tooltip: [
-            'Reduces your gravity, depending on the amount you', 
-            'are wearing. You can toggle between low gravity', 
-            'and normal gravity by holding shift with 3 or more',
-            'pieces.']},
-        { items: ['astro:mauveine_sabre'], tooltip: [
-            'A quicker variant of the sword, with less damage.']},
-        { items: ['astro:gravity_bomb_down'], tooltip: [
-            'Leaves a radius of low gravity around for 6.5', 
-            'seconds, causing all affected entities to be at', 
-            '10% gravity. This can be ignored if you have 3',
-            'mauveine armour pieces equipped.']},
-        { items: ['astro:gravity_bomb_up'], tooltip: [
-            'Leaves a radius of high gravity around for 6.5', 
-            'seconds, causing all affected entities to be at', 
-            '200% gravity. This can be ignored if you have 3',
-            'mauveine armour pieces equipped.']},
         { items: ['amethystgravity:plating'], tooltip: [
             'The most basic form of gravity control.']},
         { items: ['amethystgravity:dense_plating'], tooltip: [
@@ -320,26 +298,6 @@ ItemEvents.tooltip(e => {
             'moredelight:toast_with_glow_berries',], 
           tooltip: [
             'Makes foxes and players glow when they eat this.']},
-        { items: ['minecraft:glow_ink_sac'], tooltip: [
-            'Use on a banner to make the entire banner and its',
-            'layers glow. A regular ink sac will similarly remove the',
-            'glowing.']},
-        { items: ['minecraft:sniffer_egg'], tooltip: [
-            'Sniffers can now be saddled and ridden on, have chests',
-            'equipped (will place dug up seeds in their chest), and',
-            'be given an Ominous Banner to carry you to the nearest',
-            'Outpost.']},
-        { items: ['moresnifferflowers:dawnberry'], tooltip: [
-            'A glowing vine that drops edible Dawnberries when',
-            'picked, can be fed to the Sniffer.']},
-        { items: ['moresnifferflowers:ambush_seeds'], tooltip: [
-            'Seeds for an Amber bearing bush. Amber drops several',
-            'treasures and also has a small chance to drop sniffer',
-            'seeds, making farming them easier.']},
-        { items: ['moresnifferflowers:caulorflower_seeds'], tooltip: [
-            'Harvestable for a dye of its color.']},
-        { items: ['moresnifferflowers:bonmeelia_seeds'], tooltip: [
-            'Produces jars of Bonmeel.']},
         { items: ['village_business:sales_stand'], tooltip: [
             'Place it somewhere that has villagers nearby. Put the',
             'items you want to sell inside of the Sales Stand, and',
