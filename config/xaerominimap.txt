@@ -10,7 +10,7 @@ allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:true
 minimap:true
-caveMaps:2
+caveMaps:0
 caveZoom:1
 showWaypoints:true
 showIngameWaypoints:true
@@ -32,7 +32,7 @@ waypointsIngameCloseScale:1.0
 antiAliasing:true
 blockColours:0
 lighting:true
-dotsStyle:0
+dotsStyle:1
 dotNameScale:1.0
 compassOverEverything:true
 showFlowers:true
@@ -41,13 +41,13 @@ waypointsDistanceExp:0
 waypointsDistanceMin:0.0
 defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
-arrowScale:1.5
+arrowScale:1.0000000149011612
 arrowColour:0
-smoothDots:true
+smoothDots:false
 worldMap:true
 terrainDepth:true
 terrainSlopes:2
-mainEntityAs:0
+mainEntityAs:1
 blockTransparency:true
 waypointOpacityIngame:80
 waypointOpacityMap:90
@@ -68,7 +68,7 @@ compassDirectionScale:0
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
-playerArrowOpacity:100
+playerArrowOpacity:1
 waypointsBottom:false
 minimapShape:0
 lightOverlayType:0
@@ -83,11 +83,11 @@ minimapFrameColor:9
 compassColor:9
 northCompassColor:-1
 displayMultipleWaypointInfo:1
-entityRadar:true
+entityRadar:false
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
-mainDotSize:2
+mainDotSize:1
 partialYTeleportation:true
 deleteReachedDeathpoints:true
 hideMinimapUnderScreen:true
@@ -105,8 +105,8 @@ infoDisplayBackgroundOpacity:40
 caveModeToggleTimer:1000
 legibleCaveMaps:false
 biomeBlending:true
-displayTrackedPlayersOnMap:true
-displayTrackedPlayersInWorld:true
+displayTrackedPlayersOnMap:false
+displayTrackedPlayersInWorld:false
 dimensionScaledMaxWaypointDistance:true
 trackedPlayerWorldIconScale:0
 trackedPlayerWorldNameScale:0
