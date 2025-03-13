@@ -122,9 +122,9 @@ key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_nbttooltips.keybind:key.keyboard.left.alt
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
-key_key.ae2.wireless_terminal:key.keyboard.b
-key_key.ae2.portable_item_cell:key.keyboard.b
-key_key.ae2.portable_fluid_cell:key.keyboard.b
+key_key.ae2.wireless_terminal:key.keyboard.n
+key_key.ae2.portable_item_cell:key.keyboard.n
+key_key.ae2.portable_fluid_cell:key.keyboard.n
 key_key.aether.open_accessories.desc:key.keyboard.unknown
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
 key_key.aether.invisibility_toggle.desc:key.keyboard.left.alt
@@ -220,7 +220,7 @@ key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space
 key_key.the_bumblezone.beehemoth_down:key.keyboard.left.shift
 key_key.things.place_item:key.keyboard.r
-key_key.things.openenderchest:key.keyboard.n
+key_key.things.openenderchest:key.keyboard.z
 key_key.things.toggle_socks_jump_boost:key.keyboard.left.alt
 key_key.travelersbackpack.inventory:key.keyboard.b
 key_key.travelersbackpack.sort:key.mouse.middle
@@ -236,11 +236,11 @@ key_gui.xaero_toggle_grid:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
-key_gui.xaero_enlarge_map:key.keyboard.unknown
+key_gui.xaero_enlarge_map:key.keyboard.insert
 key_gui.xaero_waypoints_key:key.keyboard.comma
 key_gui.xaero_zoom_in:key.keyboard.equal
 key_gui.xaero_zoom_out:key.keyboard.minus
-key_gui.xaero_new_waypoint:key.keyboard.unknown
+key_gui.xaero_new_waypoint:key.keyboard.delete
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
 key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
