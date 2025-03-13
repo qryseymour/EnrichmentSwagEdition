@@ -42,15 +42,7 @@
     "create_gravestone_after_emptying": false,
     "restore_replaced_block_after_player_breaking": true,
     "cancel_creation_for_damage_types": {},
-    "cancel_creation_for_ignored_attacker_types": {
-      "minecraft:spider": "<red>Arthopods destroy graves!",
-      "minecraft:cave_spider": "<red>Arthopods destroy graves!",
-      "mutantmonsters:spider_pig": "<red>Arthopods destroy graves!",
-      "twilightforest:hedge_spider": "<red>Arthopods destroy graves!",
-      "twilightforest:king_spider": "<red>Arthopods destroy graves!",
-      "twilightforest:swarm_spider": "<red>Arthopods destroy graves!",
-      "betternether:firefly": "<red>Arthopods destroy graves!"
-    },
+    "cancel_creation_for_ignored_attacker_types": {},
     "blocking_predicates": [],
     "block_in_protected_area": {},
     "blacklisted_worlds": [],
