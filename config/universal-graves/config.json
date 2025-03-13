@@ -2,31 +2,33 @@
   "_comment": "Before changing anything, see https://github.com/Patbox/UniversalGraves#configuration",
   "config_version": 3,
   "protection": {
-    "non_owner_protection_time": 900,
-    "self_destruction_time": 1800,
+    "non_owner_protection_time": 86400,
+    "self_destruction_time": 604800,
     "drop_items_on_expiration": true,
     "attackers_bypass_protection": false,
-    "use_real_time": false
+    "use_real_time": true
   },
   "interactions": {
     "unlocking_cost": {
       "type": "free",
       "count": 0
     },
-    "give_death_compass": true,
-    "enable_use_death_compass_to_open_gui": true,
+    "give_death_compass": false,
+    "enable_use_death_compass_to_open_gui": false,
     "enable_click_to_open_gui": true,
     "shift_and_use_quick_pickup": true,
     "allow_remote_protection_removal": true,
     "allow_remote_breaking": true,
-    "allow_remote_unlocking": false
+    "allow_remote_unlocking": true
   },
   "storage": {
-    "experience_type": "percent_points",
+    "experience_type": "drop",
     "experience_percent:setting_value": 100.0,
     "can_store_only_xp": false,
     "alternative_experience_entity": true,
-    "blocked_enchantments": []
+    "blocked_enchantments": [
+      "alessandrvenchantments:soulbound"
+    ]
   },
   "placement": {
     "player_grave_limit": -1,
@@ -40,7 +42,15 @@
     "create_gravestone_after_emptying": false,
     "restore_replaced_block_after_player_breaking": true,
     "cancel_creation_for_damage_types": {},
-    "cancel_creation_for_ignored_attacker_types": {},
+    "cancel_creation_for_ignored_attacker_types": {
+      "minecraft:spider": "<red>Arthopods destroy graves!",
+      "minecraft:cave_spider": "<red>Arthopods destroy graves!",
+      "mutantmonsters:spider_pig": "<red>Arthopods destroy graves!",
+      "twilightforest:hedge_spider": "<red>Arthopods destroy graves!",
+      "twilightforest:king_spider": "<red>Arthopods destroy graves!",
+      "twilightforest:swarm_spider": "<red>Arthopods destroy graves!",
+      "betternether:firefly": "<red>Arthopods destroy graves!"
+    },
     "blocking_predicates": [],
     "block_in_protected_area": {},
     "blacklisted_worlds": [],
