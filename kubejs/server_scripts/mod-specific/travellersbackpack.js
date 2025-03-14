@@ -221,7 +221,7 @@ ServerEvents.recipes(e => {
             'DAD'
         ],
         {
-            A: 'minecraft:honey_bee',
+            A: 'minecraft:honey_bottle',
             B: 'minecraft:honeycomb_block',
             C: 'travelersbackpack:standard',
             D: 'minecraft:spider_eye'
