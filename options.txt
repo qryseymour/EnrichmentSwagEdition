@@ -37,11 +37,11 @@ entityDistanceScaling:1.0
 guiScale:3
 particles:0
 maxFps:260
-graphicsMode:1
+graphicsMode:0
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:"true"
+renderClouds:"fast"
 resourcePacks:["vanilla","fabric","builtin/aether_tooltips","betterbeds:connectedbeds","continuity:default","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:["betterbeds:connectedbeds"]
 lastServer:
