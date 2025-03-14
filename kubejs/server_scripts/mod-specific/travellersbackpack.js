@@ -116,7 +116,7 @@ ServerEvents.recipes(e => {
         ],
         {
             A: 'minecraft:quartz_block',
-            B: 'mythicupgrades:ruby_potion',
+            B: 'minecraft:amethyst_shard',
             C: 'travelersbackpack:standard',
         }
     ).id('travelersbackpack:quartz')
@@ -196,6 +196,81 @@ ServerEvents.recipes(e => {
             E: 'majruszsdifficulty:cerberus_fang'
         }
     ).id('travelersbackpack:wither')
-    
-    e.replaceInput({ id: 'travelersbackpack:blaze' }, 'travelersbackpack:standard', 'travelersbackpack:magma_cube')
+
+    e.shaped(
+        Item.of('travelersbackpack:blaze', 1),
+        [
+            'BAB',
+            'BCB',
+            'DED'
+        ],
+        {
+            A: 'minecraft:fire_charge',
+            B: 'minecraft:blaze_rod',
+            C: 'travelersbackpack:magma_cube',
+            D: 'minecraft:blaze_powder',
+            E: 'minecraft:lava_bucket',
+        }
+    ).id('travelersbackpack:blaze')
+
+    e.shaped(
+        Item.of('travelersbackpack:bee', 1),
+        [
+            'BAD',
+            'ACA',
+            'DAD'
+        ],
+        {
+            A: 'minecraft:honey_bee',
+            B: 'minecraft:honeycomb_block',
+            C: 'travelersbackpack:standard',
+            D: 'minecraft:spider_eye'
+        }
+    ).id('travelersbackpack:bee')
+
+    e.shaped(
+        Item.of('travelersbackpack:fox', 1),
+        [
+            'BAD',
+            'ACA',
+            'DAD'
+        ],
+        {
+            A: 'minecraft:sweet_berries',
+            B: 'edible_amethyst_:crystal_bread',
+            C: 'travelersbackpack:standard',
+            D: 'minecraft:rabbit_foot'
+        }
+    ).id('travelersbackpack:fox')
+
+    e.shaped(
+        Item.of('travelersbackpack:cow', 1),
+        [
+            'BAB',
+            'BCB',
+            'DED'
+        ],
+        {
+            A: 'doggytalents:cape_coloured',
+            B: 'minecraft:beef',
+            C: 'travelersbackpack:standard',
+            D: 'botania:pure_daisy',
+            E: '#meadow:milk'
+        }
+    ).id('travelersbackpack:cow')
+
+    e.shaped(
+        Item.of('travelersbackpack:squid', 1),
+        [
+            'ABA',
+            'DCD',
+            'ADA'
+        ],
+        {
+            A: 'minecraft:glow_ink_sac',
+            B: 'moretotems:tentacled_totem_of_undying',
+            C: 'travelersbackpack:standard',
+            D: 'minecraft:pufferfish'
+        }
+    ).id('travelersbackpack:squid')
 })
