@@ -31,7 +31,10 @@
     '!hexed:.*_plushie',
     'artifality:invisibility_cape',
     'botania:blood_pendant',
-    'zenith:potion_charm'
+    'zenith:potion_charm',
+    '!camping:sleeping_bag_.*',
+    'travelersbackpack:bat',
+    'travelersbackpack:iron_golem',
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
