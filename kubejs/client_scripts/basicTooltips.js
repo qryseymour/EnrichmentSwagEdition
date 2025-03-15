@@ -178,7 +178,24 @@ ItemEvents.tooltip(e => {
             'meadow:umbra_bed',
             'meadow:inky_bed',
             'meadow:warped_bed',
-            'meadow:straw_bed',], 
+            'meadow:straw_bed',
+            'aether:skyroot_bed',
+            'travelersbackpack:white_sleeping_bag',
+            'travelersbackpack:light_gray_sleeping_bag',
+            'travelersbackpack:gray_sleeping_bag',
+            'travelersbackpack:black_sleeping_bag',
+            'travelersbackpack:brown_sleeping_bag',
+            'travelersbackpack:red_sleeping_bag',
+            'travelersbackpack:orange_sleeping_bag',
+            'travelersbackpack:yellow_sleeping_bag',
+            'travelersbackpack:lime_sleeping_bag',
+            'travelersbackpack:green_sleeping_bag',
+            'travelersbackpack:cyan_sleeping_bag',
+            'travelersbackpack:light_blue_sleeping_bag',
+            'travelersbackpack:blue_sleeping_bag',
+            'travelersbackpack:purple_sleeping_bag',
+            'travelersbackpack:magenta_sleeping_bag',
+            'travelersbackpack:pink_sleeping_bag',], 
           tooltip: [
             'To make it able to skip the night (or thunderstorm),',
             'you need to use a clock on a bed (just right-click',
@@ -319,6 +336,40 @@ ItemEvents.tooltip(e => {
             'signal will close the shop, which prevents villagers',
             'from buying the item and allows for automation blocks to',
             'extract the input.']},
+        { items: [
+            'candlelight:cobblestone_stove',
+            'candlelight:sandstone_stove',
+            'candlelight:stone_bricks_stove',
+            'candlelight:deepslate_stove',
+            'candlelight:granite_stove',
+            'candlelight:end_stove',
+            'candlelight:mud_stove',
+            'candlelight:quartz_stove',
+            'candlelight:red_nether_bricks_stove',
+            'candlelight:basalt_stove',
+            'candlelight:bamboo_stove',
+            'farm_and_charm:stove'], 
+          tooltip: [
+            'The Stove is your primary crafting station for making',
+            'pastries and bread. It also serves as a heat source for',
+            'the Cooking Pot.']},
+        { items: ['bakery:baker_station'], tooltip: [
+            'Used to prepare cakes, cupcakes, and cookies.']},
+        { items: ['farm_and_charm:crafting_bowl'], tooltip: [
+            'Used to make various types of dough.']},
+        { items: ['betterarcheology:archeology_table'], tooltip: [
+            'Analyse Unidentified Artifacts using any type of brush.',
+            'It outputs one of the 3 different Identified Artifact,',
+            'each with their own special powers.']},
+        { items: ['betterarcheology:unidentified_artifact'], tooltip: [
+            'It only takes an Identifying Table to make sense of it.']},
+        { items: ['betterarcheology:fossiliferous_dirt'], tooltip: [
+            'Can be brushed. Once you\'ve found some, you may',
+            'uncover fossil parts to collect!']},
+        { items: ['betterarcheology:bomb'], tooltip: [
+            'Throwable, leave a particle trail and explode with the',
+            'power of TNT. Use them offensively, create holes for',
+            'escapes, or just have fun with them!']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
