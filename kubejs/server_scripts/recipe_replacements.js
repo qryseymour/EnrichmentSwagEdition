@@ -42,16 +42,13 @@ ServerEvents.recipes(e => {
         { item: "ae2:spatial_storage_cell_16", input: "minecraft:glowstone_dust" },
         { item: "ae2:spatial_storage_cell_128", input: "waystones:warp_dust" },
         { item: "doggytalents:smarty_glasses", input: "ae2:certus_quartz_dust" },
-        { item: /xtraarrows:.*_life_steal_arrow/, input: "concoctions_and_potions:mixed_dust" },
         { item: 'createbigcannons:impact_fuze', input: "ae2:ender_dust" },
         { item: "wolf_lore:agitator_remote", input: "ae2:ender_dust" },
         { item: "supplementaries:altimeter", input: "ae2:sky_dust" },
         { item: "travelersbackpack:void_upgrade", input: "ae2:sky_dust" },
         { item: "travelersbackpack:pickup_upgrade", input: "minecraft:glowstone_dust" },
         { item: "supplementaries:wind_vane", input: "ae2:sky_dust" },
-        { item: "additionaladditions:pocket_jukebox", input: "concoctions_and_potions:mixed_dust" },
         { item: "createbigcannons:proximity_fuze", input: "illagerinvasion:illusionary_dust" },
-        { item: "travelersbackpack:feeding_upgrade", input: "concoctions_and_potions:mixed_dust" },
     ].forEach((index) => {
         e.replaceInput({ output: index.item }, 'minecraft:redstone', index.input)
     })

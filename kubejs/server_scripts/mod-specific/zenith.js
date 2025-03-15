@@ -14,6 +14,7 @@ ServerEvents.recipes(e => {
             E: 'majruszsdifficulty:soul_jar'
         }
     ).id('zenith:simple_reforging_table')
+    
     e.shaped(
         Item.of('zenith:reforging_table', 1),
         [

@@ -24,4 +24,6 @@ LootJS.modifiers(e => {
     ].forEach((removal) => {
         e.addLootTableModifier(/.*/).removeLoot(removal)
     })
+
+    e.addBlockLootModifier(/.*/).removeLoot('betternether:pig_statue_respawner')
 })

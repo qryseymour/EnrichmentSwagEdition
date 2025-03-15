@@ -78,8 +78,6 @@ ServerEvents.recipes(e => {
     ).id('travelersbackpack:backpack_tank')
     
     e.replaceInput({ id: 'travelersbackpack:jukebox_upgrade' }, 'minecraft:jukebox', 'additionaladditions:pocket_jukebox')
-    
-    e.replaceInput({ id: 'travelersbackpack:jukebox_upgrade' }, 'minecraft:redstone', 'concoctions_and_potions:mixed_dust')
 
     e.shaped(
         Item.of('travelersbackpack:emerald', 1),

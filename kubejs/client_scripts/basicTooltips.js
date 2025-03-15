@@ -405,6 +405,50 @@ ItemEvents.tooltip(e => {
             'Portal, allowing passage between the End and the',
             'Overworld. One Eternal Crystal should be placed on',
             'each of the six eternal pedestals that surround the portal.']},
+        { items: [
+            'betterend:flavolite_pedestal',
+            'betterend:violecite_pedestal',
+            'betterend:sulphuric_rock_pedestal',
+            'betterend:virid_jadestone_pedestal',
+            'betterend:azure_jadestone_pedestal',
+            'betterend:sandy_jadestone_pedestal',
+            'betterend:umbralith_pedestal',
+            'betterend:andesite_pedestal',
+            'betterend:diorite_pedestal',
+            'betterend:granite_pedestal',
+            'betterend:quartz_pedestal',
+            'betterend:purpur_pedestal',
+            'betterend:smaragdant_crystal_pedestal',
+            'betterend:eternal_pedestal',], 
+          tooltip: [
+            'To craft Infusional Ritual items, eight Pedestals, of any',
+            'type, must be placed around an Infusion Pedestal.',
+            '',
+            'After placing the pedestal down, it is possible to place',
+            'any block or item on top by right-clicking the top of the',
+            'pedestal with it. The item will appear hovering just above',
+            'the pedestal, slowly rotating. The item can be removed by',
+            'right-clicking again on the top of the pedestal.',
+            '',
+            'When the pillar blocks are stacked vertically, they will',
+            'connect to each other to form a pillar. Although normally',
+            'less than a full block in height, if a solid block is',
+            'placed above the top pillar block, it extends to fill a',
+            'full-block height.'
+        ]},
+        { items: ['betterend:flavolite_runed'], tooltip: [
+            'Used to repair a broken Eternal Portal.',
+            '']},
+        { items: ['betterend:respawn_obelisk'], tooltip: [
+            'Right clicking on the respawn obelisk while holding 6',
+            'amber gems will consume the gems and set the player\'s',
+            'spawnpoint to the blocks surrounding the obelisk. ']},
+        { items: ['betternether:pig_statue_respawner'], tooltip: [
+            'Allows the player to respawn anything, by sacrificing one',
+            'piece of glowstone. Once glowstone is sacrificed to the',
+            'Respawner Statue, Recall Potions and Magic Mirror can be',
+            'used in alternate dimensions. However, this cannot be',
+            'dropped in any method.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
