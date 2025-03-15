@@ -64,6 +64,7 @@ ServerEvents.recipes(e => {
         e.replaceInput({ output: index.item }, 'minecraft:glowstone_dust', index.input)
     })
     
+    e.replaceInput({ output: "vinurl:custom_record" }, 'minecraft:note_block', 'minecraft:music_disc_5')
     e.replaceInput({ output: "diamond_apples:diamond_apple" }, 'minecraft:apple', 'minecraft:golden_apple')
     e.replaceInput({ output: "diamond_apples:enchanted_diamond_apple" }, 'minecraft:diamond', 'minecraft:diamond_block')
 
