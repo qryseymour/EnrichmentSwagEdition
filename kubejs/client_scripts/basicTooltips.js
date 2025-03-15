@@ -306,13 +306,7 @@ ItemEvents.tooltip(e => {
             'Now emits light!']},
         { items: [
             'minecraft:glow_berries',
-            'edible_amethyst_:crystal_glow_berries',
-            'expandeddelight:glow_berry_jelly',
-            'expandeddelight:glow_berry_jelly_sandwich',
-            'expandeddelight:glow_berry_juice',
-            'expandeddelight:glow_berry_sweet_roll',
-            'farmersdelight:glow_berry_custard',
-            'moredelight:toast_with_glow_berries',], 
+            'edible_amethyst_:crystal_glow_berries',], 
           tooltip: [
             'Makes foxes and players glow when they eat this.']},
         { items: ['village_business:sales_stand'], tooltip: [
@@ -361,8 +355,6 @@ ItemEvents.tooltip(e => {
             'Analyse Unidentified Artifacts using any type of brush.',
             'It outputs one of the 3 different Identified Artifact,',
             'each with their own special powers.']},
-        { items: ['betterarcheology:unidentified_artifact'], tooltip: [
-            'It only takes an Identifying Table to make sense of it.']},
         { items: ['betterarcheology:fossiliferous_dirt'], tooltip: [
             'Can be brushed. Once you\'ve found some, you may',
             'uncover fossil parts to collect!']},
@@ -370,6 +362,49 @@ ItemEvents.tooltip(e => {
             'Throwable, leave a particle trail and explode with the',
             'power of TNT. Use them offensively, create holes for',
             'escapes, or just have fun with them!']},
+        { items: ['betterend:infusion_pedestal'], tooltip: [
+            'To use the Infusion Pedestal to perform Infusion',
+            'Rituals, you will also need 8 Pedestals of any type.',
+            'These are placed around the Infusion Pedestal in a',
+            'circle, so that in the four cardinal direction, each',
+            'pedestal is on the third block, and diagonally, each',
+            'pedestal is on the second block.',
+            '',
+            'It should be noted that the Infusion Ritual recipes',
+            'which use the Infusion Pedestal are all',
+            'directional-dependent. They will only work if the',
+            'ingredients are placed onto the correct pedestals, so',
+            'you may wish to mark which direction is north when',
+            'placing your pedestals. If you placed all the items',
+            'correctly you will have to right-click the eye of the',
+            'infusion Table, this will start the ritual.']},
+        { items: [
+            'betterend:flavolite_runed',
+            'betterend:flavolite_runed_eternal'], 
+          tooltip: [
+            'The eternal portal is the primary means of transport',
+            'between the end and the overworld. When activated, a',
+            'matching portal will be generated in the Overworld at',
+            'the same x, y and z co-ordinates (or as close as',
+            'possible).',
+            '',
+            'To activate a portal, the main portal ring must be',
+            'completed with Runed Flavolite, and then an Eternal',
+            'Crystal should be placed onto each of the six Eternal',
+            'Pedestals that surround the portal. As each Eternal',
+            'Crystal is placed, a beacon-like beam will emanate',
+            'above it. As the sixth Eternal Crystal is placed, the',
+            'End Portal igniting sound will be heard as the portal',
+            'lights.'
+        ]},
+        { items: ['betterend:flavolite_runed'], tooltip: [
+            'Used to repair a broken Eternal Portal.',
+            '']},
+        { items: ['betterend:eternal_crystal'], tooltip: [
+            'Eternal Crystals are required to activate an Eternal',
+            'Portal, allowing passage between the End and the',
+            'Overworld. One Eternal Crystal should be placed on',
+            'each of the six eternal pedestals that surround the portal.']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {

@@ -109,7 +109,7 @@ ServerEvents.recipes(e => {
             C: 'minecraft:ender_pearl',
             D: 'minecraft:blaze_powder'
         }
-    ).id('minecraft:ender_eye_2')
+    ).id('enrichment2:ender_eye_2')
 
     e.shaped(
         Item.of('minecraft:ender_eye', 5),
