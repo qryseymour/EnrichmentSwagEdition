@@ -15,7 +15,9 @@ ServerEvents.recipes(e => {
         'betternether:piston',
         'betternether:shield',
         /bclib:.*/,
-        'additionaladditions:powered_rails'
+        'additionaladditions:powered_rails',
+        'aether:skyroot_note_block',
+        'aether:skyroot_jukebox'
     ].forEach(recipeID => {
         e.remove({ id: recipeID })
     })
