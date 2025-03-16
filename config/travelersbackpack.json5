@@ -55,9 +55,9 @@
 		// Enables unequipping the backpack on right-click on the ground with empty hand (Disabled if Trinkets/Accessories Integration is enabled)
 		"rightClickUnequip": false,
 		// Allows to use only equipped backpack
-		"allowOnlyEquippedBackpack": false,
+		"allowOnlyEquippedBackpack": true,
 		// Allows opening the backpack by pressing a keybind while hovering over the slot with backpack in the player's inventory
-		"allowOpeningFromSlot": false,
+		"allowOpeningFromSlot": true,
 		// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
 		"invulnerableBackpack": true,
 		// List of items that can be put in tool slots (Use registry names, for example: minecraft:apple, minecraft:flint)
@@ -65,7 +65,7 @@
 		// List of items that can't be put in backpack inventory (Use registry names, for example: minecraft:apple, minecraft:flint)
 		"blacklistedItems": [],
 		// Tool slots accept any item
-		"toolSlotsAcceptEverything": false,
+		"toolSlotsAcceptEverything": true,
 		// Allows putting shulker boxes and other items with inventory in backpack
 		"allowShulkerBoxes": false,
 		// Prevents backpack disappearing in void, spawns floating backpack above minimum Y when player dies in void
@@ -104,9 +104,9 @@
 	},
 	"world": {
 		// Enables backpacks spawning in loot chests
-		"enableLoot": true,
+		"enableLoot": false,
 		// Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
-		"spawnEntitiesWithBackpack": true,
+		"spawnEntitiesWithBackpack": false,
 		// List of overworld entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
 		"possibleOverworldEntityTypes": [
 			"minecraft:zombie",
@@ -164,7 +164,7 @@
 			"travelersbackpack:wither"
 		],
 		// Enables trade for Villager Backpack in Librarian villager trades
-		"enableVillagerTrade": true
+		"enableVillagerTrade": false
 	},
 	"backpackAbilities": {
 		"enableBackpackAbilities": true,
@@ -228,10 +228,10 @@
 	},
 	"slownessDebuff": {
 		// Player gets slowness effect, if carries too many backpacks in inventory
-		"tooManyBackpacksSlowness": false,
+		"tooManyBackpacksSlowness": true,
 		// Maximum number of backpacks, which can be carried in inventory, without slowness effect
-		"maxNumberOfBackpacks": 3,
-		"slownessPerExcessedBackpack": 1
+		"maxNumberOfBackpacks": 1,
+		"slownessPerExcessedBackpack": 2
 	},
 	"client": {
 		"overlay": {
