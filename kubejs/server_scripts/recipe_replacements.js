@@ -10,9 +10,6 @@ ServerEvents.recipes(e => {
         'minecraft:compass',
         'minecraft:powered_rail',
         'xtraarrows:magnet_kit',
-        'twilightforest:fiery_ingot',
-        'malum:cornered_weave',
-        'galosphere:chandelier',
     ].forEach((item) => {
         e.replaceInput({ output: item }, 'minecraft:iron_ingot', 'minecraft:copper_ingot')
     })
@@ -20,6 +17,8 @@ ServerEvents.recipes(e => {
     let glassToAmethystRecipeItems = [
         'minecraft:beacon',
         'minecraft:end_crystal',
+        'ae2:chest',
+        'ae2:condenser'
     ].forEach((item) => {
         e.replaceInput({ output: item }, 'minecraft:glass', 'minecraft:amethyst_shard')
     })
@@ -33,6 +32,16 @@ ServerEvents.recipes(e => {
     ].forEach((item) => {
         e.replaceInput({ output: item }, '#railways:internal/ingots/iron_ingots', 'betternether:cincinnasite_ingot')
     })
+
+    e.replaceInput({}, 'minecraft:quartz', '#c:gems/quartz')
+
+    e.replaceInput({ output: /aether:.*/ }, 'minecraft:redstone', 'ae2:sky_dust')
+    e.replaceInput({ output: /aether:.*/ }, 'minecraft:glowstone_dust', 'ae2:sky_dust')
+
+    e.replaceInput({ output: 'botania:ender_eye_block' }, 'minecraft:redstone', 'ae2:ender_dust')
+
+    e.replaceInput({ output: /.*:.*quartz.*/ }, 'minecraft:redstone', 'ae2:certus_quartz_dust')
+    e.replaceInput({ output: /.*:.*quartz.*/ }, 'minecraft:glowstone_dust', 'ae2:certus_quartz_dust')
 
     let redstoneDustToOtherDustRecipeItems = [
         { item: /ae2:.*_storage_cell_4k/, input: "minecraft:glowstone_dust" },

@@ -20,6 +20,7 @@ config/fastload.properties
 config/auto-updater/updater_list.json
 config/iris.properties
 config/vmp.properties
+config/lodestone-client.toml
 
 # root files
 heracles_options.json

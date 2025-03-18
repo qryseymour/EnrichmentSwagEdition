@@ -123,7 +123,7 @@
 	#By default, Dogs respawning from bed after being killed will
 	#be incapacitated and are required to be nursed back to life.
 	#Set this to False to disable.
-	dog_respawn_incapacitated_when_killed = true
+	dog_respawn_incapacitated_when_killed = false
 	#When enabled, dogs will start to miss you when you leave them for too long.
 	#And when you come back, they will rush to you and greet you with love!
 	dog_greet_owner = true
