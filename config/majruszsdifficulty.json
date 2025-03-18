@@ -539,8 +539,8 @@
         "is_scaled_by_crd": true,
         "entity_type": "minecraft:wither",
         "effect": {
-          "id": "gravity_changer:up",
-          "amplifier": 0,
+          "id": "minecraft:levitation",
+          "amplifier": 4,
           "duration": 7.0
         }
       },
