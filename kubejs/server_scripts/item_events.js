@@ -9,7 +9,8 @@ const teleporters = [
     'endermanoverhaul:crimson_pearl',
     'endermanoverhaul:warped_pearl',
     'mutantmonsters:endersoul_hand',
-    'bosses_of_mass_destruction:charged_ender_pearl'
+    'bosses_of_mass_destruction:charged_ender_pearl',
+    'bygonenether:warped_ender_pearl'
 ]
 
 const applyItemlistCooldown = (player, itemList, ticks) => {
@@ -27,7 +28,8 @@ const enderPearls = [
     'endermanoverhaul:summoner_pearl',
     'endermanoverhaul:icy_pearl',
     'endermanoverhaul:crimson_pearl',
-    'endermanoverhaul:warped_pearl'
+    'endermanoverhaul:warped_pearl',
+    'bygonenether:warped_ender_pearl'
 ].forEach(pearl => {
     ItemEvents.rightClicked(pearl, e => {
         if (e.player.inWater) {

@@ -14,7 +14,7 @@
         category : [ 'MONSTER' ],
         dimensionId : [ 'minecraft:overworld' ],
         blockX: [ -512, 512 ],
-        blockY : [ 0, 'MAX' ],
+        blockY : [ 60, 'MAX' ],
         blockZ : [ -512, 512 ]
       }
     }

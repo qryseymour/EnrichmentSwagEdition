@@ -35,6 +35,10 @@
     '!camping:sleeping_bag_.*',
     'travelersbackpack:bat',
     'travelersbackpack:iron_golem',
+    'additionaladditions:rope',
+    'brewery:rope',
+    'redeco:.*_pet_bed',
+    'botania:laputa_shard',
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

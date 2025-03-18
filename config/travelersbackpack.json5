@@ -164,7 +164,7 @@
 			"travelersbackpack:wither"
 		],
 		// Enables trade for Villager Backpack in Librarian villager trades
-		"enableVillagerTrade": false
+		"enableVillagerTrade": true
 	},
 	"backpackAbilities": {
 		"enableBackpackAbilities": true,
