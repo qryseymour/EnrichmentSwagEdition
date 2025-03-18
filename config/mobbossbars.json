@@ -1,0 +1,76 @@
+{
+  "bossBars": {
+    "minecraft:giant": {
+      "enabled": false,
+      "colour": "GREEN",
+      "style": "PROGRESS",
+      "darkenSky": false,
+      "dragonMusic": false,
+      "thickenFog": false
+    },
+    "minecraft:illusioner": {
+      "enabled": false,
+      "colour": "YELLOW",
+      "style": "NOTCHED_6",
+      "darkenSky": false,
+      "dragonMusic": false,
+      "thickenFog": false
+    },
+    "minecraft:elder_guardian": {
+      "enabled": false,
+      "colour": "WHITE",
+      "style": "PROGRESS",
+      "darkenSky": false,
+      "dragonMusic": false,
+      "thickenFog": false
+    },
+    "mobbossbars:raid": {
+      "enabled": true,
+      "colour": "RED",
+      "style": "NOTCHED_10",
+      "darkenSky": false,
+      "dragonMusic": false,
+      "thickenFog": false
+    },
+    "minecraft:warden": {
+      "enabled": false,
+      "colour": "BLUE",
+      "style": "NOTCHED_20",
+      "darkenSky": false,
+      "dragonMusic": false,
+      "thickenFog": false
+    },
+    "minecraft:wither": {
+      "enabled": true,
+      "colour": "PURPLE",
+      "style": "PROGRESS",
+      "darkenSky": true,
+      "dragonMusic": false,
+      "thickenFog": false
+    },
+    "minecraft:ravager": {
+      "enabled": false,
+      "colour": "YELLOW",
+      "style": "NOTCHED_20",
+      "darkenSky": false,
+      "dragonMusic": false,
+      "thickenFog": false
+    },
+    "minecraft:iron_golem": {
+      "enabled": false,
+      "colour": "WHITE",
+      "style": "NOTCHED_12",
+      "darkenSky": false,
+      "dragonMusic": false,
+      "thickenFog": false
+    },
+    "minecraft:ender_dragon": {
+      "enabled": true,
+      "colour": "PURPLE",
+      "style": "PROGRESS",
+      "darkenSky": false,
+      "dragonMusic": true,
+      "thickenFog": true
+    }
+  }
+}

@@ -34,7 +34,7 @@
 	wolf_mount_passenger_collision = true
 	#When enabled, dogs cannot be killed by any means (except creative-mode-bypass damage, in that case, you can still respawn your dog using his linked bed or commands).
 	#Instead, when his health reaches Zero, he will go into Incapacitated Mode.
-	immortal_dogs = true
+	immortal_dogs = false
 	#When enabled, dog can play tag with you. To make them play, throw a snowball at them.
 	play_tag_with_dog = true
 	#By default, Injured Dogs won't block portal, allowing them to

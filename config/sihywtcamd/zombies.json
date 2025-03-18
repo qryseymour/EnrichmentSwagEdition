@@ -1,0 +1,21 @@
+{
+  "general": {
+    "moreKnockbackResistance": false,
+    "spawnMoreReinforcement": false,
+    "sameTypeReinforcement": false,
+    "attributeVariations": false,
+    "babyTowerHeight": 0
+  },
+  "husk": {
+    "fireResistant": true
+  },
+  "drowned": {
+    "tridentSpawn": true,
+    "highVelocity": true,
+    "guardianJockeySpawn": true
+  },
+  "zombieHorse": {
+    "zombieHorseTrap": true,
+    "increasedSpeed": false
+  }
+}

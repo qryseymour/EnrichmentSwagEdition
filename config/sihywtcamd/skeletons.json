@@ -1,0 +1,24 @@
+{
+  "general": {
+    "baby": false,
+    "babyQuickAttackGoal": false,
+    "fleeGoal": false,
+    "swimGoal": false
+  },
+  "skeleton": {
+    "spectralArrow": false
+  },
+  "stray": {
+    "frozenArrows": true,
+    "coldBiomeSpawn": true
+  },
+  "witherSkeleton": {
+    "baby": true,
+    "bow": true,
+    "ironSword": true
+  },
+  "skeletonHorse": {
+    "skeletonsVariationOnTrap": true,
+    "increasedSpeed": false
+  }
+}
