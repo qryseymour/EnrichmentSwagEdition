@@ -100,26 +100,6 @@ ItemEvents.tooltip(e => {
             'have at least 15 bookshelves to enchant it. The',
             'Ancient Staff\'s behaviour depends on its main',
             'enchantment.']},
-        { items: ['amethystgravity:plating'], tooltip: [
-            'The most basic form of gravity control.']},
-        { items: ['amethystgravity:dense_plating'], tooltip: [
-            'The most basic form of gravity control. Has a', 
-            'taller area of effect, so that you can jump around', 
-            'and not fall off.']},
-        { items: ['amethystgravity:gravity_glasses'], tooltip: [
-            'See the generated gravity fields of Gravity', 
-            'Generators.']},
-        { items: [
-            'amethystgravity:field_generator',
-            'amethystgravity:cylinder_field_generator',
-            'amethystgravity:planet_field_generator'], 
-          tooltip: [
-            'For larger areas of gravity control, you can use',
-            'this. The larger you make the area of effect, the', 
-            'more amethyst blocks you need to place next to the', 
-            'generator to power it. Just hit \"Apply Changes\"', 
-            'in the generator\'s menu, and it will tell you how', 
-            'many blocks you need']},
         { items: ['amyshield:amethyst_shield'], tooltip: [
             'For mobility and combat purposes, it has a plethora', 
             'of different abilities that complement your skills', 
