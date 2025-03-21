@@ -38,11 +38,6 @@ ServerEvents.recipes(e => {
     e.replaceInput({ output: /aether:.*/ }, 'minecraft:redstone', 'ae2:sky_dust')
     e.replaceInput({ output: /aether:.*/ }, 'minecraft:glowstone_dust', 'ae2:sky_dust')
     
-    e.replaceInput({ output: /botania:.*/ }, '#minecraft:logs', 'aether:skyroot_log')
-    e.replaceInput({ output: /botania:.*/ }, '#c:stripped_logs', 'aether:stripped_skyroot_log')
-    e.replaceInput({ output: /botania:.*/ }, '#meadow:is_woodcutter_usable', 'aether:skyroot_wood')
-    e.replaceInput({ output: /botania:.*/ }, '#c:stripped_wood', 'aether:stripped_skyroot_wood')
-    e.replaceInput({ output: /botania:.*/ }, '#minecraft:planks', 'aether:skyroot_planks')
     e.replaceInput({ output: /botania:.*/ }, '#minecraft:dirt', 'aether:aether_grass_block')
     e.replaceInput({ output: /botania:.*/ }, '#c:stone', 'aether:holystone')
     e.replaceInput({ output: /botania:.*/ }, 'minecraft:iron_ingot', 'aether:zanite_gemstone')

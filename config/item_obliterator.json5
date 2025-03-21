@@ -39,7 +39,9 @@
     'brewery:rope',
     'redeco:.*_pet_bed',
     'botania:laputa_shard',
-    'things:recall_potion'
+    'things:recall_potion',
+    'artifacts:everlasting_beef',
+    'artifacts:eternal_steak'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

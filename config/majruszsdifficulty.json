@@ -167,13 +167,13 @@
     },
     "enderman_teleport_attack": {
       "is_enabled": true,
-      "required_game_stage": "master",
-      "chance": 0.5,
+      "required_game_stage": "expert",
+      "chance": 0.25,
       "is_scaled_by_crd": true
     },
     "evoker_with_totem": {
       "is_enabled": true,
-      "required_game_stage": "normal",
+      "required_game_stage": "expert",
       "chance": 1.0,
       "is_scaled_by_crd": true
     },
@@ -191,116 +191,7 @@
       "chance": 0.125,
       "is_scaled_by_crd": false
     },
-    "mob_groups": {
-      "piglins": {
-        "required_game_stage": "expert",
-        "chance": 0.25,
-        "is_scaled_by_crd": true,
-        "leader_types": [
-          {
-            "type": "minecraft:piglin",
-            "equipment": "majruszsdifficulty:mob_groups/piglin_leader"
-          }
-        ],
-        "sidekicks_count": {
-          "min": 1,
-          "max": 3
-        },
-        "sidekick_types": [
-          {
-            "type": "minecraft:piglin",
-            "equipment": "majruszsdifficulty:mob_groups/piglin_sidekick"
-          }
-        ]
-      },
-      "skeletons": {
-        "required_game_stage": "normal",
-        "chance": 0.1,
-        "is_scaled_by_crd": true,
-        "leader_types": [
-          {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:mob_groups/skeleton_leader"
-          }
-        ],
-        "sidekicks_count": {
-          "min": 1,
-          "max": 3
-        },
-        "sidekick_types": [
-          {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:mob_groups/skeleton_sidekick"
-          }
-        ]
-      },
-      "undead": {
-        "required_game_stage": "normal",
-        "chance": 0.1,
-        "is_scaled_by_crd": true,
-        "leader_types": [
-          {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_3_skeleton"
-          },
-          {
-            "type": "minecraft:stray",
-            "equipment": "majruszsdifficulty:undead_army/wave_3_skeleton"
-          },
-          {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:undead_army/wave_3_mob"
-          },
-          {
-            "type": "minecraft:husk",
-            "equipment": "majruszsdifficulty:undead_army/wave_3_mob"
-          }
-        ],
-        "sidekicks_count": {
-          "min": 2,
-          "max": 4
-        },
-        "sidekick_types": [
-          {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_2_mob"
-          },
-          {
-            "type": "minecraft:stray",
-            "equipment": "majruszsdifficulty:undead_army/wave_2_mob"
-          },
-          {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:undead_army/wave_2_mob"
-          },
-          {
-            "type": "minecraft:husk",
-            "equipment": "majruszsdifficulty:undead_army/wave_2_mob"
-          }
-        ]
-      },
-      "zombie_miners": {
-        "required_game_stage": "expert",
-        "chance": 0.25,
-        "is_scaled_by_crd": true,
-        "leader_types": [
-          {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:mob_groups/zombie_leader"
-          }
-        ],
-        "sidekicks_count": {
-          "min": 1,
-          "max": 3
-        },
-        "sidekick_types": [
-          {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:mob_groups/zombie_sidekick"
-          }
-        ]
-      }
-    },
+    "mob_groups": {},
     "mobs_apply_effects": [
       {
         "required_game_stage": "expert",
@@ -572,8 +463,8 @@
     },
     "pillager_with_fireworks": {
       "is_enabled": true,
-      "required_game_stage": "master",
-      "chance": 0.15,
+      "required_game_stage": "expert",
+      "chance": 0.075,
       "is_scaled_by_crd": true,
       "crossbow_multishot_chance": 0.25,
       "firework_drop_chance": 0.25,
@@ -582,11 +473,19 @@
     "spawn_blocker": {
       "forbidden_entities": {
         "__default": [
-          "majruszsdifficulty:illusioner",
           "majruszsdifficulty:tank",
-          "majruszsdifficulty:cerberus"
+          "majruszsdifficulty:cerberus",
+          "enderzoology::concussion_creeper",
+          "enderzoology:dire_wolf",
+          "enderzoology:enderminy",
+          "enderzoology:fallen_knight",
+          "enderzoology:fallen_mount",
+          "enderzoology:infested_zombie",
+          "enderzoology:wither_cat",
+          "enderzoology:wither_witch"
         ],
         "expert": [
+          "majruszsdifficulty:tank",
           "majruszsdifficulty:cerberus"
         ],
         "master": []
@@ -616,7 +515,7 @@
     }
   },
   "blood_moon": {
-    "is_enabled": false,
+    "is_enabled": true,
     "night_trigger_chance": 0.0666,
     "spawn_rate_multiplier": 2.0,
     "crd_penalty": 0.5
@@ -709,7 +608,7 @@
           }
         ],
         "boss": {
-          "type": "majruszsdifficulty:tank",
+          "type": "mutantmonsters:mutant_zombie",
           "count": 1
         },
         "game_stage": "normal",
@@ -738,7 +637,11 @@
             "count": 1
           },
           {
-            "type": "majruszsdifficulty:tank",
+            "type": "mutantmonsters:mutant_zombie",
+            "count": 1
+          },
+          {
+            "type": "mutantmonsters:mutant_skeleton",
             "count": 1
           },
           {
@@ -788,7 +691,11 @@
             "count": 2
           },
           {
-            "type": "majruszsdifficulty:tank",
+            "type": "mutantmonsters:mutant_zombie",
+            "count": 1
+          },
+          {
+            "type": "mutantmonsters:mutant_skeleton",
             "count": 1
           },
           {
@@ -822,7 +729,11 @@
             "count": 1
           },
           {
-            "type": "majruszsdifficulty:tank",
+            "type": "mutantmonsters:mutant_zombie",
+            "count": 1
+          },
+          {
+            "type": "mutantmonsters:mutant_skeleton",
             "count": 1
           },
           {
@@ -846,8 +757,7 @@
           }
         ],
         "boss": {
-          "type": "majruszsdifficulty:giant",
-          "equipment": "majruszsdifficulty:undead_army/wave_6_mob",
+          "type": "bosses_of_mass_destruction:lich",
           "count": 1
         },
         "game_stage": "master",
@@ -920,11 +830,6 @@
         {
           "id": "majruszsdifficulty:glass_regeneration",
           "amplifier": 1,
-          "duration": 20.0
-        },
-        {
-          "id": "majruszsdifficulty:bleeding_immunity",
-          "amplifier": 0,
           "duration": 90.0
         }
       ]

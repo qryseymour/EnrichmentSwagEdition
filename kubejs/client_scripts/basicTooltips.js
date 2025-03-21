@@ -416,9 +416,6 @@ ItemEvents.tooltip(e => {
             'placed above the top pillar block, it extends to fill a',
             'full-block height.'
         ]},
-        { items: ['betterend:flavolite_runed'], tooltip: [
-            'Used to repair a broken Eternal Portal.',
-            ' ']},
         { items: ['betterend:respawn_obelisk'], tooltip: [
             'Right clicking on the respawn obelisk while holding 6',
             'amber gems will consume the gems and set the player\'s',

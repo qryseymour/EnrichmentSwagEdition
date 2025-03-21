@@ -1,0 +1,10 @@
+{
+    "type": "botania:pure_daisy",
+    "input": {
+      "type": "block",
+      "block": "aether:skyroot_log"
+    },
+    "output": {
+      "name": "botania:livingwood_log"
+    }
+  }
