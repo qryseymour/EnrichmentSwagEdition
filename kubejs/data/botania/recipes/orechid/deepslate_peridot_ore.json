@@ -1,0 +1,12 @@
+{
+    "type": "botania:orechid",
+    "input": {
+      "type": "block",
+      "block": "minecraft:deepslate"
+    },
+    "output": {
+      "type": "block",
+      "block": "mythicupgrades:deepslate_peridot_ore"
+    },
+    "weight": 175
+  }

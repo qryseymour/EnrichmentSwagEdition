@@ -1,0 +1,12 @@
+{
+    "type": "botania:orechid_ignem",
+    "input": {
+      "type": "block",
+      "block": "minecraft:netherrack"
+    },
+    "output": {
+      "type": "block",
+      "block": "betternether:nether_lapis_ore"
+    },
+    "weight": 10976
+  }
