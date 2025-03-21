@@ -137,8 +137,6 @@ key_key.azurelib.fire:key.keyboard.unknown
 key_blanket-client-tweaks.keys.rotateMinecartKey:key.keyboard.unknown
 key_key.botania_corporea_request:key.keyboard.unknown
 key_key.camping.open:key.keyboard.b
-key_key.charm.open_atlas:key.keyboard.unknown
-key_key.charm.open_workstation_selector:key.keyboard.unknown
 key_key.coppertunity.getthehellout:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.unknown

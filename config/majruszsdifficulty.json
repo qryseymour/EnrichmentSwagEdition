@@ -20,10 +20,10 @@
           "BOLD"
         ],
         "triggers": {
-          "dimensions": [
-            "{regex}.*"
-          ],
-          "entities": []
+          "dimensions": [],
+          "entities": [
+            "minecraft:ravager"
+          ]
         },
         "messages": [
           {
