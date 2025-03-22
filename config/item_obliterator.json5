@@ -41,7 +41,11 @@
     'botania:laputa_shard',
     'things:recall_potion',
     'artifacts:everlasting_beef',
-    'artifacts:eternal_steak'
+    'artifacts:eternal_steak',
+    'tffaf:void_pouch',
+    'tffaf:tethered_soul',
+    'tffaf:blazing_charm',
+    'tffaf:wither_ring'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
