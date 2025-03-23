@@ -3,7 +3,6 @@
     "overrideServerConfig": false,
     "clientUseMultimedia": false,
     "clientKeepsRendering": false,
-    "clientSlavistMode": false,
     "forceDevMode": false
   }
 }
