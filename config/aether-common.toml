@@ -4,7 +4,7 @@
 	#Determines if a message that links The Aether mod's Patreon should show
 	"Show Patreon message" = true
 	#When the player enters the Aether, they are given a Book of Lore and Golden Parachutes as starting loot
-	"Gives starting loot on entry" = true
+	"Gives starting loot on entry" = false
 	#Use the default Curios menu instead of the Aether's Accessories Menu. WARNING: Do not enable this without emptying your equipped accessories
 	"Use default Curios' menu" = false
 	#On world creation, the player is given an Aether Portal Frame item to automatically go to the Aether with
@@ -13,7 +13,7 @@
 	"Repeat Sun Spirit's battle dialogue" = true
 ["Data Pack"]
 	#Sets the Aether Temporary Freezing data pack to be added to new worlds automatically
-	"Add Temporary Freezing automatically" = false
+	"Add Temporary Freezing automatically" = true
 	#Sets the Aether Ruined Portals data pack to be added to new worlds automatically
 	"Add Ruined Portals automatically" = false
 [Modpack]

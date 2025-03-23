@@ -196,7 +196,7 @@ EntityEvents.death(event => {
             aetherBlock.allowed = 1
             server.scheduleInTicks(60, (callback) => {
                 server.players.forEach(player => {
-                    player.tell(Text.aqua('The Aether is now permanently unblocked!').bold())
+                    player.tell(Text.aqua('The Aether & Twilight Forest are now permanently unblocked!').bold())
                 })
             })
         }

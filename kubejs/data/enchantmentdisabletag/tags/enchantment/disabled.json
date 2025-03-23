@@ -20,6 +20,8 @@
       "extra_enchantments:illagers_bane",
       "extra_enchantments:hellwalker",
       "extra_enchantments:electrifying_shot",
+      "extra_enchantments:burning_thorns",
+      "extra_enchantments:freezing_thorns",
       "majruszsenchantments:death_wish",
       "majruszsenchantments:immortality",
       "majruszsenchantments:enlightenment",
@@ -41,6 +43,7 @@
       "elytra_enchants:launch",
       "zenith:icy_thorns",
       "zenith:life_mending",
-      "zenith:bane_of_illagers"
+      "zenith:bane_of_illagers",
+      "mob-ai-tweaks:featherweight_munitions"
     ]
   }

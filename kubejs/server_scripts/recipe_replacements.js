@@ -1,7 +1,7 @@
 // priority: 8
 let fullReplacements = [
-    ["doggytalents:rice_bowl", "farmersdelight:cooked_rice"],
-    ["doggytalents:koji", "vegandelight:soybean"]
+    ["doggytalents:rice_bowl", "#forge:wheat"],
+    ["doggytalents:koji", "minecraft:chicken"]
 ]
 
 ServerEvents.recipes(e => { 
@@ -92,5 +92,49 @@ LootJS.modifiers(e => {
     fullReplacements.forEach((replacing) => {
         e.addLootTableModifier(/.*/)
             .replaceLoot(replacing[0], replacing[1], true)
+    })
+    
+        
+    e.addLootTableModifier(/twilightforest:.*/)
+    .replaceLoot('minecraft:coal', 'aether:ambrosium_shard', true)
+    .replaceLoot('minecraft:iron_ingot', 'aether:zanite_gemstone', true)
+    .replaceLoot('minecraft:copper_ingot', 'botania:manasteel_ingot', true)
+    .replaceLoot('minecraft:diamond', 'aether:enchanted_gravitite', true)
+    .replaceLoot('minecraft:stick', 'aether:skyroot_stick', true)
+    .replaceLoot('minecraft:packed_ice', 'aether:icestone', true)
+    .replaceLoot('minecraft:apple', 'aether:white_apple', true)
+    .replaceLoot('minecraft:bread', 'aether:gingerbread_man', true)
+    .replaceLoot('minecraft:redstone_lamp', 'additionaladditions:amethyst_lamp', true)
+    .replaceLoot('minecraft:redstone', 'additionaladditions:copper_patina', true)
+    .replaceLoot('minecraft:bucket', 'aether:skyroot_bucket', true)
+    .replaceLoot('minecraft:milk_bucket', 'aether:skyroot_milk_bucket', true)
+    .replaceLoot('minecraft:string', 'botania:mana_string', true)
+    .replaceLoot('minecraft:trident', 'aether:lightning_sword', true)
+    .replaceLoot('minecraft:red_mushroom', 'aether:purple_flower', true)
+    .replaceLoot('minecraft:brown_mushroom', 'aether:white_flower', true)
+    .replaceLoot('minecraft:torch', 'aether:skyroot_torch', true)
+    .replaceLoot('minecraft:gold_ingot', 'aether:golden_oak_wood', true)
+    .replaceLoot('minecraft:cod', 'aether:skyroot_cod_bucket', false)
+    .replaceLoot('minecraft:salmon', 'aether:skyroot_salmon_bucket', false)
+    .replaceLoot('minecraft:ink_sac', 'minecraft:glow_ink_sac', false)
+
+    let materialOffsetReplacements = [
+        ['minecraft:iron', 'aether:zanite'],
+        ['minecraft:diamond', 'aether:gravitite'],
+    ].forEach(replacementMap => {
+        let toolArmorTypes = [
+            'pickaxe',
+            'axe',
+            'hoe',
+            'shovel',
+            'sword',
+            'helmet',
+            'chestplate',
+            'leggings',
+            'boots'
+        ].forEach(type => {
+            e.addLootTableModifier(/twilightforest:.*/)
+            .replaceLoot(`${replacementMap[0]}_${type}`, `${replacementMap[1]}_${type}`, true)
+        })
     })
 })

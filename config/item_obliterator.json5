@@ -45,7 +45,8 @@
     'tffaf:void_pouch',
     'tffaf:tethered_soul',
     'tffaf:blazing_charm',
-    'tffaf:wither_ring'
+    'tffaf:wither_ring',
+    'twilightforest:uncrafting_table'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
