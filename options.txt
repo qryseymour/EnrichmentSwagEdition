@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["vanilla","fabric","builtin/aether_tooltips","betterbeds:connectedbeds","continuity:default","Moonlight Mods Dynamic Assets"]
+resourcePacks:["vanilla","fabric","betterbeds:connectedbeds","continuity:default","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:["betterbeds:connectedbeds"]
 lastServer:
 lang:en_us
@@ -121,13 +121,9 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_nbttooltips.keybind:key.keyboard.left.alt
-key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.n
 key_key.ae2.portable_item_cell:key.keyboard.n
 key_key.ae2.portable_fluid_cell:key.keyboard.n
-key_key.aether.open_accessories.desc:key.keyboard.unknown
-key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
-key_key.aether.invisibility_toggle.desc:key.keyboard.left.alt
 key_artifacts.key.helium_flamingo.activate:key.keyboard.r
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.left.alt
 key_artifacts.key.universal_attractor.toggle:key.keyboard.right.alt

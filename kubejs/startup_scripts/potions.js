@@ -3,9 +3,9 @@ function stringToHash(string) {
     for (var i = 0; i < string.length; i++) {
         let code = string.codePointAt(i);
         hash = ((hash << 5) - hash) + code;
-        hash = hash & hash; // Convert to 32bit integer
+        hash = hash & hash; 
     }
-    return Math.abs(hash);
+    return hash;
 }
 
 var badEffects = [
@@ -95,20 +95,20 @@ MoreJSEvents.registerPotionBrewing(e => {
     e.removeByPotion(null, null, 'mysticpotions:saturation')
     e.removeByPotion(null, null, 'zenith:knowledge')
 
-    // flowers.forEach(flowerID => {
-    //     allEffects.forEach(potionID => {
-    //         let hashCode = stringToHash(potionID) + stringToHash(flowerID)
-    //         let remainder = hashCode % 6
-    //         let effect = ''
-    //         let oneTenth = (hashCode / 10) | 0
-    //         if (remainder <= 1) {
-    //             effect = badEffects[oneTenth % (badEffects.length)]
-    //         } else if (remainder == 5) {
-    //             effect = potionEffects[oneTenth % (potionEffects.length)]
-    //         } else {
-    //             effect = betterEffects[oneTenth % (betterEffects.length)]
-    //         }
-    //         e.addPotionBrewing(flowerID, potionID, effect)
-    //     })
-    // })
+    flowers.forEach(flowerID => {
+        allEffects.forEach(potionID => {
+            let hashCode = Math.abs(stringToHash(potionID) + stringToHash(flowerID))
+            let remainder = hashCode % 6
+            let effect = ''
+            let oneTenth = (hashCode / 10) | 0
+            if (remainder <= 1) {
+                effect = badEffects[oneTenth % (badEffects.length)]
+            } else if (remainder == 5) {
+                effect = betterEffects[oneTenth % (betterEffects.length)]
+            } else {
+                effect = potionEffects[oneTenth % (potionEffects.length)]
+            }
+            e.addPotionBrewing(flowerID, potionID, effect)
+        })
+    })
 })
