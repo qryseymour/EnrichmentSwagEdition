@@ -35,13 +35,13 @@ ServerEvents.recipes(e => {
 
     e.replaceInput({}, 'minecraft:quartz', '#c:gems/quartz')
 
-    e.replaceInput({ output: /aether:.*/ }, 'minecraft:redstone', 'ae2:sky_dust')
-    e.replaceInput({ output: /aether:.*/ }, 'minecraft:glowstone_dust', 'ae2:sky_dust')
+    // e.replaceInput({ output: /aether:.*/ }, 'minecraft:redstone', 'ae2:sky_dust')
+    // e.replaceInput({ output: /aether:.*/ }, 'minecraft:glowstone_dust', 'ae2:sky_dust')
     
-    e.replaceInput({ output: /botania:.*/ }, '#minecraft:dirt', 'aether:aether_grass_block')
-    e.replaceInput({ output: /botania:.*/ }, '#c:stone', 'aether:holystone')
-    e.replaceInput({ output: /botania:.*/ }, 'minecraft:iron_ingot', 'aether:zanite_gemstone')
-    e.replaceInput({ output: /botania:(?!mana_diamond).*/ }, 'minecraft:diamond', 'aether:enchanted_gravitite')
+    // e.replaceInput({ output: /botania:.*/ }, '#minecraft:dirt', 'aether:aether_grass_block')
+    // e.replaceInput({ output: /botania:.*/ }, '#c:stone', 'aether:holystone')
+    // e.replaceInput({ output: /botania:.*/ }, 'minecraft:iron_ingot', 'aether:zanite_gemstone')
+    // e.replaceInput({ output: /botania:(?!mana_diamond).*/ }, 'minecraft:diamond', 'aether:enchanted_gravitite')
 
     e.replaceInput({ output: 'botania:ender_eye_block' }, 'minecraft:redstone', 'ae2:ender_dust')
 
@@ -95,46 +95,46 @@ LootJS.modifiers(e => {
     })
     
         
-    e.addLootTableModifier(/twilightforest:.*/)
-    .replaceLoot('minecraft:coal', 'aether:ambrosium_shard', true)
-    .replaceLoot('minecraft:iron_ingot', 'aether:zanite_gemstone', true)
-    .replaceLoot('minecraft:copper_ingot', 'botania:manasteel_ingot', true)
-    .replaceLoot('minecraft:diamond', 'aether:enchanted_gravitite', true)
-    .replaceLoot('minecraft:stick', 'aether:skyroot_stick', true)
-    .replaceLoot('minecraft:packed_ice', 'aether:icestone', true)
-    .replaceLoot('minecraft:apple', 'aether:white_apple', true)
-    .replaceLoot('minecraft:bread', 'aether:gingerbread_man', true)
-    .replaceLoot('minecraft:redstone_lamp', 'additionaladditions:amethyst_lamp', true)
-    .replaceLoot('minecraft:redstone', 'additionaladditions:copper_patina', true)
-    .replaceLoot('minecraft:bucket', 'aether:skyroot_bucket', true)
-    .replaceLoot('minecraft:milk_bucket', 'aether:skyroot_milk_bucket', true)
-    .replaceLoot('minecraft:string', 'botania:mana_string', true)
-    .replaceLoot('minecraft:trident', 'aether:lightning_sword', true)
-    .replaceLoot('minecraft:red_mushroom', 'aether:purple_flower', true)
-    .replaceLoot('minecraft:brown_mushroom', 'aether:white_flower', true)
-    .replaceLoot('minecraft:torch', 'aether:skyroot_torch', true)
-    .replaceLoot('minecraft:gold_ingot', 'aether:golden_oak_wood', true)
-    .replaceLoot('minecraft:cod', 'aether:skyroot_cod_bucket', false)
-    .replaceLoot('minecraft:salmon', 'aether:skyroot_salmon_bucket', false)
-    .replaceLoot('minecraft:ink_sac', 'minecraft:glow_ink_sac', false)
+    // e.addLootTableModifier(/twilightforest:.*/)
+    // .replaceLoot('minecraft:coal', 'aether:ambrosium_shard', true)
+    // .replaceLoot('minecraft:iron_ingot', 'aether:zanite_gemstone', true)
+    // .replaceLoot('minecraft:copper_ingot', 'botania:manasteel_ingot', true)
+    // .replaceLoot('minecraft:diamond', 'aether:enchanted_gravitite', true)
+    // .replaceLoot('minecraft:stick', 'aether:skyroot_stick', true)
+    // .replaceLoot('minecraft:packed_ice', 'aether:icestone', true)
+    // .replaceLoot('minecraft:apple', 'aether:white_apple', true)
+    // .replaceLoot('minecraft:bread', 'aether:gingerbread_man', true)
+    // .replaceLoot('minecraft:redstone_lamp', 'additionaladditions:amethyst_lamp', true)
+    // .replaceLoot('minecraft:redstone', 'additionaladditions:copper_patina', true)
+    // .replaceLoot('minecraft:bucket', 'aether:skyroot_bucket', true)
+    // .replaceLoot('minecraft:milk_bucket', 'aether:skyroot_milk_bucket', true)
+    // .replaceLoot('minecraft:string', 'botania:mana_string', true)
+    // .replaceLoot('minecraft:trident', 'aether:lightning_sword', true)
+    // .replaceLoot('minecraft:red_mushroom', 'aether:purple_flower', true)
+    // .replaceLoot('minecraft:brown_mushroom', 'aether:white_flower', true)
+    // .replaceLoot('minecraft:torch', 'aether:skyroot_torch', true)
+    // .replaceLoot('minecraft:gold_ingot', 'aether:golden_oak_wood', true)
+    // .replaceLoot('minecraft:cod', 'aether:skyroot_cod_bucket', false)
+    // .replaceLoot('minecraft:salmon', 'aether:skyroot_salmon_bucket', false)
+    // .replaceLoot('minecraft:ink_sac', 'minecraft:glow_ink_sac', false)
 
-    let materialOffsetReplacements = [
-        ['minecraft:iron', 'aether:zanite'],
-        ['minecraft:diamond', 'aether:gravitite'],
-    ].forEach(replacementMap => {
-        let toolArmorTypes = [
-            'pickaxe',
-            'axe',
-            'hoe',
-            'shovel',
-            'sword',
-            'helmet',
-            'chestplate',
-            'leggings',
-            'boots'
-        ].forEach(type => {
-            e.addLootTableModifier(/twilightforest:.*/)
-            .replaceLoot(`${replacementMap[0]}_${type}`, `${replacementMap[1]}_${type}`, true)
-        })
-    })
+    // let materialOffsetReplacements = [
+    //     ['minecraft:iron', 'aether:zanite'],
+    //     ['minecraft:diamond', 'aether:gravitite'],
+    // ].forEach(replacementMap => {
+    //     let toolArmorTypes = [
+    //         'pickaxe',
+    //         'axe',
+    //         'hoe',
+    //         'shovel',
+    //         'sword',
+    //         'helmet',
+    //         'chestplate',
+    //         'leggings',
+    //         'boots'
+    //     ].forEach(type => {
+    //         e.addLootTableModifier(/twilightforest:.*/)
+    //         .replaceLoot(`${replacementMap[0]}_${type}`, `${replacementMap[1]}_${type}`, true)
+    //     })
+    // })
 })
