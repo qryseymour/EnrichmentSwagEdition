@@ -83,11 +83,11 @@ ServerEvents.recipes(e => {
         Item.of('travelersbackpack:emerald', 1),
         [
             'ABA',
-            'BCB',
-            'ABA'
+            'ACA',
+            'AAA'
         ],
         {
-            A: 'the_bumblezone:honey_crystal_shards',
+            A: 'zenith:lucky_foot',
             B: 'minecraft:emerald',
             C: 'travelersbackpack:standard',
         }

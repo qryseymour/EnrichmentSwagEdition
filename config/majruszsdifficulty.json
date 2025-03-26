@@ -318,50 +318,6 @@
         "required_game_stage": "expert",
         "chance": 0.5,
         "is_scaled_by_crd": true,
-        "entity_type": "the_bumblezone:bee_queen",
-        "effect": {
-          "id": "minecraft:unluck",
-          "amplifier": 0,
-          "duration": 1000.0
-        }
-      },
-      {
-        "required_game_stage": "expert",
-        "chance": 0.5,
-        "is_scaled_by_crd": true,
-        "entity_type": "the_bumblezone:bee_stinger",
-        "effect": {
-          "id": "minecraft:unluck",
-          "amplifier": 0,
-          "duration": 1000.0
-        }
-      },
-      {
-        "required_game_stage": "expert",
-        "chance": 0.5,
-        "is_scaled_by_crd": true,
-        "entity_type": "the_bumblezone:beehemoth",
-        "effect": {
-          "id": "minecraft:unluck",
-          "amplifier": 0,
-          "duration": 1000.0
-        }
-      },
-      {
-        "required_game_stage": "expert",
-        "chance": 0.5,
-        "is_scaled_by_crd": true,
-        "entity_type": "the_bumblezone:variant_bee",
-        "effect": {
-          "id": "minecraft:unluck",
-          "amplifier": 0,
-          "duration": 1000.0
-        }
-      },
-      {
-        "required_game_stage": "expert",
-        "chance": 0.5,
-        "is_scaled_by_crd": true,
         "entity_type": "minecraft:slime",
         "effect": {
           "id": "minecraft:slowness",
