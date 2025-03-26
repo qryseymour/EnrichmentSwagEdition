@@ -1,0 +1,487 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips : a spread factor can be a decimal number (such as 1.5)
+  //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
+  //        a spread factor above 1 means all structures are rarer
+  //        a spread factor below 1 means all structure are more common
+  "spreadFactor": 2,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    // example of the mansion being doubled in rarity (the mod's default)
+    {
+      "structure": "#minecraft:ocean_ruin",
+      "factor": 1.5
+    },
+    {
+      "structure": "#minecraft:ruined_portal",
+      "factor": 1.5
+    },
+    {
+      "structure": "#morevillagers:on_jungle_temple_explorer_maps",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:pillar_ruin_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:pillar_ruin_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:pillar_ruin_3",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:ruin_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:wall_ruin_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:wall_ruin_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:maya_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:temple_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:temple_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "betterarcheology:buried_ruins_sand",
+      "factor": 1.5
+    },
+    {
+      "structure": "betterarcheology:mesa_ruins",
+      "factor": 1.5
+    },
+    {
+      "structure": "betterarcheology:ruins_sand",
+      "factor": 1.5
+    },
+    {
+      "structure": "betterarcheology:light_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "betterarcheology:temple_jungle",
+      "factor": 1.5
+    },
+    {
+      "structure": "betterjungletemples:jungle_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "betternether:jungle_temples",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:trail_ruins",
+      "factor": 1.5
+    },
+    {
+      "structure": "repurposed_structures:ruins_land_cold",
+      "factor": 1.5
+    },
+    {
+      "structure": "repurposed_structures:ruins_land_hot",
+      "factor": 1.5
+    },
+    {
+      "structure": "repurposed_structures:ruins_land_icy",
+      "factor": 1.5
+    },
+    {
+      "structure": "repurposed_structures:ruins_land_warm",
+      "factor": 1.5
+    },
+    {
+      "structure": "repurposed_structures:temple_ocean",
+      "factor": 1.5
+    },
+    {
+      "structure": "repurposed_structures:temple_taiga",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory:jungle_ruin",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory:northern_ruin",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory:ruin_grassy",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory:swamp_ruin",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory:dense_forest_ruin",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory:taiga_ruin_surface",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory:abandoned_camp",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory:abandoned_chapel",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory_towers:ancient_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "structory_towers:sacred_relic_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "#mythic_charms:camp",
+      "factor": 2
+    },
+    {
+      "structure": "#structory_towers:any_tower",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:camp_1",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:camp_2",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:camp_3",
+      "factor": 2
+    },
+    {
+      "structure": "betterarcheology:archeologist_camp_grassy",
+      "factor": 2
+    },
+    {
+      "structure": "betterarcheology:archeologist_camp_redsand",
+      "factor": 2
+    },
+    {
+      "structure": "betterarcheology:archeologist_camp_sand",
+      "factor": 2
+    },
+    {
+      "structure": "letsdoaddon-structures:illager_camp",
+      "factor": 2
+    },
+    {
+      "structure": "meadow:logging_camp",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:tower_1",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:tower_2",
+      "factor": 2
+    },
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "factor": 2
+    },
+    {
+      "structure": "illagerinvasion:illusioner_tower",
+      "factor": 2
+    },
+    {
+      "structure": "zenith:tower_leaf",
+      "factor": 2
+    },
+    {
+      "structure": "zenith:tower_main",
+      "factor": 2
+    },
+    {
+      "structure": "zenith:tower_sand",
+      "factor": 2
+    },
+    {
+      "structure": "zenith:tower_spruce",
+      "factor": 2
+    },
+    {
+      "structure": "#aquamirae:outpost",
+      "factor": 2
+    },
+    {
+      "structure": "#minecraft:pillager_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "letsdoaddon-structures:mangrove_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "letsdoaddon-structures:meadow_pillager_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_badlands",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_birch",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_desert",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_giant_tree_taiga",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_icy",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_jungle",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_mangrove",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_oak",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_snowy",
+      "factor": 2
+    },
+    {
+      "structure": "repurposed_structures:outpost_taiga",
+      "factor": 2
+    },
+    {
+      "structure": "structory_towers:farmer_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "structory_towers:foraging_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "structory_towers:mirage_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "structory_towers:nomad_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "structory_towers:quarter_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "structory_towers:taiga_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "vfs:pillager_outpost_desert",
+      "factor": 2
+    },
+    {
+      "structure": "vfs:pillager_outpost_snowy",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:illager_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:mushroom_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:mushroom_house_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:villager_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:villager_house_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:villager_house_3",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:villager_house_4",
+      "factor": 2.5
+    },
+    {
+      "structure": "profundis:mushroom_house",
+      "factor": 2.5
+    },
+    {
+      "structure": "friendsandfoes:iceologer_cabin",
+      "factor": 2.5
+    },
+    {
+      "structure": "profundis:cabin",
+      "factor": 2.5
+    },
+    {
+      "structure": "#integrated_villages:villages",
+      "factor": 3
+    },
+    {
+      "structure": "#minecraft:village",
+      "factor": 3
+    },
+    {
+      "structure": "betterarcheology:villager_grave",
+      "factor": 1.5
+    },
+    {
+      "structure": "repurposed_structures:village_badlands",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_bamboo",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_birch",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_cherry",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_dark_forest",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_giant_taiga",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_jungle",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_mountains",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_mushroom",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_oak",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_ocean",
+      "factor": 3
+    },
+    {
+      "structure": "repurposed_structures:village_swamp",
+      "factor": 3
+    },
+    {
+      "structure": "stoneholm:underground_village",
+      "factor": 3
+    },
+    {
+      "structure": "minecraft:mansion",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:mansion_birch",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:mansion_desert",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:mansion_jungle",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:mansion_mangrove",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:mansion_oak",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:mansion_savanna",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:mansion_snowy",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:mansion_taiga",
+      "factor": 3.5
+    },
+    {
+      "structure": "underground_bunkers:underground_bunker",
+      "factor": 3.5
+    },
+    {
+      "structure": "repurposed_structures:ancient_city_ocean",
+      "factor": 4
+    },
+    {
+      "structure": "repurposed_structures:city_overworld",
+      "factor": 4
+    },
+    {
+      "structure": "betterdeserttemples:desert_temple",
+      "factor": 4
+    },
+    // add the structures you want to modify in the format:
+    // {
+    //     "structure": "namespace:structure_name",
+    //     "factor": number
+    // },
+    // where "structure" is a structure_set or the name of a structure
+    // /!\ if you put the name of a structure, all structures in its set will be modified
+    // (example : "minecraft:village_plains" will modify all structures in the "villages" set)
+    // see https://minecraft.wiki/w/Tutorials/Custom_structures#Structure_Set for more info
+    //
+    // tip : you can dump all structure sets in a file by running the custom command /dumpstructuresets
+    // tip : the same spread factors rules apply here
+  ]
+}
