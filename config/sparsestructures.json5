@@ -60,6 +60,10 @@
       "factor": 1.5
     },
     {
+      "structure": "ae2:meteorite",
+      "factor": 2
+    },
+    {
       "structure": "#mythic_charms:camp",
       "factor": 2
     },
@@ -124,10 +128,6 @@
       "factor": 2.5
     },
     {
-      "structure": "#integrated_villages:villages",
-      "factor": 3
-    },
-    {
       "structure": "#minecraft:village",
       "factor": 3
     },
@@ -158,6 +158,10 @@
     {
       "structure": "zenith:tower_spruce",
       "factor": 4
+    },
+    {
+      "structure": "#integrated_villages:villages",
+      "factor": 6
     },
     // add the structures you want to modify in the format:
     // {
