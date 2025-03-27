@@ -152,6 +152,7 @@ key_fakerlib.toggleWings:key.keyboard.unknown
 key_fakerlib.toggleTrails:key.keyboard.unknown
 key_key.jetpack.toggle_active.description:key.keyboard.right.alt
 key_key.jetpack.toggle_hover.description:key.keyboard.left.alt
+key_text.HorseBuff.keybinding.horsePlayerInventory:key.keyboard.left.alt
 key_key.jei.toggleOverlay:key.keyboard.f10
 key_key.jei.focusSearch:key.keyboard.tab
 key_key.jei.previousPage:key.keyboard.left
@@ -190,6 +191,11 @@ key_key.musuen.shockwave_enchantment:key.keyboard.r
 key_key.origins.primary_active:key.keyboard.r
 key_key.origins.secondary_active:key.keyboard.z
 key_key.origins.view_origin:key.keyboard.o
+key_key.toggleVisualItemContents:key.keyboard.unknown
+key_key.toggleSelectedItemTooltips:key.keyboard.unknown
+key_key.toggleCarriedItemTooltips:key.keyboard.unknown
+key_key.cycleLeft:key.keyboard.g
+key_key.cycleRight:key.keyboard.h
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.right.alt
 key_key.replaymod.playeroverview:key.keyboard.b
