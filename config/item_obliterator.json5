@@ -47,7 +47,8 @@
     'tffaf:blazing_charm',
     'tffaf:wither_ring',
     'twilightforest:uncrafting_table',
-    'additionaladditions:honeyed_apple'
+    'additionaladditions:honeyed_apple',
+    'betterend:ender_dust'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

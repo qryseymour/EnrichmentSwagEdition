@@ -1,7 +1,8 @@
 // priority: 8
 let fullReplacements = [
     ["doggytalents:rice_bowl", "#forge:wheat"],
-    ["doggytalents:koji", "minecraft:chicken"]
+    ["doggytalents:koji", "minecraft:chicken"],
+    ["betterend:ender_dust", "ae2:ender_dust"]
 ]
 
 ServerEvents.recipes(e => { 

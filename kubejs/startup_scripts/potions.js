@@ -8,7 +8,23 @@ function stringToHash(string) {
     return hash;
 }
 
+var worseEffects = [
+    'minecraft:long_slowness',
+    'minecraft:strong_slowness',
+    'minecraft:strong_harming',
+    'minecraft:long_poison',
+    'minecraft:strong_poison',
+    'minecraft:long_weakness',
+]
+
 var badEffects = [
+    'minecraft:poison',
+    'minecraft:harming',
+    'minecraft:weakness',
+    'minecraft:slowness',
+]
+
+var nullEffects = [
     'minecraft:mundane',
     'minecraft:thick',
     'minecraft:awkward'
@@ -17,96 +33,83 @@ var badEffects = [
 var potionEffects = [
     'minecraft:night_vision',
     'minecraft:invisibility',
-    'minecraft:leaping',
     'minecraft:fire_resistance',
-    'minecraft:swiftness',
-    'minecraft:slowness',
     'minecraft:turtle_master',
     'minecraft:water_breathing',
-    'minecraft:healing',
-    'minecraft:harming',
-    'minecraft:poison',
-    'minecraft:regeneration',
-    'minecraft:strength',
-    'minecraft:weakness',
     'minecraft:luck',
     'minecraft:slow_falling'
 ]
 
-var betterEffects = [
+var goodEffects = [
     'minecraft:long_night_vision',
     'minecraft:long_invisibility',
-    'minecraft:long_leaping',
-    'minecraft:strong_leaping',
     'minecraft:long_fire_resistance',
-    'minecraft:long_swiftness',
-    'minecraft:strong_swiftness',
-    'minecraft:long_slowness',
-    'minecraft:strong_slowness',
     'minecraft:long_turtle_master',
     'minecraft:strong_turtle_master',
     'minecraft:long_water_breathing',
-    'minecraft:strong_healing',
-    'minecraft:strong_harming',
-    'minecraft:long_poison',
-    'minecraft:strong_poison',
+    'minecraft:long_slow_falling',
+    'minecraft:leaping',
+    'minecraft:swiftness',
+    'minecraft:healing',
+    'minecraft:regeneration',
+    'minecraft:strength',
+]
+
+var greatEffects = [
+    'minecraft:long_leaping',
+    'minecraft:strong_leaping',
+    'minecraft:long_swiftness',
+    'minecraft:strong_swiftness',
     'minecraft:long_regeneration',
     'minecraft:strong_regeneration',
     'minecraft:long_strength',
     'minecraft:strong_strength',
-    'minecraft:long_weakness',
-    'minecraft:long_slow_falling'
+    'minecraft:strong_healing',
 ]
 
-var allEffects = badEffects.concat(potionEffects.concat(betterEffects))
+var excellentEffects = [
+    'mysticpotions:saturation',
+    'zenith:knowledge'
+]
 
-var flowers = [
-    'regions_unexplored:daisy',
-    'regions_unexplored:hyssop',
-    'regions_unexplored:tassel',
-    'regions_unexplored:meadow_sage',
-    'regions_unexplored:pink_lupine',
-    'regions_unexplored:salmon_poppy_bush',
-    'regions_unexplored:fireweed',
-    'regions_unexplored:bleeding_heart',
-    'regions_unexplored:waratah',
-    'regions_unexplored:white_trillium',
-    'regions_unexplored:red_lupine',
-    'regions_unexplored:aster',
-    'regions_unexplored:blue_lupine',
-    'regions_unexplored:day_lily',
-    'minecraft:cornflower',
-    'minecraft:blue_orchid',
-    'minecraft:orange_tulip',
-    'minecraft:rose_bush',
-    'minecraft:azure_bluet',
-    'minecraft:peony',
-    'minecraft:oxeye_daisy',
-    'minecraft:allium',
-    'minecraft:red_tulip',
-    'minecraft:poppy',
-    'minecraft:dandelion',
-    'minecraft:white_tulip',
-    'farm_and_charm:wild_emmer',
-    'friendsandfoes:buttercup'
+var positiveOnlyEffects = potionEffects.concat(goodEffects.concat(greatEffects))
+
+var redFlowers = [
+    'minecraft:sunflower',
+	'botania:daybloom_motif',
+	'minecraft:poppy',
+	'minecraft:red_tulip',
+	'candlelight:rose',
+	'farm_and_charm:wild_tomatoes',
+	'farm_and_charm:wild_strawberries',
+	'herbalbrews:hibiscus',
+	'regions_unexplored:alpha_rose',
+	'regions_unexplored:poppy_bush',
+	'regions_unexplored:tsubaki',
+	'regions_unexplored:waratah',
+	'regions_unexplored:red_lupine',
+	'twilightforest:thorn_rose',
+	'minecraft:rose_bush',
+	'regions_unexplored:hibiscus'
 ]
 
 MoreJSEvents.registerPotionBrewing(e => {
     e.removeByPotion(null, null, 'mysticpotions:saturation')
     e.removeByPotion(null, null, 'zenith:knowledge')
+    e.removeByPotion('ae2:ender_dust', 'minecraft:awkward', 'betterend:end_veil')
 
-    flowers.forEach(flowerID => {
-        allEffects.forEach(potionID => {
+    redFlowers.forEach(flowerID => {
+        positiveOnlyEffects.forEach(potionID => {
             let hashCode = Math.abs(stringToHash(potionID) + stringToHash(flowerID))
             let remainder = hashCode % 6
             let effect = ''
             let oneTenth = (hashCode / 10) | 0
             if (remainder <= 1) {
-                effect = badEffects[oneTenth % (badEffects.length)]
-            } else if (remainder == 5) {
-                effect = betterEffects[oneTenth % (betterEffects.length)]
-            } else {
                 effect = potionEffects[oneTenth % (potionEffects.length)]
+            } else if (remainder <= 4) {
+                effect = goodEffects[oneTenth % (goodEffects.length)]
+            } else {
+                effect = greatEffects[oneTenth % (greatEffects.length)]
             }
             e.addPotionBrewing(flowerID, potionID, effect)
         })
