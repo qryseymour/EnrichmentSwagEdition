@@ -229,6 +229,374 @@ var redFlowers = {
     ]
 }
 
+var greenFlowers = {
+    flowers: [
+        'botania:hopperhock',
+	    'botania:hopperhock_chibi',
+	    'botania:rannuncarpus',
+	    'botania:rannuncarpus_chibi',
+	    'farm_and_charm:wild_lettuce',
+	    'meadow:pine_sapling',
+	    'minecraft:mangrove_propagule',
+	    'many_flowers:emerald_flower',
+    ],
+    effectMap: [
+        potionEffects,
+        potionEffects,
+        potionEffects,
+        goodEffects,
+        greatEffects,
+        greatEffects
+    ]
+}
+
+var pinkFlowers = {
+    flowers: [
+        'many_flowers:chrysanthemum',
+	    'botania:fallen_kanade',
+	    'minecraft:pink_tulip',
+	    'meadow:saxifrage',
+	    'regions_unexplored:bleeding_heart',
+	    'regions_unexplored:glistering_bloom',
+	    'regions_unexplored:pink_lupine',
+	    'minecraft:cherry_leaves',
+	    'regions_unexplored:pink_magnolia_flowers',
+	    'regions_unexplored:salmon_poppy_bush',
+	    'minecraft:peony',
+    ],
+    effectMap: [
+        nullEffects,
+        potionEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        greatEffects
+    ]
+}
+
+var daisies = {
+    flowers: [
+        'minecraft:oxeye_daisy',
+	    'regions_unexplored:daisy',
+	    'regions_unexplored:felicia_daisy',
+	    'regions_unexplored:mycotoxic_daisy',
+	    'minecraft:orange_tulip',
+	    'meadow:alpine_poppy',
+	    'regions_unexplored:mallow',
+	    'regions_unexplored:day_lily',
+	    'regions_unexplored:orange_coneflower',
+    ],
+    effectMap: [
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects
+    ]
+}
+
+var yellowFlowers = {
+    flowers: [
+        'botania:orechid',
+	    'botania:orechid_ignem',
+	    'botania:loonium',
+	    'minecraft:dandelion',
+	    'farm_and_charm:wild_emmer',
+	    'farm_and_charm:wild_corn',
+	    'farm_and_charm:wild_barley',
+	    'friendsandfoes:buttercup',
+	    'regions_unexplored:alpha_dandelion',
+    ],
+    effectMap: [
+        badEffects,
+        badEffects,
+        greatEffects,
+        greatEffects,
+        greatEffects,
+        greatEffects
+    ]
+}
+
+var purpleFlowers = {
+    flowers: [
+        'botania:solegnolia',
+	    'botania:solegnolia_chibi',
+	    'minecraft:allium',
+	    'farm_and_charm:wild_nettle',
+	    'farm_and_charm:wild_potatoes',
+	    'farm_and_charm:wild_onions',
+	    'herbalbrews:lavender',
+	    'meadow:delphinium',
+	    'regions_unexplored:hyssop',
+	    'regions_unexplored:purple_lupine',
+	    'minecraft:lilac',
+	    'overweight_farming:allium_bush',
+	    'minecraft:flowering_azalea_leaves',
+	    'minecraft:flowering_azalea',
+	    'regions_unexplored:purple_coneflower',
+    ],
+    effectMap: [
+        worseEffects,
+        potionEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        greatEffects
+    ]
+}
+
+var eatingFlowers = {
+    flowers: [
+        'botania:kekimurus',
+	    'botania:gourmaryllis',
+	    'botania:dandelifeon',
+	    'botania:narslimmus',
+	    'botania:spectrolus',
+    ],
+    effectMap: [
+        nullEffects,
+        potionEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        greatEffects
+    ]
+}
+
+var blueFlowers = {
+    flowers: [
+        'botania:spectranthemum',
+	    'botania:daffomill',
+	    'botania:bergamute',
+	    'botania:bubbell',
+	    'botania:marimorphosis',
+	    'botania:shulk_me_not',
+	    'botania:rosa_arcana',
+	    'botania:hydroangeas',
+	    'botania:hydroangeas_motif',
+	    'botania:manastar',
+	    'regions_unexplored:aster',
+	    'minecraft:pitcher_plant',
+	    'minecraft:blue_orchid',
+	    'minecraft:cornflower',
+	    'meadow:enzian',
+	    'regions_unexplored:blue_lupine',
+	    'regions_unexplored:hyacinth_flowers',
+	    'regions_unexplored:blue_magnolia_flowers',
+	    'supplementaries:wild_flax',
+	    'many_flowers:diamond_flower',
+    ],
+    effectMap: [
+        potionEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        excellentEffects,
+    ]
+}
+
+var jungleFlowers = {
+    flowers: [
+        'botania:munchdew',
+	    'botania:rafflowsia',
+	    'botania:hyacidus',
+	    'botania:agricarnation',
+	    'botania:agricarnation_chibi',
+	    'farm_and_charm:wild_carrots',
+	    'farm_and_charm:wild_beetroots',
+    ],
+    effectMap: [
+        nullEffects,
+        nullEffects,
+        nullEffects,
+        excellentEffects,
+        excellentEffects,
+        excellentEffects,
+    ]
+}
+
+var fireFlowers = {
+    flowers: [
+        'botania:endoflame',
+	    'many_flowers:gaillardia',
+	    'botania:thermalily',
+	    'botania:exoflame',
+	    'betterend:chorus_mushroom_cooked',
+	    'betterend:bolux_mushroom_cooked',
+	    'minecraft:torchflower',
+	    'regions_unexplored:fireweed',
+	    'meadow:fire_lily',
+	    'regions_unexplored:dorcel',
+	    'many_flowers:coal_flower',
+    ],
+    effectMap: [
+        worseEffects,
+        worseEffects,
+        potionEffects,
+        excellentEffects,
+        excellentEffects,
+        excellentEffects,
+    ]
+}
+
+var shyFlowers = {
+    flowers: [
+        'minecraft:cactus',
+	    'betterend:neon_cactus',
+	    'betterend:neon_cactus_block',
+	    'betternether:barrel_cactus',
+	    'betternether:nether_cactus',
+	    'regions_unexplored:cactus_flower',
+	    'regions_unexplored:barrel_cactus',
+	    'regions_unexplored:saguaro_cactus',
+	    'minecraft:chorus_flower',
+	    'minecraft:bamboo',
+	    'regions_unexplored:bamboo_sapling',
+    ],
+    effectMap: [
+        nullEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+    ]
+}
+
+var turtleFlowers = {
+    flowers: [
+        'minecraft:weeping_vines',
+	    'minecraft:twisting_vines',
+	    'minecraft:vine',
+	    'betterend:dense_vine',
+	    'betterend:twisted_vine',
+	    'betterend:bulb_vine',
+	    'betterend:jungle_vine',
+	    'betternether:black_vine',
+	    'betternether:blooming_vine',
+	    'betternether:golden_vine',
+	    'regions_unexplored:kapok_vines',
+	    'underground_jungle:jungle_vines',
+	    'botania:medumone',
+	    'botania:tangleberrie',
+	    'botania:vinculotus',
+    ],
+    effectMap: [
+        potionEffects,
+        potionEffects,
+        potionEffects,
+        goodEffects,
+        goodEffects,
+        excellentEffects,
+    ]
+}
+
+var undergroundFlowers = {
+    flowers: [
+        'minecraft:brown_mushroom',
+	    'minecraft:red_mushroom',
+	    'betterend:bolux_mushroom',
+	    'betterend:small_amaranita_mushroom',
+	    'betterend:chorus_mushroom_raw',
+	    'betternether:orange_mushroom',
+	    'betternether:jellyfish_mushroom_sapling',
+	    'betternether:neon_equisetum',
+	    'betternether:hook_mushroom',
+	    'betternether:wall_mushroom_brown',
+	    'betternether:wall_mushroom_red',
+	    'betternether:mushroom_fir_sapling',
+	    'betternether:anchor_tree_sapling',
+	    'betternether:nether_sakura_sapling',
+    ],
+    effectMap: [
+        potionEffects,
+        potionEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        greatEffects
+    ]
+}
+
+var miniFlowers = {
+    flowers: [
+        'betterend:inflexia',
+	    'betterend:flammalix',
+	    'betterend:small_jellyshroom',
+	    'betterend:small_amaranita_mushroom',
+	    'regions_unexplored:small_desert_shrub',
+	    'regions_unexplored:small_oak_sapling',
+	    'meadow:small_fir',
+	    'botania:marimorphosis_chibi',
+	    'botania:tangleberrie_chibi',
+	    'botania:bubbell_chibi',
+    ],
+    effectMap: [
+        potionEffects,
+        potionEffects,
+        potionEffects,
+        goodEffects,
+        goodEffects,
+        excellentEffects
+    ]
+}
+
+var hammerFlowers = {
+    flowers: [
+        'botania:clayconia',
+	    'botania:clayconia_chibi',
+	    'botania:jaded_amaranthus',
+	    'botania:pure_daisy',
+    ],
+    effectMap: [
+        potionEffects,
+        potionEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        greatEffects
+    ]
+}
+
+var undeadFlowers = {
+    flowers: [
+        'many_flowers:jack_flower',
+	    'botania:bellethorne',
+	    'botania:bellethorn_chibi',
+	    'botania:dreadthorne',
+	    'botania:jiyuulia',
+	    'botania:jiyuulia_chibi',
+	    'botania:heisei_dream',
+	    'botania:nightshade_motif',
+    ],
+    effectMap: [
+        badEffects,
+        badEffects,
+        goodEffects,
+        goodEffects,
+        excellentEffects,
+        excellentEffects
+    ]
+}
+
+var boomerangFlowers = {
+    flowers: [
+        'botania:entropinnyum',
+	    'many_flowers:oriental_poppy',
+	    'botania:tigerseye',
+    ],
+    effectMap: [
+        nullEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        goodEffects,
+        excellentEffects
+    ]
+}
+
 function stringToHash(string) {
     let hash = 0;
     for (var i = 0; i < string.length; i++) {
@@ -265,4 +633,20 @@ MoreJSEvents.registerPotionBrewing(e => {
     e.addPotionBrewing('ae2:ender_dust', 'minecraft:awkward', 'betterend:end_veil')
 
     mapFlowersToPotions(redFlowers, e)
+    mapFlowersToPotions(greenFlowers, e)
+    mapFlowersToPotions(pinkFlowers, e)
+    mapFlowersToPotions(daisies, e)
+    mapFlowersToPotions(yellowFlowers, e)
+    mapFlowersToPotions(purpleFlowers, e)
+    mapFlowersToPotions(eatingFlowers, e)
+    mapFlowersToPotions(blueFlowers, e)
+    mapFlowersToPotions(jungleFlowers, e)
+    mapFlowersToPotions(fireFlowers, e)
+    mapFlowersToPotions(shyFlowers, e)
+    mapFlowersToPotions(turtleFlowers, e)
+    mapFlowersToPotions(undergroundFlowers, e)
+    mapFlowersToPotions(miniFlowers, e)
+    mapFlowersToPotions(hammerFlowers, e)
+    mapFlowersToPotions(undeadFlowers, e)
+    mapFlowersToPotions(boomerangFlowers, e)
 })
