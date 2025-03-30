@@ -24,6 +24,98 @@
       "factor": 1.5
     },
     {
+      "structure": "additionalstructures:pillar_ruin_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:pillar_ruin_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:pillar_ruin_3",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:ruin_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:wall_ruin_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:wall_ruin_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:maya_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:temple_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:temple_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "adorabuild_structures:blackstone_temple_small_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "adorabuild_structures:ocean_temple_medium_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "adorabuild_structures:ocean_temple_medium_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "adorabuild_structures:ocean_temple_small_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "adorabuild_structures:ocean_temple_small_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "adorabuild_structures:red_sand_temple_medium_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "adorabuild_structures:red_sand_temple_small_1",
+      "factor": 1.5
+    },
+    {
+      "structure": "ati_structures:haunted_ruin",
+      "factor": 1.5
+    },
+    {
+      "structure": "ati_structures:ruined_castle",
+      "factor": 1.5
+    },
+    {
+      "structure": "ati_structures:stray_ruins",
+      "factor": 1.5
+    },
+    {
+      "structure": "ati_structures:ancient_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "ati_structures:fortified_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "ati_structures:rotting_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "ati_structures:sinking_temple",
+      "factor": 1.5
+    },
+    {
       "structure": "betterarcheology:buried_ruins_sand",
       "factor": 1.5
     },
@@ -48,10 +140,6 @@
       "factor": 1.5
     },
     {
-      "structure": "betternether:jungle_temples",
-      "factor": 1.5
-    },
-    {
       "structure": "minecraft:trail_ruins",
       "factor": 1.5
     },
@@ -65,6 +153,26 @@
     },
     {
       "structure": "#mythic_charms:camp",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:camp_1",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:camp_2",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:camp_3",
+      "factor": 2
+    },
+    {
+      "structure": "adorabuild_structures:bamboo_campfire_1",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:nomadic_camp",
       "factor": 2
     },
     {
@@ -88,7 +196,35 @@
       "factor": 2
     },
     {
+      "structure": "qrafty:camp",
+      "factor": 2
+    },
+    {
       "structure": "brewery:brewfest_tent",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:tower_1",
+      "factor": 2
+    },
+    {
+      "structure": "additionalstructures:tower_2",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:dark_tower",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:illager_tower",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:monastery_tower",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:mud_tower",
       "factor": 2
     },
     {
@@ -100,7 +236,31 @@
       "factor": 2
     },
     {
+      "structure": "qrafty:tower",
+      "factor": 2
+    },
+    {
+      "structure": "twilightforest:dark_tower",
+      "factor": 2
+    },
+    {
+      "structure": "twilightforest:lich_tower",
+      "factor": 2
+    },
+    {
+      "structure": "twilightforest:mushroom_tower",
+      "factor": 2
+    },
+    {
       "structure": "#aquamirae:outpost",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:desert_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:overgrown_ou",
       "factor": 2
     },
     {
@@ -114,6 +274,190 @@
     {
       "structure": "letsdoaddon-structures:meadow_pillager_outpost",
       "factor": 2
+    },
+    {
+      "structure": "additionalstructures:illager_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:mushroom_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:mushroom_house_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:villager_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:villager_house_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:villager_house_3",
+      "factor": 2.5
+    },
+    {
+      "structure": "additionalstructures:villager_house_4",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:acacia_house_medium_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:acacia_house_medium_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:acacia_house_medium_3",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:acacia_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:acacia_house_small_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:bamboo_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:birch_house_medium_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:birch_house_medium_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:birch_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:birch_house_small_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:cherry_house_medium_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:cherry_house_medium_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:dark_oak_house_large_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:dark_oak_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:frozen_house_medium_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:jungle_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:jungle_tree_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:mangrove_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:mangrove_tree_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:mangrove_tree_house_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:oak_house_large_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:oak_house_medium_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:oak_house_medium_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:oak_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:oak_house_small_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:oak_house_small_3",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:red_sand_house_medium_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:red_sand_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:sand_house_medium_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:sand_house_medium_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:sand_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:sand_house_small_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:spruce_house_large_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:spruce_house_medium_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:spruce_house_small_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:spruce_house_small_2",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:spruce_house_small_3",
+      "factor": 2.5
+    },
+    {
+      "structure": "ati_structures:steam_house",
+      "factor": 2.5
+    },
+    {
+      "structure": "ati_structures:storage_house",
+      "factor": 2.5
     },
     {
       "structure": "profundis:mushroom_house",
@@ -132,6 +476,14 @@
       "factor": 3
     },
     {
+      "structure": "ati_structures:villager_inn",
+      "factor": 3
+    },
+    {
+      "structure": "qrafty:igloo_village",
+      "factor": 3
+    },
+    {
       "structure": "stoneholm:underground_village",
       "factor": 3
     },
@@ -140,7 +492,31 @@
       "factor": 3.5
     },
     {
+      "structure": "adorabuild_structures:sand_castle_small_1",
+      "factor": 4
+    },
+    {
+      "structure": "adorabuild_structures:sand_castle_tiny_1",
+      "factor": 4
+    },
+    {
+      "structure": "ati_structures:ruined_castle",
+      "factor": 4
+    },
+    {
       "structure": "betterdeserttemples:desert_temple",
+      "factor": 4
+    },
+    {
+      "structure": "twilightforest:aurora_palace",
+      "factor": 4
+    },
+    {
+      "structure": "twilightforest:hydra_lair",
+      "factor": 4
+    },
+    {
+      "structure": "twilightforest:final_castle",
       "factor": 4
     },
     {

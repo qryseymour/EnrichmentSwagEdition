@@ -53,4 +53,90 @@ ServerEvents.commandRegistry(event => {
             return 1
         }))
     )
+
+    
+
+    event.register(Commands.literal('unblockNether')
+        .requires(src => src.hasPermission(4))
+        .executes(ctx => {
+            let server = ctx.source.getServer()
+            var { players } = server;
+            var { netherBlock } = server.persistentData;
+            netherBlock.allowed = 1
+            players.forEach(player => {
+                player.tell(Text.darkRed('The Nether is now unblocked!'))
+            })
+            return 1
+        })
+    )
+
+    event.register(Commands.literal('blockNether')
+        .requires(src => src.hasPermission(4))
+        .executes(ctx => {
+            let server = ctx.source.getServer()
+            var { players } = server;
+            var { netherBlock } = server.persistentData;
+            netherBlock.allowed = 0
+            players.forEach(player => {
+                player.tell(Text.darkRed('The Nether is now blocked!'))
+            })
+            return 1
+        })
+    )
+
+    event.register(Commands.literal('unblockTwilight')
+        .requires(src => src.hasPermission(4))
+        .executes(ctx => {
+            let server = ctx.source.getServer()
+            var { players } = server;
+            var { twilightForestBlock } = server.persistentData;
+            twilightForestBlock.allowed = 1
+            players.forEach(player => {
+                player.tell(Text.aqua('The Twilight Forest is now unblocked!'))
+            })
+            return 1
+        })
+    )
+
+    event.register(Commands.literal('blockTwilight')
+        .requires(src => src.hasPermission(4))
+        .executes(ctx => {
+            let server = ctx.source.getServer()
+            var { players } = server;
+            var { twilightForestBlock } = server.persistentData;
+            twilightForestBlock.allowed = 0
+            players.forEach(player => {
+                player.tell(Text.aqua('The Twilight Forest is now blocked!'))
+            })
+            return 1
+        })
+    )
+
+    event.register(Commands.literal('unblockEnd')
+        .requires(src => src.hasPermission(4))
+        .executes(ctx => {
+            let server = ctx.source.getServer()
+            var { players } = server;
+            var { endBlock } = server.persistentData;
+            endBlock.allowed = 1
+            players.forEach(player => {
+                player.tell(Text.darkPurple('The End is now unblocked!'))
+            })
+            return 1
+        })
+    )
+
+    event.register(Commands.literal('blockEnd')
+        .requires(src => src.hasPermission(4))
+        .executes(ctx => {
+            let server = ctx.source.getServer()
+            var { players } = server;
+            var { endBlock } = server.persistentData;
+            endBlock.allowed = 0
+            players.forEach(player => {
+                player.tell(Text.darkPurple('The End is now blocked!'))
+            })
+            return 1
+        })
+    )
 })

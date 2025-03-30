@@ -1,6 +1,7 @@
 ServerEvents.loaded(event => {
     var { server } = event;
     var { persistentData } = server;
+    
     if (!server.persistentData.netherBlock) {
         console.log(`Supplementing dimension block data`)
         persistentData.netherBlock = {
@@ -21,7 +22,14 @@ ServerEvents.loaded(event => {
             NecromancerBlock: 1,
             InquisitorBlock: 1,
             FirecallerBlock: 1,
+            allowed: 0
+        }
+        persistentData.endBlock = {
+            WitherBlock: 1,
             InvokerBlock: 1,
+            LichBlock: 1,
+            NetherGauntletBlock: 1,
+            VoidBlossomBlock: 1,
             allowed: 0
         }
     }
@@ -29,14 +37,12 @@ ServerEvents.loaded(event => {
 
 EntityEvents.death(event => {
     var { server } = event;
-    var { netherBlock, twilightForestBlock } = server.persistentData;
+    var { netherBlock, twilightForestBlock, endBlock } = server.persistentData;
     var { players } = server;
     const victimType = event.entity.type;
     const attackerType = event.source?.player?.type || "nothing";
 
-    console.log(`${attackerType} killed a ${victimType}`)
     if (attackerType == 'minecraft:player' || attackerType == 'minecraft:wolf') {
-        console.log(`attackType is valid!`)
         switch(victimType) {
             case "minecraft:ravager":
                 if (netherBlock.RavagerBlock > 0) {
@@ -151,19 +157,46 @@ EntityEvents.death(event => {
                 };
                 break;
             case "illagerinvasion:invoker":
-                if (twilightForestBlock.InvokerBlock > 0) {
-                    twilightForestBlock.InvokerBlock = 0;
+                if (endBlock.InvokerBlock > 0) {
+                    endBlock.InvokerBlock = 0;
                     players.forEach(player => {
-                        player.tell(Text.darkAqua('Annhilated... the Invoker passes on...'))
+                        player.tell(Text.black('The Invoker has been defeated!'))
                     })
                 };
                 break;
-
-
-
-
+            case "minecraft:wither":
+                if (endBlock.WitherBlock > 0) {
+                    endBlock.WitherBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.black('The Wither has been defeated!'))
+                    })
+                };
+                break;
+            case "bosses_of_mass_destruction:lich":
+                if (endBlock.LichBlock > 0) {
+                    endBlock.LichBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.black('The Lich has been defeated!'))
+                    })
+                };
+                break;
+            case "bosses_of_mass_destruction:void_blossom":
+                if (endBlock.VoidBlossomBlock > 0) {
+                    endBlock.VoidBlossomBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.black('The Void Blossom has been defeated!'))
+                    })
+                };
+                break;
+            case "bosses_of_mass_destruction:gauntlet":
+                if (endBlock.NetherGauntletBlock > 0) {
+                    endBlock.NetherGauntletBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.black('The Nether Gauntlet has been defeated!'))
+                    })
+                };
+                break;
         }
-        console.log(`switch(victimType) applied`)
 
         if (
             netherBlock.RavagerBlock == 0 &&
@@ -190,7 +223,6 @@ EntityEvents.death(event => {
             twilightForestBlock.NecromancerBlock == 0 &&
             twilightForestBlock.InquisitorBlock == 0 &&
             twilightForestBlock.FirecallerBlock == 0 &&
-            twilightForestBlock.InvokerBlock == 0 &&
             twilightForestBlock.allowed != 1
         ) {
             twilightForestBlock.allowed = 1
@@ -200,19 +232,33 @@ EntityEvents.death(event => {
                 })
             })
         }
+        if (
+            endBlock.InvokerBlock == 0 &&
+            endBlock.WitherBlock == 0 &&
+            endBlock.LichBlock == 0 &&
+            endBlock.VoidBlossomBlock == 0 &&
+            endBlock.NetherGauntletBlock == 0 &&
+            endBlock.allowed != 1
+        ) {
+            endBlock.allowed = 1
+            server.scheduleInTicks(60, (callback) => {
+                server.players.forEach(player => {
+                    player.tell(Text.darkPurple('The End is now permanently unblocked!').bold())
+                })
+            })
+        }
     }
 })
 
 CommonAddedEvents.playerChangeDimension(event => {
-    const { netherBlock, twilightForestBlock } = event.server.persistentData
-	console.log(`Player Change Dimension event fired! event.player.level.dimension = ${event.player.level.dimension}`)
-	console.log(`netherBlock.allowed = ${netherBlock.allowed}`)
+    const { netherBlock, twilightForestBlock, endBlock } = event.server.persistentData
 	if (netherBlock.allowed != 1 && event.player.level.dimension == "minecraft:the_nether") {
-        console.log(`noBlock not there! ID: ${event.entity.uuid}`)
         event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.entity.uuid} ~ -54 ~`)
     }
 	if (twilightForestBlock.allowed != 1 && event.player.level.dimension == "twilightforest:twilight_forest") {
-        console.log(`noBlock not there! ID: ${event.entity.uuid}`)
+        event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.entity.uuid} ~ 60 ~`)
+    }
+	if (endBlock.allowed != 1 && event.player.level.dimension == "minecraft:the_end") {
         event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.entity.uuid} ~ 255 ~`)
     }
 });
