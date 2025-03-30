@@ -504,7 +504,35 @@
       "factor": 4
     },
     {
+      "structure": "ati_structures:fortified_temple",
+      "factor": 4
+    },
+    {
+      "structure": "ati_structures:granite_fort",
+      "factor": 4
+    },
+    {
+      "structure": "ati_structures:old_fort",
+      "factor": 4
+    },
+    {
       "structure": "betterdeserttemples:desert_temple",
+      "factor": 4
+    },
+    {
+      "structure": "illagerinvasion:illager_fort",
+      "factor": 4
+    },
+    {
+      "structure": "qrafty:birk_fort",
+      "factor": 4
+    },
+    {
+      "structure": "qrafty:fort",
+      "factor": 4
+    },
+    {
+      "structure": "qrafty:ice_fort",
       "factor": 4
     },
     {
