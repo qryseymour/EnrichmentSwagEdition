@@ -16,10 +16,6 @@
       "factor": 1.5
     },
     {
-      "structure": "#minecraft:ruined_portal",
-      "factor": 1.5
-    },
-    {
       "structure": "#morevillagers:on_jungle_temple_explorer_maps",
       "factor": 1.5
     },
@@ -57,6 +53,10 @@
     },
     {
       "structure": "additionalstructures:temple_2",
+      "factor": 1.5
+    },
+    {
+      "structure": "additionalstructures:sphinx",
       "factor": 1.5
     },
     {
@@ -136,10 +136,6 @@
       "factor": 1.5
     },
     {
-      "structure": "betterjungletemples:jungle_temple",
-      "factor": 1.5
-    },
-    {
       "structure": "minecraft:trail_ruins",
       "factor": 1.5
     },
@@ -184,11 +180,11 @@
       "factor": 2
     },
     {
-      "structure": "betterarcheology:archeologist_camp_sand",
+      "structure": "letsdoaddon-structures:illager_camp",
       "factor": 2
     },
     {
-      "structure": "letsdoaddon-structures:illager_camp",
+      "structure": "letsdoaddon-structures:vinery",
       "factor": 2
     },
     {
@@ -212,19 +208,11 @@
       "factor": 2
     },
     {
-      "structure": "ati_structures:dark_tower",
-      "factor": 2
-    },
-    {
       "structure": "ati_structures:illager_tower",
       "factor": 2
     },
     {
       "structure": "ati_structures:monastery_tower",
-      "factor": 2
-    },
-    {
-      "structure": "ati_structures:mud_tower",
       "factor": 2
     },
     {
@@ -261,10 +249,6 @@
     },
     {
       "structure": "ati_structures:overgrown_ou",
-      "factor": 2
-    },
-    {
-      "structure": "#minecraft:pillager_outpost",
       "factor": 2
     },
     {
@@ -305,15 +289,15 @@
     },
     {
       "structure": "adorabuild_structures:acacia_house_medium_1",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:acacia_house_medium_2",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:acacia_house_medium_3",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:acacia_house_small_1",
@@ -337,11 +321,11 @@
     },
     {
       "structure": "adorabuild_structures:birch_house_small_1",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:birch_house_small_2",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:cherry_house_medium_1",
@@ -368,19 +352,7 @@
       "factor": 2.5
     },
     {
-      "structure": "adorabuild_structures:jungle_tree_house_1",
-      "factor": 2.5
-    },
-    {
       "structure": "adorabuild_structures:mangrove_house_small_1",
-      "factor": 2.5
-    },
-    {
-      "structure": "adorabuild_structures:mangrove_tree_house_1",
-      "factor": 2.5
-    },
-    {
-      "structure": "adorabuild_structures:mangrove_tree_house_2",
       "factor": 2.5
     },
     {
@@ -389,23 +361,23 @@
     },
     {
       "structure": "adorabuild_structures:oak_house_medium_1",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:oak_house_medium_2",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:oak_house_small_1",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:oak_house_small_2",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:oak_house_small_3",
-      "factor": 2.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:red_sand_house_medium_1",
@@ -472,6 +444,34 @@
       "factor": 2.5
     },
     {
+      "structure": "betterjungletemples:jungle_temple",
+      "factor": 3
+    },
+    {
+      "structure": "#minecraft:ruined_portal",
+      "factor": 3
+    },
+    {
+      "structure": "additionalstructures:villager_statue_1",
+      "factor": 3
+    },
+    {
+      "structure": "additionalstructures:villager_statue_2",
+      "factor": 3
+    },
+    {
+      "structure": "additionalstructures:villager_statue_3",
+      "factor": 3
+    },
+    {
+      "structure": "additionalstructures:villager_statue_4",
+      "factor": 3
+    },
+    {
+      "structure": "additionalstructures:villager_statue_5",
+      "factor": 3
+    },
+    {
       "structure": "#minecraft:village",
       "factor": 3
     },
@@ -490,6 +490,10 @@
     {
       "structure": "minecraft:mansion",
       "factor": 3.5
+    },
+    {
+      "structure": "ati_structures:dark_tower",
+      "factor": 4
     },
     {
       "structure": "adorabuild_structures:sand_castle_small_1",
@@ -516,11 +520,19 @@
       "factor": 4
     },
     {
+      "structure": "betterarcheology:archeologist_camp_sand",
+      "factor": 4
+    },
+    {
       "structure": "betterdeserttemples:desert_temple",
       "factor": 4
     },
     {
       "structure": "illagerinvasion:illager_fort",
+      "factor": 4
+    },
+    {
+      "structure": "#minecraft:pillager_outpost",
       "factor": 4
     },
     {
@@ -556,16 +568,32 @@
       "factor": 4
     },
     {
-      "structure": "zenith:tower_sand",
-      "factor": 4
+      "structure": "adorabuild_structures:jungle_tree_house_1",
+      "factor": 5
     },
     {
-      "structure": "zenith:tower_spruce",
-      "factor": 4
+      "structure": "adorabuild_structures:mangrove_tree_house_1",
+      "factor": 5
+    },
+    {
+      "structure": "adorabuild_structures:mangrove_tree_house_2",
+      "factor": 5
+    },
+    {
+      "structure": "ati_structures:mud_tower",
+      "factor": 6
     },
     {
       "structure": "#integrated_villages:villages",
       "factor": 6
+    },
+    {
+      "structure": "zenith:tower_spruce",
+      "factor": 8
+    },
+    {
+      "structure": "zenith:tower_sand",
+      "factor": 8
     },
     // add the structures you want to modify in the format:
     // {
