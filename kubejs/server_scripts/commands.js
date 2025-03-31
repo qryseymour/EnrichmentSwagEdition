@@ -92,7 +92,7 @@ ServerEvents.commandRegistry(event => {
             var { twilightForestBlock } = server.persistentData;
             twilightForestBlock.allowed = 1
             players.forEach(player => {
-                player.tell(Text.aqua('The Twilight Forest is now unblocked!'))
+                player.tell(Text.darkBlue('The Twilight Forest is now unblocked!'))
             })
             return 1
         })
@@ -106,7 +106,7 @@ ServerEvents.commandRegistry(event => {
             var { twilightForestBlock } = server.persistentData;
             twilightForestBlock.allowed = 0
             players.forEach(player => {
-                player.tell(Text.aqua('The Twilight Forest is now blocked!'))
+                player.tell(Text.darkBlue('The Twilight Forest is now blocked!'))
             })
             return 1
         })

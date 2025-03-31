@@ -228,7 +228,7 @@ EntityEvents.death(event => {
             twilightForestBlock.allowed = 1
             server.scheduleInTicks(60, (callback) => {
                 server.players.forEach(player => {
-                    player.tell(Text.aqua('The Twilight Forest is now permanently unblocked!').bold())
+                    player.tell(Text.darkBlue('The Twilight Forest is now permanently unblocked!').bold())
                 })
             })
         }
@@ -253,12 +253,15 @@ EntityEvents.death(event => {
 CommonAddedEvents.playerChangeDimension(event => {
     const { netherBlock, twilightForestBlock, endBlock } = event.server.persistentData
 	if (netherBlock.allowed != 1 && event.player.level.dimension == "minecraft:the_nether") {
+        event.player.statusMessage = Text.darkRed("The depths of hell reject this unworthy soul...")
         event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.entity.uuid} ~ -54 ~`)
     }
 	if (twilightForestBlock.allowed != 1 && event.player.level.dimension == "twilightforest:twilight_forest") {
+        event.player.statusMessage = Text.darkBlue("The dimension perpendicular to ours awaits a worthier champion.")
         event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.entity.uuid} ~ 60 ~`)
     }
 	if (endBlock.allowed != 1 && event.player.level.dimension == "minecraft:the_end") {
+        event.player.statusMessage = Text.darkPurple("This is not the end for you...")
         event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.entity.uuid} ~ 255 ~`)
     }
 });
