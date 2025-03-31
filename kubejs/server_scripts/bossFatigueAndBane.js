@@ -28,13 +28,10 @@ EntityEvents.hurt(event => {
     const { server, level } = event
     let player = null;
     if (attackerType != "null") {
-        console.log(`victim.type: ${victimType}, attacker.type ${attackerType}`)
         if (bosses.includes(attackerType) && victimType == "minecraft:player") {
             player = event.player
-            console.log(`adding effects to victim`)
         } else if (bosses.includes(victimType) && attackerType == "minecraft:player") {
             player = event.source.player
-            console.log(`adding effects to attacker`)
         }
     }
     if (player) {

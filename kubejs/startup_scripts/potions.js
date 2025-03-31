@@ -612,10 +612,12 @@ function mapFlowersToPotions(flowerGrouping, e) {
     flowers.forEach(flowerID => {
         positiveOnlyEffects.forEach(potionID => {
             let hashCode = Math.abs(stringToHash(potionID) + stringToHash(flowerID))
-            let remainder = hashCode % 6
-            let oneTenth = (hashCode / 10) | 0
-            let effect = effectMap[remainder][oneTenth % (effectMap[remainder].length)]
-            e.addPotionBrewing(flowerID, potionID, effect)
+            let remainder = hashCode % 19
+            if (remainder <= 5) {
+                let oneTenth = (hashCode / 10) | 0
+                let effect = effectMap[remainder][oneTenth % (effectMap[remainder].length)]
+                e.addPotionBrewing(flowerID, potionID, effect)
+            }
         })
     })
 }
