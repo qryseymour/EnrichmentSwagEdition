@@ -6,7 +6,7 @@
   //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
   //        a spread factor above 1 means all structures are rarer
   //        a spread factor below 1 means all structure are more common
-  "spreadFactor": 2,
+  "spreadFactor": 1,
 
   // this is a list of custom spread factors
   "customSpreadFactors": [
@@ -180,14 +180,6 @@
       "factor": 2
     },
     {
-      "structure": "letsdoaddon-structures:illager_camp",
-      "factor": 2
-    },
-    {
-      "structure": "letsdoaddon-structures:vinery",
-      "factor": 2
-    },
-    {
       "structure": "meadow:logging_camp",
       "factor": 2
     },
@@ -249,14 +241,6 @@
     },
     {
       "structure": "ati_structures:overgrown_ou",
-      "factor": 2
-    },
-    {
-      "structure": "letsdoaddon-structures:mangrove_outpost",
-      "factor": 2
-    },
-    {
-      "structure": "letsdoaddon-structures:meadow_pillager_outpost",
       "factor": 2
     },
     {

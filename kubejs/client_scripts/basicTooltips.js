@@ -310,6 +310,11 @@ ItemEvents.tooltip(e => {
             'signal will close the shop, which prevents villagers',
             'from buying the item and allows for automation blocks to',
             'extract the input.']},
+        { items: ['aquamirae:ship_graveyard_echo'], tooltip: [
+            ' ',
+            'Can be used to repair most Aquamirae armor and weapons.',
+            'Holding the echo in your hands, you will hear the',
+            'ambience of the Ice Maze.']},
         { items: [
             'candlelight:cobblestone_stove',
             'candlelight:sandstone_stove',
@@ -426,6 +431,8 @@ ItemEvents.tooltip(e => {
             'Respawner Statue, Recall Potions and Magic Mirror can be',
             'used in alternate dimensions. However, this cannot be',
             'dropped in any method.']},
+        { items: ['betternether:black_apple'], tooltip: [
+            'Applies 2 seconds of Regeneration IV... probably?']},
     ].forEach(pair => {
         pair.items.forEach(item => {
             e.addAdvanced(item, (stack, _, text) => {
