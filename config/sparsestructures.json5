@@ -216,6 +216,10 @@
       "factor": 2
     },
     {
+      "structure": "#minecraft:pillager_outpost",
+      "factor": 2
+    },
+    {
       "structure": "qrafty:tower",
       "factor": 2
     },
@@ -245,6 +249,18 @@
     },
     {
       "structure": "additionalstructures:illager_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:jungle_tree_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:mangrove_tree_house_1",
+      "factor": 2.5
+    },
+    {
+      "structure": "adorabuild_structures:mangrove_tree_house_2",
       "factor": 2.5
     },
     {
@@ -341,27 +357,27 @@
     },
     {
       "structure": "adorabuild_structures:oak_house_large_1",
-      "factor": 2.5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:oak_house_medium_1",
-      "factor": 5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:oak_house_medium_2",
-      "factor": 5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:oak_house_small_1",
-      "factor": 5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:oak_house_small_2",
-      "factor": 5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:oak_house_small_3",
-      "factor": 5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:red_sand_house_medium_1",
@@ -516,10 +532,6 @@
       "factor": 4
     },
     {
-      "structure": "#minecraft:pillager_outpost",
-      "factor": 4
-    },
-    {
       "structure": "qrafty:birk_fort",
       "factor": 4
     },
@@ -544,40 +556,31 @@
       "factor": 4
     },
     {
-      "structure": "zenith:tower_leaf",
-      "factor": 4
-    },
-    {
-      "structure": "zenith:tower_main",
-      "factor": 4
-    },
-    {
-      "structure": "adorabuild_structures:jungle_tree_house_1",
-      "factor": 5
-    },
-    {
-      "structure": "adorabuild_structures:mangrove_tree_house_1",
-      "factor": 5
-    },
-    {
-      "structure": "adorabuild_structures:mangrove_tree_house_2",
-      "factor": 5
-    },
-    {
       "structure": "ati_structures:mud_tower",
-      "factor": 6
+      "factor": 4
     },
     {
       "structure": "#integrated_villages:villages",
       "factor": 6
     },
     {
+      "structure": "zenith:tower_leaf",
+      "factor": 8
+    },
+    {
+      "structure": "zenith:tower_main",
+      "factor": 8
+    },    {
       "structure": "zenith:tower_spruce",
       "factor": 8
     },
     {
       "structure": "zenith:tower_sand",
       "factor": 8
+    },
+    {
+      "structure": "integrated_stronghold:stronghold",
+      "factor": 10
     },
     // add the structures you want to modify in the format:
     // {
