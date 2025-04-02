@@ -74,8 +74,8 @@ ServerEvents.recipes(e => {
             C: 'travelersbackpack:jukebox_upgrade',
             D: '#ae2:smart_cable',
             E: 'ae2:color_applicator',
-            F: 'create:electron_tube',
-            G: 'create_new_age:electrical_connector',
+            F: 'oreganized:electrum_ingot',
+            G: 'minecraft:conduit',
             H: 'botania:lens_paint'
         }
     ).id('waterframes:tv')
@@ -93,8 +93,8 @@ ServerEvents.recipes(e => {
             C: 'travelersbackpack:jukebox_upgrade',
             D: '#ae2:smart_cable',
             E: 'ae2:color_applicator',
-            F: 'create:electron_tube',
-            G: 'create_new_age:electrical_connector',
+            F: 'oreganized:electrum_ingot',
+            G: 'minecraft:conduit',
             H: 'botania:lens_paint'
         }
     ).id('waterframes:big_tv')

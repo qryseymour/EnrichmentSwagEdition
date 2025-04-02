@@ -168,7 +168,31 @@
       "factor": 2
     },
     {
+      "structure": "adorabuild_structures:frozen_hut_1",
+      "factor": 2
+    },
+    {
+      "structure": "adorabuild_structures:frozen_hut_2",
+      "factor": 2
+    },
+    {
+      "structure": "adorabuild_structures:oak_hut_1",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:gnome_hut",
+      "factor": 2
+    },
+    {
       "structure": "ati_structures:nomadic_camp",
+      "factor": 2
+    },
+    {
+      "structure": "beachparty:beach_hut",
+      "factor": 2
+    },
+    {
+      "structure": "betterwitchhuts:witch_hut",
       "factor": 2
     },
     {
@@ -180,7 +204,7 @@
       "factor": 2
     },
     {
-      "structure": "meadow:logging_camp",
+      "structure": "minecraft:igloo",
       "factor": 2
     },
     {
@@ -216,11 +240,23 @@
       "factor": 2
     },
     {
+      "structure": "illagerinvasion:firecaller_hut",
+      "factor": 2
+    },
+    {
+      "structure": "illagerinvasion:sorcerer_hut",
+      "factor": 2
+    },
+    {
       "structure": "#minecraft:pillager_outpost",
       "factor": 2
     },
     {
       "structure": "qrafty:tower",
+      "factor": 2
+    },
+    {
+      "structure": "qrafty:dirt_hut",
       "factor": 2
     },
     {
@@ -448,10 +484,6 @@
       "factor": 3
     },
     {
-      "structure": "#minecraft:ruined_portal",
-      "factor": 3
-    },
-    {
       "structure": "additionalstructures:villager_statue_1",
       "factor": 3
     },
@@ -469,10 +501,6 @@
     },
     {
       "structure": "additionalstructures:villager_statue_5",
-      "factor": 3
-    },
-    {
-      "structure": "#minecraft:village",
       "factor": 3
     },
     {
@@ -520,6 +548,30 @@
       "factor": 4
     },
     {
+      "structure": "ati_structures:herobrine_stronghold",
+      "factor": 4
+    },
+    {
+      "structure": "ati_structures:dark_keep",
+      "factor": 4
+    },
+    {
+      "structure": "ati_structures:deepslate_keep",
+      "factor": 4
+    },
+    {
+      "structure": "ati_structures:small_keep",
+      "factor": 4
+    },
+    {
+      "structure": "ati_structures:wither_keep",
+      "factor": 4
+    },
+    {
+      "structure": "ati_structures:woodland_keep",
+      "factor": 4
+    },
+    {
       "structure": "betterarcheology:archeologist_camp_grassy",
       "factor": 4
     },
@@ -556,6 +608,10 @@
       "factor": 4
     },
     {
+      "structure": "#minecraft:ruined_portal",
+      "factor": 6
+    },
+    {
       "structure": "ati_structures:mud_tower",
       "factor": 6
     },
@@ -580,6 +636,10 @@
     },
     {
       "structure": "#integrated_villages:villages",
+      "factor": 12
+    },
+    {
+      "structure": "#minecraft:village",
       "factor": 12
     },
     // add the structures you want to modify in the format:

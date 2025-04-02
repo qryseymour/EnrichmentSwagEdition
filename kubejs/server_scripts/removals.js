@@ -5,8 +5,7 @@ ServerEvents.recipes(e => {
         'betternether:activator_rail',
         'betternether:piston',
         'betternether:shield',
-        'additionaladditions:powered_rails',
-        'create:haunting/lapis_recycling'
+        'additionaladditions:powered_rails'
     ].forEach(recipeID => {
         e.remove({ id: recipeID })
     })
