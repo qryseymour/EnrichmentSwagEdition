@@ -215,7 +215,6 @@ var redFlowers = {
         'regions_unexplored:tsubaki',
         'regions_unexplored:waratah',
         'regions_unexplored:red_lupine',
-        'twilightforest:thorn_rose',
         'minecraft:rose_bush',
         'regions_unexplored:hibiscus'
     ],
@@ -634,21 +633,21 @@ MoreJSEvents.registerPotionBrewing(e => {
     e.removeByPotion(null, null, 'zenith:extra_long_flying')
     e.addPotionBrewing('ae2:ender_dust', 'minecraft:awkward', 'betterend:end_veil')
 
-    mapFlowersToPotions(redFlowers, e)
-    mapFlowersToPotions(greenFlowers, e)
-    mapFlowersToPotions(pinkFlowers, e)
-    mapFlowersToPotions(daisies, e)
-    mapFlowersToPotions(yellowFlowers, e)
-    mapFlowersToPotions(purpleFlowers, e)
-    mapFlowersToPotions(eatingFlowers, e)
-    mapFlowersToPotions(blueFlowers, e)
-    mapFlowersToPotions(jungleFlowers, e)
-    mapFlowersToPotions(fireFlowers, e)
-    mapFlowersToPotions(shyFlowers, e)
-    mapFlowersToPotions(turtleFlowers, e)
-    mapFlowersToPotions(undergroundFlowers, e)
-    mapFlowersToPotions(miniFlowers, e)
-    mapFlowersToPotions(hammerFlowers, e)
-    mapFlowersToPotions(undeadFlowers, e)
-    mapFlowersToPotions(boomerangFlowers, e)
+    // mapFlowersToPotions(redFlowers, e)
+    // mapFlowersToPotions(greenFlowers, e)
+    // mapFlowersToPotions(pinkFlowers, e)
+    // mapFlowersToPotions(daisies, e)
+    // mapFlowersToPotions(yellowFlowers, e)
+    // mapFlowersToPotions(purpleFlowers, e)
+    // mapFlowersToPotions(eatingFlowers, e)
+    // mapFlowersToPotions(blueFlowers, e)
+    // mapFlowersToPotions(jungleFlowers, e)
+    // mapFlowersToPotions(fireFlowers, e)
+    // mapFlowersToPotions(shyFlowers, e)
+    // mapFlowersToPotions(turtleFlowers, e)
+    // mapFlowersToPotions(undergroundFlowers, e)
+    // mapFlowersToPotions(miniFlowers, e)
+    // mapFlowersToPotions(hammerFlowers, e)
+    // mapFlowersToPotions(undeadFlowers, e)
+    // mapFlowersToPotions(boomerangFlowers, e)
 })

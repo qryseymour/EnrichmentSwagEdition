@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:18
+renderDistance:16
 simulationDistance:6
 entityDistanceScaling:1.0
 guiScale:3
@@ -139,6 +139,7 @@ key_create.keyinfo.toolbelt:key.keyboard.unknown
 key_create.keyinfo.ponder:key.keyboard.left.control
 key_key.createbigcannons.pitch_mode:key.keyboard.right.alt
 key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
+key_key.diet.open.desc:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.origins.ternary_active:key.keyboard.x
 key_key.origins.quaternary_active:key.keyboard.c

@@ -172,11 +172,11 @@
       "factor": 2
     },
     {
-      "structure": "betterarcheology:archeologist_camp_grassy",
+      "structure": "betterarcheology:archeologist_camp_redsand",
       "factor": 2
     },
     {
-      "structure": "betterarcheology:archeologist_camp_redsand",
+      "structure": "betterarcheology:archeologist_camp_sand",
       "factor": 2
     },
     {
@@ -357,15 +357,15 @@
     },
     {
       "structure": "adorabuild_structures:oak_house_large_1",
-      "factor": 2.5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:oak_house_medium_1",
-      "factor": 5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:oak_house_medium_2",
-      "factor": 5
+      "factor": 7.5
     },
     {
       "structure": "adorabuild_structures:oak_house_small_1",
@@ -520,7 +520,7 @@
       "factor": 4
     },
     {
-      "structure": "betterarcheology:archeologist_camp_sand",
+      "structure": "betterarcheology:archeologist_camp_grassy",
       "factor": 4
     },
     {
@@ -557,10 +557,6 @@
     },
     {
       "structure": "ati_structures:mud_tower",
-      "factor": 4
-    },
-    {
-      "structure": "#integrated_villages:villages",
       "factor": 6
     },
     {
@@ -581,6 +577,10 @@
     {
       "structure": "integrated_stronghold:stronghold",
       "factor": 10
+    },
+    {
+      "structure": "#integrated_villages:villages",
+      "factor": 12
     },
     // add the structures you want to modify in the format:
     // {
