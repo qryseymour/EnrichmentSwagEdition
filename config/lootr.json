@@ -154,8 +154,7 @@
     "refresh_value": 24000,
     "refresh_all": false,
     "refresh_modids": [],
-    "refresh_loot_tables": [
-    ],
+    "refresh_loot_tables": [],
     "refresh_dimensions": []
   },
   "notifications": {

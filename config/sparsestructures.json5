@@ -564,6 +564,26 @@
       "factor": 3
     },
     {
+      "structure": "minecraft:village_desert",
+      "factor": 3
+    },
+    {
+      "structure": "minecraft:village_plains",
+      "factor": 3
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "factor": 3
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "factor": 3
+    },
+    {
+      "structure": "minecraft:village_taiga",
+      "factor": 3
+    },
+    {
       "structure": "qrafty:igloo_village",
       "factor": 3
     },
@@ -697,26 +717,6 @@
     {
       "structure": "zenith:tower_sand",
       "factor": 8
-    },
-    {
-      "structure": "minecraft:village_desert",
-      "factor": 9
-    },
-    {
-      "structure": "minecraft:village_plains",
-      "factor": 9
-    },
-    {
-      "structure": "minecraft:village_savanna",
-      "factor": 9
-    },
-    {
-      "structure": "minecraft:village_snowy",
-      "factor": 9
-    },
-    {
-      "structure": "minecraft:village_taiga",
-      "factor": 9
     },
     {
       "structure": "integrated_stronghold:stronghold",

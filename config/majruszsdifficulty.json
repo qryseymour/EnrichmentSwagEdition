@@ -148,7 +148,7 @@
       "is_scaled_by_crd": true
     },
     "double_loot": {
-      "is_enabled": true,
+      "is_enabled": false,
       "chance": {
         "__default": 0.0,
         "expert": 0.05,
@@ -505,7 +505,7 @@
         "__default": [
           "majruszsdifficulty:tank",
           "majruszsdifficulty:cerberus",
-          "enderzoology::concussion_creeper",
+          "enderzoology:concussion_creeper",
           "enderzoology:dire_wolf",
           "enderzoology:enderminy",
           "enderzoology:fallen_knight",
