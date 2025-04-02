@@ -357,15 +357,15 @@
     },
     {
       "structure": "adorabuild_structures:oak_house_large_1",
-      "factor": 7.5
+      "factor": 2.5
     },
     {
       "structure": "adorabuild_structures:oak_house_medium_1",
-      "factor": 7.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:oak_house_medium_2",
-      "factor": 7.5
+      "factor": 5
     },
     {
       "structure": "adorabuild_structures:oak_house_small_1",
