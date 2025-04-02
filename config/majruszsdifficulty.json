@@ -156,7 +156,26 @@
       },
       "blacklisted_items": [
         "minecraft:nether_star",
-        "minecraft:totem_of_undying"
+        "minecraft:totem_of_undying",
+        "minecraft:saddle",
+        "friendsandfoes:totem_of_illusion",
+        "friendsandfoes:totem_of_freezing",
+        "botania:black_lotus",
+        "botania:rune_lust",
+        "botania:rune_autumn",
+        "botania:rune_wrath",
+        "botania:rune_fire",
+        "botania:rune_spring",
+        "botania:rune_greed",
+        "botania:rune_envy",
+        "botania:rune_sloth",
+        "botania:rune_mana",
+        "botania:rune_pride",
+        "botania:rune_earth",
+        "botania:rune_summer",
+        "botania:rune_gluttony",
+        "botania:rune_water",
+        "botania:rune_winter"
       ]
     },
     "drowned_lightning_bolt": {

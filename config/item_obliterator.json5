@@ -49,7 +49,9 @@
     'tffaf:wither_ring',
     'twilightforest:uncrafting_table',
     'additionaladditions:honeyed_apple',
-    'betterend:ender_dust'
+    'betterend:ender_dust',
+    'artifacts:scarf_of_invisibility',
+    'botania:invisibility_cloak'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

@@ -12,7 +12,35 @@
   "customSpreadFactors": [
     // example of the mansion being doubled in rarity (the mod's default)
     {
-      "structure": "#minecraft:ocean_ruin",
+      "structure": "minecraft:ocean_ruin_cold",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:ocean_ruin_warm",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:ruined_portal",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:ruined_portal_desert",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:ruined_portal_jungle",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:ruined_portal_mountain",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:ruined_portal_ocean",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:ruined_portal_swamp",
       "factor": 1.5
     },
     {
@@ -152,7 +180,7 @@
       "factor": 2
     },
     {
-      "structure": "#mythic_charms:camp",
+      "structure": "mythic_charms:camp",
       "factor": 2
     },
     {
@@ -260,7 +288,7 @@
       "factor": 2
     },
     {
-      "structure": "#minecraft:pillager_outpost",
+      "structure": "minecraft:pillager_outpost",
       "factor": 2
     },
     {
@@ -284,7 +312,7 @@
       "factor": 2
     },
     {
-      "structure": "#aquamirae:outpost",
+      "structure": "aquamirae:outpost",
       "factor": 2
     },
     {
@@ -652,10 +680,6 @@
       "factor": 4
     },
     {
-      "structure": "#minecraft:ruined_portal",
-      "factor": 6
-    },
-    {
       "structure": "ati_structures:mud_tower",
       "factor": 6
     },
@@ -675,6 +699,26 @@
       "factor": 8
     },
     {
+      "structure": "minecraft:village_desert",
+      "factor": 9
+    },
+    {
+      "structure": "minecraft:village_plains",
+      "factor": 9
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "factor": 9
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "factor": 9
+    },
+    {
+      "structure": "minecraft:village_taiga",
+      "factor": 9
+    },
+    {
       "structure": "integrated_stronghold:stronghold",
       "factor": 10
     },
@@ -684,10 +728,6 @@
     },
     {
       "structure": "#integrated_villages:villages",
-      "factor": 12
-    },
-    {
-      "structure": "#minecraft:village",
       "factor": 12
     },
     // add the structures you want to modify in the format:

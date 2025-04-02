@@ -18,7 +18,8 @@ const bosses = [
     "minecraft:ender_dragon",
     "bosses_of_mass_destruction:lich",
     "bosses_of_mass_destruction:void_blossom",
-    "bosses_of_mass_destruction:gauntlet"
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:obsidilith"
 ]
 
 EntityEvents.hurt(event => {
