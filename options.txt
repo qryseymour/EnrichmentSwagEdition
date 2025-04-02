@@ -134,11 +134,6 @@ key_blanket-client-tweaks.keys.rotateMinecartKey:key.keyboard.unknown
 key_key.botania_corporea_request:key.keyboard.unknown
 key_key.camping.open:key.keyboard.b
 key_key.coppertunity.getthehellout:key.keyboard.right.control
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.unknown
-key_create.keyinfo.ponder:key.keyboard.left.control
-key_key.createbigcannons.pitch_mode:key.keyboard.right.alt
-key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
 key_key.diet.open.desc:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.origins.ternary_active:key.keyboard.x
@@ -151,8 +146,6 @@ key_key.origins.nonary_active:key.keyboard.unknown
 key_key.origins.denary_active:key.keyboard.unknown
 key_fakerlib.toggleWings:key.keyboard.unknown
 key_fakerlib.toggleTrails:key.keyboard.unknown
-key_key.jetpack.toggle_active.description:key.keyboard.right.alt
-key_key.jetpack.toggle_hover.description:key.keyboard.left.alt
 key_text.HorseBuff.keybinding.horsePlayerInventory:key.keyboard.left.alt
 key_key.jei.toggleOverlay:key.keyboard.f10
 key_key.jei.focusSearch:key.keyboard.tab
@@ -197,8 +190,6 @@ key_key.toggleSelectedItemTooltips:key.keyboard.unknown
 key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.cycleLeft:key.keyboard.g
 key_key.cycleRight:key.keyboard.h
-key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
-key_railways.keyinfo.cycle_menu:key.keyboard.right.alt
 key_key.replaymod.playeroverview:key.keyboard.b
 key_key.replaymod.lighting:key.keyboard.z
 key_key.replaymod.quickmode:key.keyboard.q
@@ -228,6 +219,16 @@ key_key.travelersbackpack.sort:key.mouse.middle
 key_key.travelersbackpack.ability:key.keyboard.left.alt
 key_key.travelersbackpack.cycle_tool:key.keyboard.unknown
 key_key.travelersbackpack.toggle_tank:key.keyboard.right.alt
+key_key.push_to_talk:key.keyboard.v
+key_key.whisper:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.unknown
+key_key.disable_voice_chat:key.keyboard.unknown
+key_key.hide_icons:key.keyboard.unknown
+key_key.voice_chat:key.keyboard.period
+key_key.voice_chat_settings:key.keyboard.unknown
+key_key.voice_chat_group:key.keyboard.unknown
+key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_key.waxednotwaxed.toggle:key.keyboard.right.alt
 key_key.wheelbarrow.yeet:key.keyboard.z
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown

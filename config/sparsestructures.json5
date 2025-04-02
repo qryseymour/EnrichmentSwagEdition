@@ -144,6 +144,10 @@
       "factor": 1.5
     },
     {
+      "structure": "betteroceanmonuments:ocean_monument",
+      "factor": 1.5
+    },
+    {
       "structure": "ae2:meteorite",
       "factor": 2
     },
@@ -224,7 +228,15 @@
       "factor": 2
     },
     {
+      "structure": "ati_structures:dojo",
+      "factor": 2
+    },
+    {
       "structure": "ati_structures:illager_tower",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:lighthouse",
       "factor": 2
     },
     {
@@ -277,6 +289,10 @@
     },
     {
       "structure": "ati_structures:desert_outpost",
+      "factor": 2
+    },
+    {
+      "structure": "ati_structures:overgrown_outpost",
       "factor": 2
     },
     {
@@ -460,6 +476,14 @@
       "factor": 2.5
     },
     {
+      "structure": "ati_structures:illager_homestead",
+      "factor": 2.5
+    },
+    {
+      "structure": "ati_structures:old_home",
+      "factor": 2.5
+    },
+    {
       "structure": "ati_structures:steam_house",
       "factor": 2.5
     },
@@ -504,6 +528,10 @@
       "factor": 3
     },
     {
+      "structure": "ati_structures:tavern",
+      "factor": 3
+    },
+    {
       "structure": "ati_structures:villager_inn",
       "factor": 3
     },
@@ -516,7 +544,23 @@
       "factor": 3
     },
     {
+      "structure": "ati_structures:ice_tribe",
+      "factor": 3
+    },
+    {
+      "structure": "ati_structures:jungle_settlement",
+      "factor": 3
+    },
+    {
       "structure": "minecraft:mansion",
+      "factor": 3.5
+    },
+    {
+      "structure": "ati_structures:manor",
+      "factor": 3.5
+    },
+    {
+      "structure": "ati_structures:mosque",
       "factor": 3.5
     },
     {
@@ -632,6 +676,10 @@
     },
     {
       "structure": "integrated_stronghold:stronghold",
+      "factor": 10
+    },
+    {
+      "structure": "betterstrongholds:stronghold",
       "factor": 10
     },
     {

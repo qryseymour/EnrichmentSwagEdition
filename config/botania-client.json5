@@ -15,7 +15,7 @@
 		// Set this to false to disable the fancy skybox in Garden of Glass
 		"enabled": true,
 		// Set this to true to enable the fancy skybox in non Garden of Glass worlds. (Does not require Garden of Glass loaded to use, needs 'fancySkybox.enabled' to be true as well)
-		"normalWorlds": false
+		"normalWorlds": true
 	},
 	"lexicon": {
 		// Set this to false to disable the rotating items in the petal and rune entries in the Lexica Botania.
@@ -25,11 +25,11 @@
 	},
 	"particles": {
 		// Set this to true to set the power system's particles to be a lot more subtle. Good for low-end systems, if the particles are causing lag.
-		"powerSystem": false,
+		"powerSystem": true,
 		// Set this to true to use a static wand beam that shows every single position of the burst, similar to the way it used to work on old Botania versions. Warning: Disabled by default because it may be laggy.
 		"staticWandBeam": false,
 		// The frequency in which particles spawn from normal (worldgen) mystical flowers
-		"flowerFrequency": 0,
+		"flowerFrequency": 0.75,
 		// Set this to false to disable the particles in the elven portal.
 		"elvenPortal": true
 	},

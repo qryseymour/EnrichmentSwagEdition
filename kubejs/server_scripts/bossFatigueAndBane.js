@@ -15,6 +15,7 @@ const bosses = [
     "illagerinvasion:inquisitor",
     "illagerinvasion:firecaller",
     "illagerinvasion:invoker",
+    "minecraft:ender_dragon",
     "bosses_of_mass_destruction:lich",
     "bosses_of_mass_destruction:void_blossom",
     "bosses_of_mass_destruction:gauntlet"
@@ -37,10 +38,8 @@ EntityEvents.hurt(event => {
     if (player) {
         if (!player.hasEffect("minecraft:mining_fatigue") && !player.hasEffect("galosphere:block_bane")) {
             level.playSound(null, player.x, player.y, player.z, 'minecraft:entity.blaze.shoot', 'hostile', 1, 1);
+            level.playSound(null, player.x, player.y, player.z, 'minecraft:entity.blaze.ambient', 'hostile', 1, 1);
             player.statusMessage = Text.darkRed("An evil presence has given you creative shock!")
-            server.scheduleInTicks(12, (callback) => {
-                level.playSound(null, player.x, player.y, player.z, 'minecraft:entity.blaze.ambient', 'hostile', 1, 1);
-            })
         }
         let { potionEffects } = player
         if (potionEffects) {
