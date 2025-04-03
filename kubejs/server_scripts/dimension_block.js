@@ -12,7 +12,7 @@ ServerEvents.loaded(event => {
             MutantEndermanBlock: 1,
             allowed: 0
         }
-        persistentData.twilightForestBlock = {
+        persistentData.endBlock = {
             ElderGuardianBlock: 1,
             WildfireBlock: 1,
             EvokerBlock: 1,
@@ -22,9 +22,6 @@ ServerEvents.loaded(event => {
             NecromancerBlock: 1,
             InquisitorBlock: 1,
             FirecallerBlock: 1,
-            allowed: 0
-        }
-        persistentData.endBlock = {
             WitherBlock: 1,
             InvokerBlock: 1,
             LichBlock: 1,
@@ -37,7 +34,7 @@ ServerEvents.loaded(event => {
 
 EntityEvents.death(event => {
     var { server } = event;
-    var { netherBlock, twilightForestBlock, endBlock } = server.persistentData;
+    var { netherBlock, endBlock } = server.persistentData;
     var { players } = server;
     const victimType = event.entity.type;
     const attackerType = event.source?.player?.type || "nothing";
@@ -85,72 +82,72 @@ EntityEvents.death(event => {
                 };
                 break;
             case "minecraft:elder_guardian":
-                if (twilightForestBlock.ElderGuardianBlock > 0) {
-                    twilightForestBlock.ElderGuardianBlock = 0;
+                if (endBlock.ElderGuardianBlock > 0) {
+                    endBlock.ElderGuardianBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.aqua('Sunk again... the Elder Guardian breathes no more...'))
                     })
                 };
                 break;
             case "friendsandfoes:wildfire":
-                if (twilightForestBlock.WildfireBlock > 0) {
-                    twilightForestBlock.WildfireBlock = 0;
+                if (endBlock.WildfireBlock > 0) {
+                    endBlock.WildfireBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.gold('Ashes to ashes... the Wildfire falls down...'))
                     })
                 };
                 break;
             case "minecraft:evoker":
-                if (twilightForestBlock.EvokerBlock > 0) {
-                    twilightForestBlock.EvokerBlock = 0;
+                if (endBlock.EvokerBlock > 0) {
+                    endBlock.EvokerBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.yellow('Vexing perflexing... the Evoker has fallen...'))
                     })
                 };
                 break;
             case "illagerinvasion:alchemist":
-                if (twilightForestBlock.AlchemistBlock > 0) {
-                    twilightForestBlock.AlchemistBlock = 0;
+                if (endBlock.AlchemistBlock > 0) {
+                    endBlock.AlchemistBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.darkBlue('Trouble Brewing... the Alchemist boils up...'))
                     })
                 };
                 break;
             case "illagerinvasion:provoker":
-                if (twilightForestBlock.ProvokerBlock > 0) {
-                    twilightForestBlock.ProvokerBlock = 0;
+                if (endBlock.ProvokerBlock > 0) {
+                    endBlock.ProvokerBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.darkRed('Invocated & invicted... the Provoker leaves this mortal coil...'))
                     })
                 };
                 break;
             case "illagerinvasion:sorcerer":
-                if (twilightForestBlock.SorcererBlock > 0) {
-                    twilightForestBlock.SorcererBlock = 0;
+                if (endBlock.SorcererBlock > 0) {
+                    endBlock.SorcererBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.darkPurple('Cast away... the Sorcerer has been exiled from life...'))
                     })
                 };
                 break;
             case "illagerinvasion:necromancer":
-                if (twilightForestBlock.NecromancerBlock > 0) {
-                    twilightForestBlock.NecromancerBlock = 0;
+                if (endBlock.NecromancerBlock > 0) {
+                    endBlock.NecromancerBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.darkGray('Sent to the grave... the Necromancer meets their fate...'))
                     })
                 };
                 break;
             case "illagerinvasion:inquisitor":
-                if (twilightForestBlock.InquisitorBlock > 0) {
-                    twilightForestBlock.InquisitorBlock = 0;
+                if (endBlock.InquisitorBlock > 0) {
+                    endBlock.InquisitorBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.blue('Sinned... the Inquisitor is divinely punished...'))
                     })
                 };
                 break;
             case "illagerinvasion:firecaller":
-                if (twilightForestBlock.FirecallerBlock > 0) {
-                    twilightForestBlock.FirecallerBlock = 0;
+                if (endBlock.FirecallerBlock > 0) {
+                    endBlock.FirecallerBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.red('Burnt out... the Firecaller sees the light...'))
                     })
@@ -214,25 +211,15 @@ EntityEvents.death(event => {
             })
         }
         if (
-            twilightForestBlock.ElderGuardianBlock == 0 &&
-            twilightForestBlock.WildfireBlock == 0 &&
-            twilightForestBlock.EvokerBlock == 0 &&
-            twilightForestBlock.AlchemistBlock == 0 &&
-            twilightForestBlock.ProvokerBlock == 0 &&
-            twilightForestBlock.SorcererBlock == 0 &&
-            twilightForestBlock.NecromancerBlock == 0 &&
-            twilightForestBlock.InquisitorBlock == 0 &&
-            twilightForestBlock.FirecallerBlock == 0 &&
-            twilightForestBlock.allowed != 1
-        ) {
-            twilightForestBlock.allowed = 1
-            server.scheduleInTicks(60, (callback) => {
-                server.players.forEach(player => {
-                    player.tell(Text.darkBlue('The Twilight Forest is now permanently unblocked!').bold())
-                })
-            })
-        }
-        if (
+            endBlock.ElderGuardianBlock == 0 &&
+            endBlock.WildfireBlock == 0 &&
+            endBlock.EvokerBlock == 0 &&
+            endBlock.AlchemistBlock == 0 &&
+            endBlock.ProvokerBlock == 0 &&
+            endBlock.SorcererBlock == 0 &&
+            endBlock.NecromancerBlock == 0 &&
+            endBlock.InquisitorBlock == 0 &&
+            endBlock.FirecallerBlock == 0 &&
             endBlock.InvokerBlock == 0 &&
             endBlock.WitherBlock == 0 &&
             endBlock.LichBlock == 0 &&
@@ -251,14 +238,10 @@ EntityEvents.death(event => {
 })
 
 CommonAddedEvents.playerChangeDimension(event => {
-    const { netherBlock, twilightForestBlock, endBlock } = event.server.persistentData
+    const { netherBlock, endBlock } = event.server.persistentData
 	if (netherBlock.allowed != 1 && event.player.level.dimension == "minecraft:the_nether") {
         event.player.statusMessage = Text.darkRed("The depths of hell reject this unworthy soul...")
         event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.entity.uuid} ~ -54 ~`)
-    }
-	if (twilightForestBlock.allowed != 1 && event.player.level.dimension == "twilightforest:twilight_forest") {
-        event.player.statusMessage = Text.darkBlue("The dimension perpendicular to ours awaits a worthier champion.")
-        event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.entity.uuid} ~ 60 ~`)
     }
 	if (endBlock.allowed != 1 && event.player.level.dimension == "minecraft:the_end") {
         event.player.statusMessage = Text.darkPurple("This is not the end for you...")

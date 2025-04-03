@@ -4,23 +4,6 @@ ItemEvents.tooltip(e => {
         { items: ['additionaladditions:wrench'], tooltip: [
             'Rotates blocks that can be rotated. Can also be', 
             'used inside the dispenser.']},
-        { items: [
-            'cu:levitator_block', 
-            'cu:exposed_levitator_block', 
-            'cu:weathered_levitator_block',
-            'cu:oxidized_levitator_block',
-            'cu:waxed_levitator_block',
-            'cu:waxed_exposed_levitator_block',
-            'cu:waxed_weathered_levitator_block',
-            'cu:waxed_oxidized_levitator_block'], 
-          tooltip: [
-            'Gives you the levitation effect. The effect changes', 
-            'depending on what level of oxidization the block has.']},
-        { items: [
-            'minecraft:goat_horn', 
-            'cu:copper_horn'], 
-        tooltip: [
-            'Now playable through a dispenser!']},
         { items: ['oxidized:copper_rail'], tooltip: [
             'Functions almost identically to the Powered Rail.', 
             'The difference is that a chain of connected', 
@@ -289,27 +272,6 @@ ItemEvents.tooltip(e => {
             'edible_amethyst_:crystal_glow_berries',], 
           tooltip: [
             'Makes foxes and players glow when they eat this.']},
-        { items: ['village_business:sales_stand'], tooltip: [
-            'Place it somewhere that has villagers nearby. Put the',
-            'items you want to sell inside of the Sales Stand, and',
-            'villagers may come to exchange emeralds for that item.',
-            'You can also half or double the price of the item, which',
-            'will change the chance of selling, and the time between',
-            'customer visits. Giving the Sales Stand a redstone',
-            'signal will close the shop, which prevents villagers',
-            'from buying the item and allows for automation blocks',
-            'to extract the input.']},
-        { items: ['village_business:request_stand'], tooltip: [
-            'Place it somewhere that has villagers nearby. Set the',
-            'requested item by placing an item in the Request slot.',
-            'Load the request stand with emeralds. Villagers will',
-            'occassionally come by and give you that item in exchange',
-            'for emeralds. Villagers are unlikely to sell you items in',
-            'this way, and the items will be more expensive than when',
-            'you sell them. Giving the Request Stand a redstone',
-            'signal will close the shop, which prevents villagers',
-            'from buying the item and allows for automation blocks to',
-            'extract the input.']},
         { items: ['aquamirae:ship_graveyard_echo'], tooltip: [
             ' ',
             'Can be used to repair most Aquamirae armor and weapons.',

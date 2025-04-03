@@ -84,34 +84,6 @@ ServerEvents.commandRegistry(event => {
         })
     )
 
-    event.register(Commands.literal('unblockTwilight')
-        .requires(src => src.hasPermission(4))
-        .executes(ctx => {
-            let server = ctx.source.getServer()
-            var { players } = server;
-            var { twilightForestBlock } = server.persistentData;
-            twilightForestBlock.allowed = 1
-            players.forEach(player => {
-                player.tell(Text.darkBlue('The Twilight Forest is now unblocked!'))
-            })
-            return 1
-        })
-    )
-
-    event.register(Commands.literal('blockTwilight')
-        .requires(src => src.hasPermission(4))
-        .executes(ctx => {
-            let server = ctx.source.getServer()
-            var { players } = server;
-            var { twilightForestBlock } = server.persistentData;
-            twilightForestBlock.allowed = 0
-            players.forEach(player => {
-                player.tell(Text.darkBlue('The Twilight Forest is now blocked!'))
-            })
-            return 1
-        })
-    )
-
     event.register(Commands.literal('unblockEnd')
         .requires(src => src.hasPermission(4))
         .executes(ctx => {

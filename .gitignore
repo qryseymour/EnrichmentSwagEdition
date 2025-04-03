@@ -37,6 +37,7 @@ emi.json
 
 # root folders
 .fabric/
+.bobby/
 .mixin.out/
 .vscode/probe*
 .vscode/fluid-attributes.json

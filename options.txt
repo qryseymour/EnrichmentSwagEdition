@@ -75,7 +75,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -211,7 +211,7 @@ key_key.replaymod.bothkeyframes:key.keyboard.unknown
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space
 key_key.the_bumblezone.beehemoth_down:key.keyboard.left.shift
-key_key.things.place_item:key.keyboard.r
+key_key.things.place_item:key.keyboard.left.control
 key_key.things.openenderchest:key.keyboard.z
 key_key.things.toggle_socks_jump_boost:key.keyboard.left.alt
 key_key.travelersbackpack.inventory:key.keyboard.b
