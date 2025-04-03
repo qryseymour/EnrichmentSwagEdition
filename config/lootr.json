@@ -143,10 +143,12 @@
     "decay_dimensions": []
   },
   "refresh": {
-    "refresh_value": 24000,
+    "refresh_value": 1080000,
     "refresh_all": false,
     "refresh_modids": [],
-    "refresh_loot_tables": [],
+    "refresh_loot_tables": [
+      "minecraft:chests/spawn_bonus_chest"
+    ],
     "refresh_dimensions": []
   },
   "notifications": {
