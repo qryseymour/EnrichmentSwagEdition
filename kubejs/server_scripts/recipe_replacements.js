@@ -2,7 +2,23 @@
 let fullReplacements = [
     ["doggytalents:rice_bowl", "#forge:wheat"],
     ["doggytalents:koji", "minecraft:chicken"],
-    ["betterend:ender_dust", "ae2:ender_dust"]
+    ["betterend:ender_dust", "ae2:ender_dust"],
+]
+let lootReplacements = [
+    ["endrem:black_eye", "kubejs:inert_black_eye"],
+    ["endrem:cold_eye", "kubejs:inert_cold_eye"],
+    ["endrem:corrupted_eye", "kubejs:inert_corrupted_eye"],
+    ["endrem:lost_eye", "kubejs:inert_lost_eye"],
+    ["endrem:nether_eye", "kubejs:inert_nether_eye"],
+    ["endrem:old_eye", "kubejs:inert_old_eye"],
+    ["endrem:rogue_eye", "kubejs:inert_rogue_eye"],
+    ["endrem:cursed_eye", "kubejs:inert_cursed_eye"],
+    ["endrem:guardian_eye", "kubejs:inert_guardian_eye"],
+    ["endrem:magical_eye", "kubejs:inert_magical_eye"],
+    ["endrem:wither_eye", "kubejs:inert_wither_eye"],
+    ["endrem:witch_eye", "kubejs:inert_witch_eye"],
+    ["endrem:undead_eye", "kubejs:inert_undead_eye"],
+    ["endrem:exotic_eye", "kubejs:inert_exotic_eye"],
 ]
 
 ServerEvents.recipes(e => { 
@@ -87,10 +103,33 @@ ServerEvents.recipes(e => {
         e.replaceInput({}, replacing[0], replacing[1])
         e.replaceOutput({}, replacing[0], replacing[1])
     })
+
+    let eyesFromRecipes = [
+        {
+            old_id: "endrem:exotic_eye",
+            new_id: "kubejs:inert_exotic_eye"
+        },
+        {
+            old_id: "endrem:undead_eye",
+            new_id: "kubejs:inert_undead_eye"
+        },
+        {
+            old_id: "endrem:witch_eye",
+            new_id: "kubejs:inert_witch_eye"
+        },
+    ].forEach(eyeMap => {
+        let { old_id, new_id } = eyeMap
+        e.replaceOutput({ id: old_id }, old_id, new_id)
+    })
 })
 
 LootJS.modifiers(e => {
     fullReplacements.forEach((replacing) => {
+        e.addLootTableModifier(/.*/)
+            .replaceLoot(replacing[0], replacing[1], true)
+    })
+    
+    lootReplacements.forEach((replacing) => {
         e.addLootTableModifier(/.*/)
             .replaceLoot(replacing[0], replacing[1], true)
     })
