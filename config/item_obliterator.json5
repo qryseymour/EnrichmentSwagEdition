@@ -44,12 +44,14 @@
     'tffaf:void_pouch',
     'tffaf:tethered_soul',
     'tffaf:blazing_charm',
-    'tffaf:wither_ring',
     'twilightforest:uncrafting_table',
     'additionaladditions:honeyed_apple',
     'betterend:ender_dust',
     'artifacts:scarf_of_invisibility',
-    'botania:invisibility_cloak'
+    'botania:invisibility_cloak',
+    'botania:aura_ring',
+    'botania:aura_ring_greater',
+    'botania:terra_sword'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

@@ -138,7 +138,8 @@
       "botania:equipment/loonium/drowned_jungle_stronghold",
       "botania:equipment/loonium/skeleton_jungle_stronghold",
       "botania:equipment/loonium/zombie_jungle_stronghold",
-      "majruszsdifficulty:gameplay/cursed_armor_stronghold"
+      "majruszsdifficulty:gameplay/cursed_armor_stronghold",
+      "minecraft:chests/buried_treasure"
     ],
     "decay_dimensions": []
   },

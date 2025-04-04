@@ -50,21 +50,6 @@ ServerEvents.recipes(e => {
         e.replaceInput({ output: item }, '#railways:internal/ingots/iron_ingots', 'betternether:cincinnasite_ingot')
     })
 
-    e.replaceInput({}, 'minecraft:quartz', '#c:gems/quartz')
-
-    // e.replaceInput({ output: /aether:.*/ }, 'minecraft:redstone', 'ae2:sky_dust')
-    // e.replaceInput({ output: /aether:.*/ }, 'minecraft:glowstone_dust', 'ae2:sky_dust')
-    
-    // e.replaceInput({ output: /botania:.*/ }, '#minecraft:dirt', 'aether:aether_grass_block')
-    // e.replaceInput({ output: /botania:.*/ }, '#c:stone', 'aether:holystone')
-    // e.replaceInput({ output: /botania:.*/ }, 'minecraft:iron_ingot', 'aether:zanite_gemstone')
-    // e.replaceInput({ output: /botania:(?!mana_diamond).*/ }, 'minecraft:diamond', 'aether:enchanted_gravitite')
-
-    e.replaceInput({ output: 'botania:ender_eye_block' }, 'minecraft:redstone', 'ae2:ender_dust')
-
-    e.replaceInput({ output: /.*:.*quartz.*/ }, 'minecraft:redstone', 'ae2:certus_quartz_dust')
-    e.replaceInput({ output: /.*:.*quartz.*/ }, 'minecraft:glowstone_dust', 'ae2:certus_quartz_dust')
-
     let redstoneDustToOtherDustRecipeItems = [
         { item: /ae2:.*_storage_cell_4k/, input: "minecraft:glowstone_dust" },
         { item: /ae2:.*_storage_cell_16k/, input: "ae2:ender_dust" },
@@ -80,6 +65,8 @@ ServerEvents.recipes(e => {
         { item: "travelersbackpack:pickup_upgrade", input: "minecraft:glowstone_dust" },
         { item: "supplementaries:wind_vane", input: "ae2:sky_dust" },
         { item: "createbigcannons:proximity_fuze", input: "illagerinvasion:illusionary_dust" },
+        { item: 'botania:ender_eye_block', input: 'ae2:ender_dust'},
+        { item: /.*:.*quartz.*/, input: 'ae2:certus_quartz_dust'}
     ].forEach((index) => {
         e.replaceInput({ output: index.item }, 'minecraft:redstone', index.input)
     })
@@ -91,17 +78,9 @@ ServerEvents.recipes(e => {
         { item: "ae2:fluix_smart_dense_cable", input: "ae2:sky_dust" },
         { item: "mythic_charms:amethyst_lamp", input: "amethyst_update:amethyst_dust" },
         { item: /ae2:cell_component_[0-9]+k/, input: "ae2:certus_quartz_dust" },
+        { item: /.*:.*quartz.*/, input: 'ae2:certus_quartz_dust'}
     ].forEach((index) => {
         e.replaceInput({ output: index.item }, 'minecraft:glowstone_dust', index.input)
-    })
-    
-    e.replaceInput({ output: "vinurl:custom_record" }, 'minecraft:note_block', 'minecraft:music_disc_5')
-    e.replaceInput({ output: "diamond_apples:diamond_apple" }, 'minecraft:apple', 'minecraft:golden_apple')
-    e.replaceInput({ output: "diamond_apples:enchanted_diamond_apple" }, 'minecraft:diamond', 'minecraft:diamond_block')
-
-    fullReplacements.forEach((replacing) => {
-        e.replaceInput({}, replacing[0], replacing[1])
-        e.replaceOutput({}, replacing[0], replacing[1])
     })
 
     let eyesFromRecipes = [
@@ -120,6 +99,36 @@ ServerEvents.recipes(e => {
     ].forEach(eyeMap => {
         let { old_id, new_id } = eyeMap
         e.replaceOutput({ id: old_id }, old_id, new_id)
+    })
+    
+    e.replaceInput({}, 'minecraft:quartz', '#c:gems/quartz')
+    e.replaceInput({ output: "vinurl:custom_record" }, 'minecraft:note_block', 'minecraft:music_disc_5')
+    e.replaceInput({ output: "diamond_apples:diamond_apple" }, 'minecraft:apple', 'minecraft:golden_apple')
+    e.replaceInput({ output: "diamond_apples:enchanted_diamond_apple" }, 'minecraft:diamond', 'minecraft:diamond_block')
+
+    // e.replaceInput({ output: /aether:.*/ }, 'minecraft:redstone', 'ae2:sky_dust')
+    // e.replaceInput({ output: /aether:.*/ }, 'minecraft:glowstone_dust', 'ae2:sky_dust')
+    
+    // e.replaceInput({ output: /botania:.*/ }, '#minecraft:dirt', 'aether:aether_grass_block')
+    // e.replaceInput({ output: /botania:.*/ }, '#c:stone', 'aether:holystone')
+    // e.replaceInput({ output: /botania:.*/ }, 'minecraft:iron_ingot', 'aether:zanite_gemstone')
+    // e.replaceInput({ output: /botania:(?!mana_diamond).*/ }, 'minecraft:diamond', 'aether:enchanted_gravitite')
+
+    let recipeReplacements = [
+        ["minecraft:chest", "#c:wooden_chests", {}],
+        ["minecraft:ender_pearl", "minecraft:ender_eye", { mod: 'waystones'}],
+        ["minecraft:purple_dye", "minecraft:purpur_block", { mod: 'waystones'}],
+        ["minecraft:emerald", "betterend:eternal_crystal", { id: 'waystones:warp_stone'}],
+        ["minecraft:bone", "minecraft:goat_horn", { id: "immersive_armors:warrior_helmet" }],
+        ["minecraft:iron_ingot", "minecraft:iron_block", { id: /immersive_armors:heavy_(leggings|chestplate)/ }],
+        ["enva:glass_bowl", "minecraft:turtle_helmet", { id: "enva:titanium_coated_glass_bowl" }]
+    ].forEach((replacing) => {
+        e.replaceInput(replacing[2], replacing[0], replacing[1])
+    })
+
+    fullReplacements.forEach((replacing) => {
+        e.replaceInput({}, replacing[0], replacing[1])
+        e.replaceOutput({}, replacing[0], replacing[1])
     })
 })
 

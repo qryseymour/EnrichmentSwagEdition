@@ -177,6 +177,86 @@ ServerEvents.recipes(e => {
         ).id(`enrichment2:${pairing.type}_horse_armor_recipe`)
     })
 
+    e.shaped(
+        Item.of('minecraft:chainmail_helmet', 1), 
+        [
+          '   ',
+          'CBC',
+          'A A'
+        ],
+        {
+          A: 'minecraft:chain',
+          B: 'minecraft:iron_ingot',
+          C: 'minecraft:iron_nugget'
+        }
+    ).id("mosmods1:chainmail_helmet")
+    
+    e.shaped(
+        Item.of('minecraft:chainmail_chestplate', 1), 
+        [
+          'B B',
+          'CBC',
+          'ACA'
+        ],
+        {
+          A: 'minecraft:chain',
+          B: 'minecraft:iron_ingot',
+          C: 'minecraft:iron_nugget'
+        }
+    ).id("mosmods1:chainmail_chestplate")
+    
+    e.shaped(
+        Item.of('minecraft:chainmail_leggings', 1), 
+        [
+          'BBB',
+          'C C',
+          'A A'
+        ],
+        {
+          A: 'minecraft:chain',
+          B: 'minecraft:iron_ingot',
+          C: 'minecraft:iron_nugget'
+        }
+    ).id("mosmods1:chainmail_leggings")
+    
+    e.shaped(
+        Item.of('minecraft:chainmail_boots', 1), 
+        [
+          '   ',
+          'C C',
+          'A A'
+        ],
+        {
+          A: 'minecraft:chain',
+          C: 'minecraft:iron_nugget'
+        }
+    ).id("mosmods1:chainmail_boots")
+
+    e.shaped(
+        Item.of('minecraft:stick', 16), 
+        [
+          ' A ',
+          'A  ',
+          '   '
+        ],
+        {
+          A: '#minecraft:logs'
+        }
+    ).id("mosmods1:sticks_from_logs")
+    
+    e.shaped(
+        Item.of('minecraft:ladder', 4), 
+        [
+          'A A',
+          'ABA',
+          'A A'
+        ],
+        {
+          A: 'minecraft:stick',
+          B: 'minecraft:oak_planks'
+        }
+    ).id("minecraft:ladder")
+
     e.shapeless('minecraft:beetroot_soup', ['minecraft:bowl', '3x minecraft:beetroot']).id('minecraft:beetroot_soup')
     
     e.shapeless('minecraft:orange_dye', ['minecraft:carrot']).id('enrichment2:carrot_dye')

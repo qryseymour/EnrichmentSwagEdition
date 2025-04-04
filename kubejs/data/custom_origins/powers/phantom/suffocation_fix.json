@@ -1,0 +1,18 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "inwall": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "inWall"
+        }
+    },
+    "inwall_2": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "inWall.player"
+        }
+    }
+}
