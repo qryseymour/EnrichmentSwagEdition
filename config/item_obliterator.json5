@@ -18,8 +18,6 @@
   "blacklisted_items": [
     "!oxidized:rose_gold.*",
     'oxidized:copper_pulsar',
-    "oxidized:copper_lantern",
-    '!amethystgravity:gravity_anchor_(north|east|south|west|up)',
     'tide:jelly_torch',
     'wolf_lore:corroded_bone_blade',
     'wolf_lore:tactical_wolf_paw',
@@ -51,7 +49,19 @@
     'botania:invisibility_cloak',
     'botania:aura_ring',
     'botania:aura_ring_greater',
-    'botania:terra_sword'
+    'botania:terra_sword',
+    '!beachparty:rubber_ring.*',
+    'things:empty_agglomeration',
+    'things:bater_wucket',
+    'camping:large_backpack',
+    'camping:goodybag',
+    'camping:enderpack',
+    'camping:enderbag',
+    'camping:multitool',
+    'plentyofarmors:emerald_helmet',
+    'plentyofarmors:emerald_chestplate',
+    'plentyofarmors:emerald_leggings',
+    'plentyofarmors:emerald_boots',
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

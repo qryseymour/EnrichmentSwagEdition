@@ -61,6 +61,20 @@ ServerEvents.recipes(e => {
             D: 'mythicupgrades:topaz_upgrade_smithing_template'
           }
       ).id("botania:mining_ring")
+
+      e.shaped(
+          Item.of('botania:magnet_ring_greater', 1),
+          [
+              'ABC',
+              '   ',
+              '   '
+          ],
+          {
+              A: 'botania:terrasteel_ingot',
+              B: 'botania:magnet_ring',
+              C: 'things:item_magnet',
+          }
+      ).id('botania:magnet_ring_greater')
     
       e.shaped(
           Item.of('botania:holy_cloak', 1),

@@ -31,5 +31,7 @@ LootJS.modifiers(e => {
     e.addLootTableModifier(/.*/).removeLoot('plentyofarmors:stardusite_ingot')
     e.addLootTableModifier(/.*/).removeLoot('plentyofarmors:marine_diamond')
     e.addLootTableModifier(/.*/).removeLoot('plentyofarmors:marine_diamond')
+    e.addLootTableModifier(/.*/).removeLoot(/artifacts:.*/)
+    e.addLootTableModifier(/.*/).removeLoot(/armoroftheages:.*/)
 
 })
