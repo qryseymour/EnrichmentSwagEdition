@@ -141,7 +141,6 @@ var greatEffects = [
     'mysticpotions:saturation',
     'zenith:knowledge',
     'friendsandfoes:reaching',
-    'illagerinvasion:berserking',
     'mysticpotions:undying',
     'mysticpotions:air_swim',
     'mysticpotions:teleportation',
@@ -180,8 +179,6 @@ var excellentEffects = [
 
     'friendsandfoes:long_reaching',
     'friendsandfoes:strong_reaching',
-    'illagerinvasion:long_berserking',
-    'illagerinvasion:strong_berserking',
     'mysticpotions:long_undying',
     'mysticpotions:long_air_swim',
     'mysticpotions:long_teleportation',
@@ -383,7 +380,6 @@ var blueFlowers = {
 	    'regions_unexplored:blue_lupine',
 	    'regions_unexplored:hyacinth_flowers',
 	    'regions_unexplored:blue_magnolia_flowers',
-	    'supplementaries:wild_flax',
 	    'many_flowers:diamond_flower',
     ],
     effectMap: [

@@ -9,7 +9,6 @@ const teleporters = [
     'endermanoverhaul:crimson_pearl',
     'endermanoverhaul:warped_pearl',
     'mutantmonsters:endersoul_hand',
-    'bosses_of_mass_destruction:charged_ender_pearl',
     'bygonenether:warped_ender_pearl'
 ]
 
@@ -40,16 +39,6 @@ const enderPearls = [
             })
         }
     })
-})
-
-ItemEvents.rightClicked('bosses_of_mass_destruction:charged_ender_pearl', e => {
-    if (e.player.inWater) {
-        e.cancel();
-    } else {
-        e.server.scheduleInTicks(0, (callback) => {
-            applyItemlistCooldown(e.player, teleporters, 540)
-        })
-    }
 })
 
 ItemEvents.rightClicked('mutantmonsters:endersoul_hand', e => {

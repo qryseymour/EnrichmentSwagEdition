@@ -26,8 +26,6 @@
     "dimension_modid_blacklist": [],
     "dimension_modid_whitelist": [],
     "loot_table_blacklist": [
-      "bosses_of_mass_destruction:chests/obsidilith",
-      "bosses_of_mass_destruction:chests/gauntlet",
       "minecraft:chests/village/village_armorer",
       "minecraft:chests/village/village_butcher",
       "minecraft:chests/village/village_cartographer",
@@ -72,7 +70,6 @@
     "decay_all": false,
     "decay_modids": [],
     "decay_loot_tables": [
-      "beachparty:chests/simple_dungeon",
       "betterdungeons:skeleton_dungeon/chests/common",
       "betterdungeons:small_dungeon/chests/loot_piles",
       "betterdungeons:small_nether_dungeon/chests/common",

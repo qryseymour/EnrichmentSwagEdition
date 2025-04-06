@@ -248,14 +248,13 @@ ServerEvents.recipes(e => {
         [
             'BAB',
             'BCB',
-            'DED'
+            'DAD'
         ],
         {
-            A: 'doggytalents:cape_coloured',
+            A: '#meadow:milk',
             B: 'minecraft:beef',
             C: 'travelersbackpack:standard',
-            D: 'botania:pure_daisy',
-            E: '#meadow:milk'
+            D: 'botania:pure_daisy'
         }
     ).id('travelersbackpack:cow')
 
