@@ -220,6 +220,10 @@
       "factor": 2
     },
     {
+      "structure": "beachparty:beach_hut",
+      "factor": 2
+    },
+    {
       "structure": "betterwitchhuts:witch_hut",
       "factor": 2
     },
@@ -265,6 +269,22 @@
     },
     {
       "structure": "ati_structures:monastery_tower",
+      "factor": 2
+    },
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "factor": 2
+    },
+    {
+      "structure": "illagerinvasion:illusioner_tower",
+      "factor": 2
+    },
+    {
+      "structure": "illagerinvasion:firecaller_hut",
+      "factor": 2
+    },
+    {
+      "structure": "illagerinvasion:sorcerer_hut",
       "factor": 2
     },
     {
@@ -950,6 +970,10 @@
     },
     {
       "structure": "betterdeserttemples:desert_temple",
+      "factor": 4
+    },
+    {
+      "structure": "illagerinvasion:illager_fort",
       "factor": 4
     },
     {

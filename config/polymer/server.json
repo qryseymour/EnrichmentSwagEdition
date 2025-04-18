@@ -14,5 +14,5 @@
   "_c3": "Forcefully enables strict block updates, making client desyncs less likely to happen",
   "force_strict_block_updates": false,
   "_c4": "Enables experimental passing of ItemStack context through nbt, allowing for better mod compat",
-  "item_stack_nbt_hack": false
+  "item_stack_nbt_hack": true
 }

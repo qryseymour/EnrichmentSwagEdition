@@ -182,7 +182,7 @@ ServerEvents.recipes(e => {
             B: 'botania:travel_belt',
             C: 'botania:elementium_ingot',
             D: 'botania:black_lotus',
-            E: 'galosphere:cured_membrance'
+            E: 'doggytalents:feathered_mantle'
           }
       ).id("botania:super_travel_belt")
     
@@ -230,7 +230,7 @@ ServerEvents.recipes(e => {
             B: 'botania:ender_air_bottle',
             C: 'botania:mana_diamond',
             D: 'botania:elementium_ingot',
-            E: 'galosphere:cured_membrance'
+            E: 'doggytalents:feathered_mantle'
           }
       ).id("botania:thunder_sword")
     
@@ -246,7 +246,7 @@ ServerEvents.recipes(e => {
             B: 'botania:ender_air_bottle',
             C: 'botania:dragonstone',
             D: 'botania:elementium_ingot',
-            E: 'galosphere:cured_membrance'
+            E: 'doggytalents:feathered_mantle'
           }
       ).id("botania:star_sword")
     

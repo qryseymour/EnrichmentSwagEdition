@@ -16,7 +16,17 @@ ServerEvents.loaded(event => {
             ElderGuardianBlock: 1,
             WildfireBlock: 1,
             EvokerBlock: 1,
+            AlchemistBlock: 1,
+            ProvokerBlock: 1,
+            SorcererBlock: 1,
+            NecromancerBlock: 1,
+            InquisitorBlock: 1,
+            FirecallerBlock: 1,
             WitherBlock: 1,
+            InvokerBlock: 1,
+            LichBlock: 1,
+            NetherGauntletBlock: 1,
+            VoidBlossomBlock: 1,
             allowed: 0
         }
     }
@@ -95,11 +105,91 @@ EntityEvents.death(event => {
                     })
                 };
                 break;
+            case "illagerinvasion:alchemist":
+                if (endBlock.AlchemistBlock > 0) {
+                    endBlock.AlchemistBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.darkBlue('Trouble Brewing... the Alchemist boils up...'))
+                    })
+                };
+                break;
+            case "illagerinvasion:provoker":
+                if (endBlock.ProvokerBlock > 0) {
+                    endBlock.ProvokerBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.darkRed('Invocated & invicted... the Provoker leaves this mortal coil...'))
+                    })
+                };
+                break;
+            case "illagerinvasion:sorcerer":
+                if (endBlock.SorcererBlock > 0) {
+                    endBlock.SorcererBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.darkPurple('Cast away... the Sorcerer has been exiled from life...'))
+                    })
+                };
+                break;
+            case "illagerinvasion:necromancer":
+                if (endBlock.NecromancerBlock > 0) {
+                    endBlock.NecromancerBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.darkGray('Sent to the grave... the Necromancer meets their fate...'))
+                    })
+                };
+                break;
+            case "illagerinvasion:inquisitor":
+                if (endBlock.InquisitorBlock > 0) {
+                    endBlock.InquisitorBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.blue('Sinned... the Inquisitor is divinely punished...'))
+                    })
+                };
+                break;
+            case "illagerinvasion:firecaller":
+                if (endBlock.FirecallerBlock > 0) {
+                    endBlock.FirecallerBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.red('Burnt out... the Firecaller sees the light...'))
+                    })
+                };
+                break;
+            case "illagerinvasion:invoker":
+                if (endBlock.InvokerBlock > 0) {
+                    endBlock.InvokerBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.black('The Invoker has been defeated!'))
+                    })
+                };
+                break;
             case "minecraft:wither":
                 if (endBlock.WitherBlock > 0) {
                     endBlock.WitherBlock = 0;
                     players.forEach(player => {
                         player.tell(Text.black('The Wither has been defeated!'))
+                    })
+                };
+                break;
+            case "bosses_of_mass_destruction:lich":
+                if (endBlock.LichBlock > 0) {
+                    endBlock.LichBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.black('The Lich has been defeated!'))
+                    })
+                };
+                break;
+            case "bosses_of_mass_destruction:void_blossom":
+                if (endBlock.VoidBlossomBlock > 0) {
+                    endBlock.VoidBlossomBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.black('The Void Blossom has been defeated!'))
+                    })
+                };
+                break;
+            case "bosses_of_mass_destruction:gauntlet":
+                if (endBlock.NetherGauntletBlock > 0) {
+                    endBlock.NetherGauntletBlock = 0;
+                    players.forEach(player => {
+                        player.tell(Text.black('The Nether Gauntlet has been defeated!'))
                     })
                 };
                 break;
@@ -124,7 +214,17 @@ EntityEvents.death(event => {
             endBlock.ElderGuardianBlock == 0 &&
             endBlock.WildfireBlock == 0 &&
             endBlock.EvokerBlock == 0 &&
+            endBlock.AlchemistBlock == 0 &&
+            endBlock.ProvokerBlock == 0 &&
+            endBlock.SorcererBlock == 0 &&
+            endBlock.NecromancerBlock == 0 &&
+            endBlock.InquisitorBlock == 0 &&
+            endBlock.FirecallerBlock == 0 &&
+            endBlock.InvokerBlock == 0 &&
             endBlock.WitherBlock == 0 &&
+            endBlock.LichBlock == 0 &&
+            endBlock.VoidBlossomBlock == 0 &&
+            endBlock.NetherGauntletBlock == 0 &&
             endBlock.allowed != 1
         ) {
             endBlock.allowed = 1

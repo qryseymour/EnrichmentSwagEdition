@@ -52,7 +52,7 @@ ItemEvents.tooltip(e => {
             ' ',
             'Once you\'ve kidnapped a mob you can then yeet it', 
             'with a keypress (Z by default).']},
-        { items: ['brewery:rope'], tooltip: [
+        { items: ['supplementaries:rope'], tooltip: [
             'Use them to climb upwards and downwards with ease.']},
         { items: ['additionaladditions:copper_patina'], tooltip: [
             'Get it by scraping off the oxidation layer from',

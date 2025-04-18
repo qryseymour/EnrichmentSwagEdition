@@ -1,5 +1,7 @@
 // priority: 8
 let fullReplacements = [
+    ["doggytalents:rice_bowl", "#forge:wheat"],
+    ["doggytalents:koji", "minecraft:chicken"],
     ["betterend:ender_dust", "ae2:ender_dust"],
 ]
 let lootReplacements = [
@@ -51,13 +53,18 @@ ServerEvents.recipes(e => {
     let redstoneDustToOtherDustRecipeItems = [
         { item: /ae2:.*_storage_cell_4k/, input: "minecraft:glowstone_dust" },
         { item: /ae2:.*_storage_cell_16k/, input: "ae2:ender_dust" },
+        { item: /ae2:.*_storage_cell_64k/, input: "illagerinvasion:illusionary_dust" },
         { item: /ae2:.*_storage_cell_256k/, input: "ae2:fluix_dust" },
         { item: "ae2:spatial_storage_cell_16", input: "minecraft:glowstone_dust" },
         { item: "ae2:spatial_storage_cell_128", input: "waystones:warp_dust" },
+        { item: "doggytalents:smarty_glasses", input: "ae2:certus_quartz_dust" },
         { item: 'createbigcannons:impact_fuze', input: "ae2:ender_dust" },
         { item: "wolf_lore:agitator_remote", input: "ae2:ender_dust" },
+        { item: "supplementaries:altimeter", input: "ae2:sky_dust" },
         { item: "travelersbackpack:void_upgrade", input: "ae2:sky_dust" },
         { item: "travelersbackpack:pickup_upgrade", input: "minecraft:glowstone_dust" },
+        { item: "supplementaries:wind_vane", input: "ae2:sky_dust" },
+        { item: "createbigcannons:proximity_fuze", input: "illagerinvasion:illusionary_dust" },
         { item: 'botania:ender_eye_block', input: 'ae2:ender_dust'},
         { item: /.*:.*quartz.*/, input: 'ae2:certus_quartz_dust'}
     ].forEach((index) => {

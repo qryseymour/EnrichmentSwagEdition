@@ -27,7 +27,7 @@ ServerEvents.recipes(e => {
             B: 'zenith:epic_material',
             C: 'zenith:simple_reforging_table',
             D: 'minecraft:nether_bricks',
-            E: 'minecraft:totem_of_undying'
+            E: 'illagerinvasion:unusual_dust'
         }
     ).id('zenith:reforging_table')
 })

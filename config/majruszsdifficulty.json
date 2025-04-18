@@ -782,12 +782,12 @@
             "count": 1
           },
           {
-            "type": "majruszsdifficulty:tank",
+            "type": "majruszsdifficulty:cerberus",
             "count": 1
           }
         ],
         "boss": {
-          "type": "majruszsdifficulty:cerberus",
+          "type": "bosses_of_mass_destruction:lich",
           "count": 1
         },
         "game_stage": "master",

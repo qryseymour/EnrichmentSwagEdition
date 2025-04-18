@@ -8,7 +8,18 @@ const bosses = [
     "mutantmonsters:mutant_enderman",
     "mutantmonsters:mutant_skeleton",
     "friendsandfoes:wildfire",
+    "illagerinvasion:alchemist",
+    "illagerinvasion:provoker",
+    "illagerinvasion:sorcerer",
+    "illagerinvasion:necromancer",
+    "illagerinvasion:inquisitor",
+    "illagerinvasion:firecaller",
+    "illagerinvasion:invoker",
     "minecraft:ender_dragon",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:obsidilith"
 ]
 
 EntityEvents.hurt(event => {
