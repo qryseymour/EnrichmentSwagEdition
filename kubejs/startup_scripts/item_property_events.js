@@ -51,6 +51,8 @@ ItemEvents.modification(event => {
         'betterend:enchanted_membrane',
         'mythicmetals:enchanted_midas_gold_block',
         'botania:enchanted_soil',
+        'create:experience_nugget',
+        'create:experience_block',
         'cozys-improved-cats:cat_collar',
         'cozys-improved-cats:ancient_cod',
         'cozys-improved-cats:ancient_salmon',
