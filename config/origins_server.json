@@ -39,7 +39,10 @@
       "witch:startinggear": true,
       "witch:witchyhealth": true,
       "witch:passive_no_drops": true,
-      "witch:witchnoises": true
+      "witch:witchnoises": true,
+      "moborigins:better_potions": true,
+      "moborigins:potion_action": true,
+      "moborigins:witch_particles": true
     },
     "moborigins:drowned": {
       "enabled": true,

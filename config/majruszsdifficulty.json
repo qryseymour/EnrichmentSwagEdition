@@ -447,17 +447,6 @@
         "required_game_stage": "master",
         "chance": 0.5,
         "is_scaled_by_crd": true,
-        "entity_type": "minecraft:shulker",
-        "effect": {
-          "id": "zenith_attributes:sundering",
-          "amplifier": 0,
-          "duration": 7.0
-        }
-      },
-      {
-        "required_game_stage": "master",
-        "chance": 0.5,
-        "is_scaled_by_crd": true,
         "entity_type": "minecraft:wither",
         "effect": {
           "id": "minecraft:levitation",
